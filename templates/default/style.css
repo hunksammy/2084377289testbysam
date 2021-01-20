@@ -1,0 +1,269 @@
+/*
+Quick.Cms default stylesheet
+More about design modifications - http://opensolution.org/docs/?p=pl-design
+*/
+
+/* Layout variables */
+:root {
+  --color-text: #333;
+  --color-primary: #0093dd;
+  --color-dark: #00679a;
+  --color-secondary: #cc1426;
+  --color-white: #fff;
+  --color-divider: #e8eaee;
+}
+
+/* GLOBAL STYLES */
+body, body *, body *:before, body *:after{margin:0;padding:0;border:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+body,table{color:var(--color-text);font-size:1em;font-family:Arial, sans-serif;}
+
+body{padding:0;background:#efefef;}
+
+a{color:var(--color-dark);text-decoration:underline;}
+a:hover{color:#000;text-decoration:underline;}
+
+.msg.error h1{padding:20px 0;text-align:center;}
+.wai{position:absolute;width:1px;height:1px;clip:rect(1px 1px 1px 1px);clip:rect(1px, 1px, 1px, 1px);overflow:hidden;}
+
+#container{position:relative;width:95%;margin:10px auto;background:var(--color-white);box-shadow:0 2px 6px rgba(100,100,100,0.3);}
+#container:after{content:"";display:table;clear:both;}
+@media screen and (min-width:1280px){
+  #container{width:1200px;}
+}
+#body, #foot{margin:0 auto;padding:0;}
+
+/* QUICK LINKS */
+#skiplinks{position:absolute;top:0;left:0;}
+#skiplinks a{position:absolute;top:-500px;left:0;z-index:10;min-width:200px;padding:10px;color:var(--color-white);}
+#skiplinks a:focus{top:0;background:#000;color:var(--color-white);}
+
+/* LOGO, HEADER BACKGROUND AND SLOGAN */
+.header__navigation{display:flex;flex-flow:row wrap;justify-content:space-between;align-items:flex-start;position:relative;}
+
+#logo{padding:2rem;flex:1 1 0;order:-4;}
+#logo #title a{color:var(--color-text);font:bold 1.75em 'Arial';line-height:1em;text-transform:uppercase;text-decoration:none;}
+#logo #title a span{color:var(--color-secondary);}
+#logo #title a strong{color:var(--color-primary);}
+#logo #slogan{padding:4px 0 0 4px;color:var(--color-text);}
+@media screen and (min-width:1280px){
+  #logo #title a{font-size:3.25rem;}
+}
+
+/* MENU TOP
+   to style mobile and desktop menu use: .menu-top ...
+   to style only desktop menu use: .header__menu ...
+   to style only mobile menu use: .mm-ocd ...
+*/
+.header__menu .level-0-menu{display:flex;flex-flow:row wrap;list-style:none;}
+.header__menu .menu__link{display:block;padding:.6em 1em;color:var(--color-text);text-decoration:none;transition:all 0.5s ease;}
+.menu__link:hover, .selected > .menu__link, .selected-parent > .menu__link{color:var(--color-primary);}
+
+@media screen and (min-width:960px){
+  .header__menu{display:flex;justify-content:flex-end;padding-right:.8rem;}
+}
+@media screen and (min-width:641px){
+  .header__menu{flex-basis:100%;}
+  .header__menu li{position:relative;font-size:1.25rem;}
+  /* Bottom underline */
+  .header__menu .level-0-el:after{content:'';display:block;position:absolute;bottom:0;width:10%;height:5px;transition:all 0.5s ease;}
+  .header__menu .level-0-el:hover:after, .header__menu .level-0-el.selected:after, .header__menu .level-0-el.selected-parent:after{width:99%;background:var(--color-primary);}
+
+  /* Hamburger only on small screen */
+  button.hamburger{display:none}
+}
+
+/* HEADER WITH SLIDER */
+#slider{position:relative;clear:both;height:300px;overflow:hidden;color:var(--color-white);border-top:1px solid var(--color-divider);} /* height:300px; is default height, so page will not change its height after slider is loaded, so you should change it if your slider has different height */
+#slider li.img{line-height:0;}
+#slider li.img img{max-width:100%;}
+#slider li.no-img{min-height:300px;}
+.quick-slider{position:relative;margin:auto;overflow:hidden;}
+.quick-slider ul{padding:0;margin:0;list-style:none;}
+.quick-slider-slide{position:absolute;left:0;top:0;width:100%;display:none;text-align:left;overflow:hidden;}
+.quick-slider-slide:first-child{display:block;}
+.quick-slider-nav-arrows{z-index:5;position:absolute;top:50%;transform:translateY(-50%);float:right;display:block;min-height:60px;height:40%;margin:0;padding:0 10px;border:0;background:rgba(0,0,0,0.4);opacity:0.5;transition:all 0.3s ease;}
+.quick-slider-nav-arrows:hover{opacity:1;}
+.quick-slider-nav-arrows:before{content:"";display:block;position:relative;top:50%;transform:translateY(-50%);width:32px;height:32px;background:url('img/arrows.png') no-repeat 0 0;}
+.quick-slider-nav-arrows-prev:before{background-position:0 -32px;}
+.quick-slider-nav-arrows-next{right:0;}
+.quick-slider-nav-arrows-prev{left:0;}
+.quick-slider-nav-dots-wrapper{position:absolute;bottom:1.5rem;width:100%;list-style:none;text-align:center;}
+.quick-slider-nav-dots-wrapper li{display:inline-block;}
+.quick-slider-nav-dots{display:inline-block;width:14px;height:14px;margin:0 12px 0 0;background:rgba(0,0,0,0.4);border:1px solid #666;color:transparent;font-size:0.5em;}
+.quick-slider-nav-dots.active, .quick-slider-nav-dots:hover{background:var(--color-white);transition:all 0.3s ease;color:transparent;}
+.quick-slider-slide .description{z-index:3;position:absolute;top:2rem;left:5rem;min-width:150px;width:35%;padding:1em;background:rgba(0,0,0,0.3);line-height:1.25em;color:var(--color-white);}
+.quick-slider-slide .description a{color:inherit;}
+.quick-slider-slide .description a:hover{text-decoration:none;}
+div[id^="slider-"] > ul > li{display:none;} /* hide slides (and descriptions) before slider images will be loaded and everything is set */
+@media screen and (max-height:400px){
+  #slider{max-height:50vh;}
+}
+
+/* BODY/CONTENT STYLES */
+#body{clear:both;margin:0;border-top:1px solid var(--color-divider);}
+#body:after{content:"";display:table;clear:both;}
+
+/* PAGE */
+#page{position:relative;margin:0 3% 30px;text-align:left;}
+#page h1{margin:.8em 0 .4em;color:var(--color-secondary);font-size:2.417rem;font-weight:normal;}
+
+/* PAGE - BREADCRUMB (navigation path) */
+.breadcrumb{margin-bottom:1.25rem;}
+.breadcrumb ol{list-style:none;}
+.breadcrumb li{display:inline-block;}
+.breadcrumb li:not(:first-child)::before{content:"\203A";display:inline-block;padding:0 .5em;color:var(--color-text);font-weight:bold;}
+
+/* PAGE CONTENT */
+#page div.content{line-height:1.5em;}
+#page div.content > ul, #page div.content > ol{padding:0 0 0 2em;}
+/* #page div.content > ul:after, #page div.content > ol:after{content:"";display:table;clear:both;} */ /* Uncomment if necessary */
+#page div.content > ul li, #page div.content > ol li{margin:.5em 0;padding:0;}
+#page div.content > h2, #page div.content > h3{font-size:1.5rem;line-height:2em;font-weight:normal;}
+#page div.content > h3{font-size:1.25rem;}
+#page div.content > p{padding-bottom:1em;}
+
+/* IMAGES STYLES */
+/* global */
+#content li img:hover{opacity:0.8;}
+ul[class*='images-']{list-style:none;}
+ul[class*='images-'] li{margin:0 0 1rem 0;text-align:center;}
+ul[class*='images-'] p{max-width:250px;margin:0 auto;color:var(--color-primary);font-size:0.875em;}
+ul[class*="images-"] img{max-width:100%;box-shadow:0 0 4px rgba(100,100,100,0.4);}
+ul[class*="images-"] img:hover{opacity:0.8;}
+div.content .images-gallery{padding:0;}
+/* list custom - side images */
+.images-1{clear:left;float:left;margin:.5rem 1.5rem 0 0;}
+.images-2{clear:right;float:right;margin:.5rem 0 0 1rem;}
+/* list custom - gallery images */
+.images-3{clear:both;display:flex;flex-flow:row wrap;justify-content:space-between;}
+.images-3 li{flex:1 0 100%;padding:.3rem 2rem;}
+@media screen and (min-width:960px){ .images-3 li{flex:0 0 calc( 100% / 3 );} }
+
+/* FILES LIST STYLES */
+.files-list{margin:1rem 0 .5rem;list-style:none;vertical-align:middle;border-left:2px solid var(--color-divider);font-size:0.9rem;}
+.files-list li{height:20px;margin:0 0 1rem 1rem;padding-left:2rem;background:url('img/files-ext.gif') no-repeat 0 -260px;}
+.files-list p{display:inline;color:var(--color-primary);font-style:italic;}
+.files-list p:before{content:" - ";}
+.files-list .zip{background-position:0 0;}
+.files-list .xml{background-position:0 -20px;}
+.files-list .xls{background-position:0 -40px;}
+.files-list .web{background-position:0 -60px;}
+.files-list .vcf{background-position:0 -80px;}
+.files-list .txt{background-position:0 -100px;}
+.files-list .sys{background-position:0 -120px;}
+.files-list .swf{background-position:0 -140px;}
+.files-list .psd{background-position:0 -160px;}
+.files-list .pps{background-position:0 -180px;}
+.files-list .png{background-position:0 -200px;}
+.files-list .pic{background-position:0 -220px;}
+.files-list .pdf{background-position:0 -240px;}
+.files-list .nn{background-position:0 -260px;}
+.files-list .eml{background-position:0 -280px;}
+.files-list .media{background-position:0 -300px;}
+.files-list .fla{background-position:0 -320px;}
+.files-list .exe{background-position:0 -340px;}
+.files-list .chm{background-position:0 -360px;}
+.files-list .cdr{background-position:0 -380px;}
+
+/* SUBPAGES LIST STYLES */
+.pages-list{clear:both;margin:.5rem 0;list-style:none;}
+.pages-list .page{margin:15px 0;padding:1.5rem 2.5%;border:1px solid var(--color-divider);border-top:5px solid var(--color-divider);}
+.pages-list .page:after{content:"";display:table;clear:both;}
+.pages-list .image{float:left;margin:0 2.5% 5px 0;}
+.pages-list .image img{max-width:100%;}
+.pages-list .title{padding:0 0 0.5em;font-size:1.563rem;}
+.pages-list .title a{color:var(--color-secondary);font-weight:normal;background:none;text-decoration:none;}
+.pages-list .title a:hover{color:var(--color-primary);background:none;text-decoration:underline;}
+.pages-list div.description{line-height:1.4em;}
+.pages-list ul, .pages-list ol{margin:.5em 2em;list-style:disc;}
+.pages-list .page li{padding:0;border:0;background:none;}
+.pages-list .page ol{list-style:decimal;}
+.pages-list p{padding:.3em 0;}
+
+/* FOOTER - SITE AND SCRIPT COPYRIGHTS STYLES */
+#foot{background:var(--color-primary);color:var(--color-white);--color-secondary:var(--color-white);font-size:1.083em;}
+#foot .container{display:flex;flex-wrap:wrap;justify-content:space-between;}
+#foot .container > *{padding:1.5rem 2rem;}
+#foot a{color:var(--color-white);text-decoration:none;}
+#foot a:hover{text-decoration:underline;}
+#foot .options ul{display:flex;list-style:none;}
+#foot .options li:not(:last-child){margin-right:2rem;}
+#foot .options a{display:block;font-size:1%;color:transparent;}
+#foot .options .icon{width:1rem;}
+#foot .options a:hover .icon{fill:#000;}
+
+#powered{clear:both;width:100%;margin-bottom:60px;text-align:center;}
+#powered a{display:inline-block;width:192px;height:26px;}
+
+.icon{display:inline-block;content:"";flex-shrink:0;width:1.5rem;height:1.5rem;fill:var(--color-white);}
+.icon--labeled{margin-left:.75em;width:1.5em;height:1.5em;}
+
+@media print{
+  /* PRINT STYLES */
+  * {color:#000 !important;background:#fff !important;border-color:#444 !important;border-width:1px !important;}
+
+  body{margin:.5cm 0;font-size:0.875em;}
+  #container{position:static;width:17.2cm;height:auto;margin:0;box-shadow:none;}
+  #logo{padding:0 0 0.2cm;}
+  #logo #title a{font-size:2em;}
+
+  #body{clear:none;border-top:0;}
+  #page{clear:both;position:static;}
+  #page h1{margin:.5cm 0 0;font-size:1.25rem;}
+
+  #menu-main, #foot .options{display:none;}
+  #slider, .quick-slider img, .quick-slider-nav-arrows, .quick-slider-nav-dots{display:none;}
+}
+
+/* PLUGINS */
+
+
+
+
+
+
+
+
+
+/* OTHER (less popular styles) */
+
+/* FORMS */
+input[type="text"], input[type="email"], select, textarea{padding:2px;border-width:1px;border-style:solid;border-color:var(--color-primary);font-family:Arial, sans-serif;font-size:1rem;border-radius:2px;}
+input[type="text"].warning-required, input[type="email"].warning-required, select.warning-required, textarea.warning-required{background:#fbefef;}
+input[type="submit"]{padding:0.4em 0.9em;border-width:1px;border-style:solid;background:#333;color:var(--color-white);transition:all 0.3s ease;font-family:Arial, sans-serif;font-size:1rem;border-radius:2px;}
+input[type="submit"]:hover{background:var(--color-dark);cursor:pointer;}
+label{font-weight:bold;color:var(--color-primary);}
+label span{padding-left:10px;color:#aaa;font-weight:normal;}
+
+/* QUICK.BOX */
+#quick-box{position:fixed;width:100%;height:100%;left:0;top:0;background:rgba( 0, 0, 0, 0.7 );z-index:200;}
+#quick-box .background{height:100%;}
+#quick-box .quick-box-container{position:absolute;padding:0;border-radius:5px;box-shadow: 0 0 15px 1px #000;}
+#quick-box .image-wrapper{position:relative;line-height:0;}
+#quick-box .image-wrapper img{margin:0;padding:0;border-radius:5px;}
+#quick-box .navigation{position:absolute;bottom:0;margin:0;width:100%;padding:.5em 0;text-align:center;font-size:1rem;color:var(--color-white);line-height:normal;background:rgba( 0, 0, 0, 0.2 );}
+#quick-box .navigation__sep{padding:0 3px;}
+#quick-box .full-size{position:absolute;right:8px;top:2px;width:24px;height:24px;font-size:0.1em;color:transparent;background:url('../admin/img/fullscreen.png') no-repeat;}
+#quick-box .description{margin:0;padding:.5em 0;text-align:center;font-size:0.875rem;color:#ddd;font-weight:bold;background:rgba( 0, 0, 0, 0.8 );border-bottom-left-radius:5px;border-bottom-right-radius:5px;max-height:66px;overflow:hidden;}
+#quick-box .arrow{position:absolute;display:block;width:50%;top:15%;height:70%;margin:0;font-family:Verdana;z-index:100;opacity:0.5;text-decoration:none;}
+#quick-box .arrow:before, #quick-box .arrow:after{content:"";display:block;position:absolute;top:50%;transform:translateY(-50%);}
+#quick-box .arrow:before{width:32px;height:32px;margin:0 10px;background:url('img/arrows.png') no-repeat 0 0;z-index:1;}
+#quick-box .arrow:after{width:52px;height:52px;background:rgba( 0, 0, 0, 0.2 );z-index:-1;}
+#quick-box .arrow.prev:before{background-position:0 -32px;}
+#quick-box .arrow.next:before{right:0;}
+#quick-box .arrow.next:after{right:0;}
+#quick-box .arrow:hover{opacity:0.9;}
+#quick-box .prev{left:0;}
+#quick-box .next{right:0;}
+#quick-box .close{position:absolute;top:0;right:0;padding:0.15em 0.4em 0.2em;opacity:0.5;background:#000;color:var(--color-white);font-weight:bold;font-family:"Trebuchet MS";text-decoration:none;border:1px solid var(--color-white);border-top:none;border-right:none;border-top-right-radius:5px;z-index:100;}
+#quick-box .close:hover{opacity:0.8;}
+#quick-box .close, #quick-box .arrow{line-height:normal;}
+#quick-box .loading{display:block;padding:40px 35px;color:white;line-height:1em;}
+@media /* High px density (mostly mobile) - so you can magnify something */
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx){
+  #quick-box .close{font-size:1.5rem;}
+  #quick-box .prev, #quick-box .next{opacity:0.5;text-decoration:none;}
+}
