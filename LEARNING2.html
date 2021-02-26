@@ -1,5 +1,38 @@
 ﻿<!DOCTYPE html>
 <html>
+<style>
+html, body {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  margin-left: 0.5rem;
+}
+p {
+  margin-left: 0.5rem;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+.wrapper {
+  position: relative;
+}
+.onscreen {
+  width: 100vw;
+  height: 200px;
+  background: red;
+  color: white;
+}
+.offscreen {
+  position: absolute;
+  height: 200px;
+  width: 50vw;
+  left: 100vw;
+  top: 0;
+  background: blue;
+  color: white;
+}
+</style>
+
 <body>
 
 
@@ -17,3 +50,6 @@
 
 </body>
 </html>
+<script>
+document.getElementsByTagName('h1')[0].innerHTML = document.querySelector('meta[name=viewport][content*="shrink-to-fit=no"]') ? 'shrink-to-fit=no' : 'Default; shrink-to-fit not specified' 
+</script>
