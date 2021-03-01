@@ -56,8 +56,9 @@ var myApp = angular.module('myApp', ['ngRoute'])
   // contact list, usually would be a separate database
   var contactList = [
     {id: 0, name: 'AKALTARA', 
-	customer1: 'CHANDAN GENERAL', amount1: '100',  url1: 'http://www.google.com',
-	customer2: 'DEEPAK GENERAL', amount2: '500',  url2: 'http://www.yahoo.com'},
+	customer1: 'CHANDAN GENERAL', amount1: '100',  url1: '/2084377289testbysam/AKALTARA/CHANDAN%20GENERAL%20(AKALTARA)%2029.htm',
+	customer2: 'DEEPAK GENERAL', amount2: '500',  url2: 'http://www.yahoo.com',
+	customer3: 'DEMO', amount3: '123',  url3: 'http://www.yahoo.com'},
     
 	
 	
