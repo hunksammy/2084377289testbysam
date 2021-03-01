@@ -55,8 +55,8 @@ var myApp = angular.module('myApp', ['ngRoute'])
 
   // contact list, usually would be a separate database
   var contactList = [
-    {id: 0, name: 'AKALTARA', calories: '200', ingredients: 'cucamber, brocoli', url: 'www.google.com', img: 'https://burst.shopifycdn.com/photos/green-apples_373x.jpg'},
-    {id: 1, name: 'BALCO', calories: '234', ingredients: 'red meat with sauce and potatoes', url: 'www.google.com', img: 'https://burst.shopifycdn.com/photos/sloppy-joe_373x.jpg'},
+    {id: 0, name: 'AKALTARA', calories: '200', ingredients: 'cucamber, brocoli', url: 'www.google.com', img: ''},
+    {id: 1, name: 'BALCO', calories: '234', ingredients: 'red meat with sauce and potatoes', url: 'www.google.com', img: ''},
     {id: 2, name: 'BALODA', calories: '167', ingredients: 'chicken with rice', url: 'www.google.com', img: 'https://burst.shopifycdn.com/photos/asian-chicken-with-rice_373x.jpg'},
     {id: 3, name: 'BAMNIDIH', calories: '94', ingredients: 'beans, corn, oats...', url: 'www.google.com', img: 'https://burst.shopifycdn.com/photos/healthy-beet-juice_373x.jpg'},
     {id: 4, name: 'BARADWAR', calories: '104', ingredients: 'read meat', url: 'www.google.com', img: 'https://burst.shopifycdn.com/photos/meatball-appetizers_373x.jpg'},
