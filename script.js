@@ -55,14 +55,23 @@ var myApp = angular.module('myApp', ['ngRoute'])
 
   // contact list, usually would be a separate database
   var contactList = [
-    {id: 0, name: 'AKALTARA', 
-	customer1: 'CHANDAN GENERAL', amount1: '100',  url1: '/2084377289testbysam/AKALTARA/CHANDAN%20GENERAL%20(AKALTARA)%2029.htm',
-	customer2: 'DEEPAK GENERAL', amount2: '500',  url2: 'http://www.yahoo.com',
-	customer3: 'DEMO', amount3: '123',  url3: '/2084377289testbysam/AKALTARA/CHANDAN%20GENERAL%20(AKALTARA)%2029.htm'},
+    {id: 100, name: 'AKALTARA', 
+					
+customer1: '	VINOD GENERAL (AKALTARA)	', amount1: '	2186	',  url1: '		',
+customer2: '	CHANDAN GENERAL (AKALTARA)	', amount2: '	5753	',  url2: '	/2084377289testbysam/AKALTARA/CHANDAN%20GENERAL%20(AKALTARA)%2029.htm	',
+customer3: '	DEEPAK GENERAL (AKALTARA)	', amount3: '	2651	',  url3: '	/2084377289testbysam/AKALTARA/DEEPAK%20(AKALTARA)%20130.htm	',
+customer4: '	SHRIMANAGALM (AKALTARA)	', amount4: '	0	',  url4: '	/2084377289testbysam/AKALTARA/SHRIMANGALAM%20(AKALTARA)%20298.htm	',
+customer5: '	SHARMA GENERAL  (AKALTARA)	', amount5: '	0	',  url5: '	/2084377289testbysam/AKALTARA/SHARMA%20GENERAL%20(AKALTARA)%20282.htm	',
+customer6: '	SS FANCY (AKALTARA)	', amount6: '	1915	',  url6: '	/2084377289testbysam/AKALTARA/SS%20FANCY%20(AKALTARA).htm	',
+customer7: '	KANHA GENERAL (AKALTARA)	', amount7: '	7721	',  url7: '	/2084377289testbysam/AKALTARA/KANHA%20GENERAL%20(AKALTARA)%2050.htm	'},
+
     
 	
+
+
 	
-	{id: 1, name: 'BALCO', 
+	
+	{id: 8 , name: 'BALCO', 
 	customer1: 'sachin collection', url: 'www.google.com', img: ''},
     {id: 2, name: 'BALODA', calories: '167', ingredients: 'chicken with rice', url: 'www.google.com', img: 'https://burst.shopifycdn.com/photos/asian-chicken-with-rice_373x.jpg'},
     {id: 3, name: 'BAMNIDIH', calories: '94', ingredients: 'beans, corn, oats...', url: 'www.google.com', img: 'https://burst.shopifycdn.com/photos/healthy-beet-juice_373x.jpg'},
