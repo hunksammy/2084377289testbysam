@@ -56,23 +56,38 @@ var myApp = angular.module('myApp', ['ngRoute'])
   // contact list, usually would be a separate database
   var contactList = [
    						
+						
 {id: 1, name: 'AKALTARA', 						
-customer1: '	VINOD GENERAL (AKALTARA)	', amount1: '	2186	',  url1: '		',
+customer1: '	VINOD GENERAL (AKALTARA)	', amount1: ' TOYS -	2186	',  url1: '		',
 customer2: '	CHANDAN GENERAL (AKALTARA)	', amount2: '	5753	',  url2: '	/2084377289testbysam/AKALTARA/CHANDAN%20GENERAL%20(AKALTARA)%2029.htm	',
 customer3: '	DEEPAK GENERAL (AKALTARA)	', amount3: '	2651	',  url3: '	/2084377289testbysam/AKALTARA/DEEPAK%20(AKALTARA)%20130.htm	',
 customer4: '	SHRIMANAGALM (AKALTARA)	', amount4: '	0	',  url4: '	/2084377289testbysam/AKALTARA/SHRIMANGALAM%20(AKALTARA)%20298.htm	',
 customer5: '	SHARMA GENERAL  (AKALTARA)	', amount5: '	0	',  url5: '	/2084377289testbysam/AKALTARA/SHARMA%20GENERAL%20(AKALTARA)%20282.htm	',
 customer6: '	SS FANCY (AKALTARA)	', amount6: '	1915	',  url6: '	/2084377289testbysam/AKALTARA/SS%20FANCY%20(AKALTARA).htm	',
-customer7: '	KANHA GENERAL (AKALTARA)	', amount7: '	7721	',  url7: '	/2084377289testbysam/AKALTARA/KANHA%20GENERAL%20(AKALTARA)%2050.htm	'},
-						
+customer7: '	KANHA GENERAL (AKALTARA)	', amount7: '	7721	',  url7: '	/2084377289testbysam/AKALTARA/KANHA%20GENERAL%20(AKALTARA)%2050.htm	',
+						},
 {id: 1, name: 'BALCO', 						
 customer1: '	SACHIN COLLECTION (BALCO)	', amount1: '	1	',  url1: '		',
-customer2: '	UPHAR COLLECTION (BALCO)	', amount2: '	2482	',  url2: '	/2084377289testbysam/AKALTARA/CHANDAN%20GENERAL%20(AKALTARA)%2029.htm	',
-customer3: '	NAVEEN ELECTRONICS (BALCO)	', amount3: '	3	',  url3: '	/2084377289testbysam/AKALTARA/DEEPAK%20(AKALTARA)%20130.htm	',
-customer4: '		', amount4: '		',  url4: '	/2084377289testbysam/AKALTARA/SHRIMANGALAM%20(AKALTARA)%20298.htm	',
-customer5: '		', amount5: '		',  url5: '	/2084377289testbysam/AKALTARA/SHARMA%20GENERAL%20(AKALTARA)%20282.htm	',
-customer6: '		', amount6: '		',  url6: '	/2084377289testbysam/AKALTARA/SS%20FANCY%20(AKALTARA).htm	',
-customer7: '		', amount7: '		',  url7: '	/2084377289testbysam/AKALTARA/KANHA%20GENERAL%20(AKALTARA)%2050.htm	'},
+customer2: '	UPHAR COLLECTION (BALCO)	', amount2: '	2482	',  url2: '		',
+customer3: '	NAVEEN ELECTRONICS (BALCO)	', amount3: '	3	',  url3: '		',
+						},
+{id: 1, name: 'BALODA', 						
+customer1: '	ESHWAR GENERAL (BALODA)	', amount1: ' TOYS -	10279	',  url1: '		',
+customer2: '	SAKSHI (BALODA)	', amount2: '	5797	',  url2: '		',
+customer3: '	SHASHANK BOOK DEPO (BALODA)	', amount3: '	0	',  url3: '		',
+customer4: '	VARDHAMAN GENERAL (BALODA)	', amount4: '	8906	',  url4: '		',
+customer5: '	LOVE KIRANA (BALODA)	', amount5: '	15430	',  url5: '		',
+customer6: '	VICKEY GENERAL (BALODA)	', amount6: '	0	',  url6: '		',
+customer7: '	SHIVAM GENERAL (BALODA)	', amount7: '	15900	',  url7: '		',
+customer8: '	B.L GUPTA (BALODA)	', amount8: '	3	',  url8: '		',
+customer9: '	GOYAL GENERAL (BALODA)	', amount9: '	0	',  url9: '		',
+						},
+
+
+
+
+
+
 
 
 	
