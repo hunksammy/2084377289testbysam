@@ -229,7 +229,7 @@ customer2: '	MANOJ FASHION	', amount2: '	27662	',  url2: '	/2084377289testbysam/
 customer3: '	MAHAMAYA GENERAL (KATGI)	', amount3: '	6258	',  url3: '	/2084377289testbysam/KATGI/MAHAMAYA GENERAL. (KATGI) 170.htm	',	
 customer4: '	JYOTI GENRAL (KATGI)	', amount4: ' 	0	',  url4: '	/2084377289testbysam/KATGI/JYOTI GENERAL (KATGI) 10.htm	',	
 customer5: '	PAWAN GENERAL STORE (KATGI)	', amount5: '	44288	',  url5: '	/2084377289testbysam/KATGI/PAWAN GENERAL (KATGI) 38.htm	',	
-customer6: '	SAI GENERAL (KATGI)	', amount6: '	11798	',  url6: '	/2084377289testbysam/KATGI/SAI GENERAL (KATGI) 264	',	
+customer6: '	SAI GENERAL (KATGI)	', amount6: '	11798	',  url6: '	/2084377289testbysam/KATGI/SAI GENERAL (KATGI) 264.htm	',	
 customer7: '	SURAJ GENERAL (KATGI)	', amount7: '	28138	',  url7: '	/2084377289testbysam/KATGI/SURAJ GENERAL. (KATGI) 27.htm	',	
 customer8: '	MANOJ GENERAL (KATGI)	', amount8: '	13041	',  url8: '	/2084377289testbysam/KATGI/MANOJ GENERAL. (KATGI) 68.htm	',	
 						},	
