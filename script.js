@@ -1,4 +1,4 @@
-
+document.write("PAGDI PERCENT - 	37.69%	<br> LAST UPDATE - 0/0/2021");				
 						
 var myApp = angular.module('myApp', ['ngRoute'])						
 						
@@ -368,10 +368,10 @@ customer1: '	KRISHNA  KAPDA (PANTORA)	', amount1: ' 	7570	',  url1: '	<b><br>TOY
 customer1: '	AKASH BOOK DEPO (PATHARIYA)	', amount1: ' 	0	',  url1: '	/2084377289testbysam/PATHARIYA/AKASH%20BOOK%20DEPO%20(PATHARIYA)%20116.htm	',
 customer2: '	HARNARAYAN	', amount2: '	0	',  url2: '	/2084377289testbysam/PATHARIYA/HARNARAYAN%20(PATHARIYA)%20%20199.htm	',
 customer3: '	MUKESH GENERAL 	', amount3: '	1	',  url3: '	/2084377289testbysam/PATHARIYA/MUKESH%20GENERAL%20(PATHARIYA)%20%20163.htm	',
-customer4: '	OM SAI KARAN (PATHARIYA)	', amount4: ' 	12927	',  url4: '	/2084377289testbysam/PATHARIYA/OM%20SAI%20(KARAN)%20.(PATHARIYA)%20%202.htm	',
+customer4: '	OM SAI KARAN (PATHARIYA)	', amount4: ' 	12414	',  url4: '	/2084377289testbysam/PATHARIYA/OM%20SAI%20(KARAN)%20.(PATHARIYA)%20%202.htm	',
 customer5: '	SHIV GENERAL (PATHARIYA)	', amount5: '	11064	',  url5: '	/2084377289testbysam/PATHARIYA/SHIV%20GENERAL%20.(PATHARIYA)%20118.htm	',
 customer6: '	SANTOSH GENERAL (PATHARIYA)	', amount6: '	0	',  url6: '	/2084377289testbysam/PATHARIYA/SANTOSH%20PATHKAR.%20(PATHARIYA)%20192.htm	',
-customer7: '	PREETAM GENERAL (PATHARIYA)	', amount7: '	11309	',  url7: '	/2084377289testbysam/PATHARIYA/PREETAM%20(PATHARIYA)%20148.htm	',
+customer7: '	PREETAM GENERAL (PATHARIYA)	', amount7: '	10997	',  url7: '	/2084377289testbysam/PATHARIYA/PREETAM%20(PATHARIYA)%20148.htm	',
 customer8: '	OM SUHAG (PATHARIYA)	', amount8: '	10	',  url8: '	/2084377289testbysam/PATHARIYA/OM%20SUHAG%20(PATHARIYA)%20%20100.htm	',
 customer9: '	LAXMI GENERAL (PATHARIYA)	', amount9: '	0	',  url9: '	/2084377289testbysam/PATHARIYA/LAXMI%20GENERAL%20(PATHARIYA).htm	',
 						},
