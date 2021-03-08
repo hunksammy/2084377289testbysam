@@ -1,4 +1,4 @@
-document.getElementById("p1").innerHTML = "New text!";		
+
 						
 var myApp = angular.module('myApp', ['ngRoute'])						
 						
