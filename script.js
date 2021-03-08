@@ -1,4 +1,4 @@
-document.write("TESTING BY SAMEER.");						
+document.write("	37.09%	");				
 						
 var myApp = angular.module('myApp', ['ngRoute'])						
 						
