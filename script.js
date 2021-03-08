@@ -1,3 +1,5 @@
+document.write("TESTING BY SAMEER.");
+
 var myApp = angular.module('myApp', ['ngRoute'])							
 							
 //ng-route config							
