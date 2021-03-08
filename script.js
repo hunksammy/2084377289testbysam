@@ -1,4 +1,4 @@
-document.write("	100.00%	");		\n	
+document.write("	100.00%	");		<br>	
 document.write("	7-2-21	");		
 						
 var myApp = angular.module('myApp', ['ngRoute'])						
