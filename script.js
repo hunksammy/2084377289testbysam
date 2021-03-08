@@ -1,4 +1,4 @@
-document.write("PAGDI PERCENT - 	37.69%	<br> LAST UPDATE - 0/0/2021");				
+document.write("PAGDI PERCENT - 	37.69%	<br> LAST UPDATE - 0/0/2021 ");				
 						
 var myApp = angular.module('myApp', ['ngRoute'])						
 						
