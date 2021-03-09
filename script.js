@@ -1,4 +1,4 @@
-document.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PAGDI- 	38.32%	, UPDATE - 08/03/2021  ,	BALANCE-	1378309	");	
+document.write("&nbsp;&nbsp;&nbsp;&nbsp;PAGDI-	38.41%	, UPDATE - 09/03/2021  ,	BALANCE -	1400419	");	
 						
 var myApp = angular.module('myApp', ['ngRoute'])						
 						
@@ -134,8 +134,8 @@ customer1: '	TOMESH (BIRRA)	', amount1: '	0	',  url1: '	/2084377289testbysam/BIR
 						},
 {id: 1, name: '	BOADTARA	', 				
 customer1: '	PRIYAL GENERAL (BODTARA)	', amount1: ' 	29780	',  url1: '	https://drive.google.com/file/d/1hNGyEHqRAoTcF2xWYan4-9mEWs2R-STs/view?usp=sharing	',
-customer2: '	MONIKA FANCY STORE (BOADTARA)	', amount2: '	6649	',  url2: '		',
-customer3: '	PUNNET SAHU  (BOADTARA)	', amount3: '	6067	',  url3: '		',
+customer2: '	MONIKA FANCY STORE (BOADTARA)	', amount2: '	10384	',  url2: '		',
+customer3: '	PUNNET SAHU  (BOADTARA)	', amount3: '	12514	',  url3: '		',
 						},
 {id: 1, name: '	CHAKKARBHATA	', 				
 customer1: '	MAHAMAYA THRED HOUSE (CHBT)	', amount1: ' 	-4	',  url1: '	/2084377289testbysam/CHAKKARBHATA/MAHAMAYA%20THREAD%20(CHAKKARBHATA)%20103.htm	',
@@ -241,6 +241,7 @@ customer2: '	SHUBHAM GENERAL (KHAMARIYA)	', amount2: '	6254	',  url2: '	/2084377
 						},
 {id: 1, name: '	KHAMI	', 				
 customer1: '	AMISHA GENERAL (KHAMI)	', amount1: ' 	5372	',  url1: '	<b><br>TOYS -	',
+customer2: '	SAHU GENERAL (KHAMI)	', amount2: ' 	5329	',  url2: '	<b><br>TOYS -	',
 						},
 {id: 1, name: '	KARNODH	', 				
 customer1: '	ASHOK KARNODH	', amount1: ' 	12	',  url1: '	<b><br>TOYS -	',
@@ -290,9 +291,9 @@ customer4: '	KANHA COLLECTION (LORMI)	', amount4: ' 	0	',  url4: '	https://drive
 customer5: '	KAVYA GENERAL (LORMI)	', amount5: ' 	2753	',  url5: '	https://drive.google.com/file/d/1z7Q6PDFYQXoJChzMF-CQ0f9qPbscmgXr/view?usp=sharing	',
 						},
 {id: 1, name: '	MALHAR	', 				
-customer1: '	ANKIT FANCY (MALHAR)	', amount1: ' 	28860	',  url1: '	/2084377289testbysam/MALHAR/ANKITA (MALHAR) (NEW 7).htm	',
-customer2: '	PURVI FANCY (MALHAR)	', amount2: '	21844	',  url2: '	/2084377289testbysam/MALHAR/PURVI FANCY (MALHAR) 290.htm	',
-customer3: '	JAANVI GENERAL (MALHAR)	', amount3: '	14701	',  url3: '	/2084377289testbysam/MALHAR/JANVI GENERAL (MALHAR) 25.htm	',
+customer1: '	ANKIT FANCY (MALHAR)	', amount1: ' 	29940	',  url1: '	/2084377289testbysam/MALHAR/ANKITA (MALHAR) (NEW 7).htm	',
+customer2: '	PURVI FANCY (MALHAR)	', amount2: '	28066	',  url2: '	/2084377289testbysam/MALHAR/PURVI FANCY (MALHAR) 290.htm	',
+customer3: '	JAANVI GENERAL (MALHAR)	', amount3: '	15871	',  url3: '	/2084377289testbysam/MALHAR/JANVI GENERAL (MALHAR) 25.htm	',
 customer4: '	JITENDRA (MALHAR)	', amount4: ' 	0	',  url4: '	/2084377289testbysam/MALHAR/JITENDRA (MALHAR) 168.htm	',
 						},
 {id: 1, name: '	MALKHARODA	', 				
@@ -384,7 +385,7 @@ customer2: '	ARADHYA TRADERS	', amount2: '	22010	',  url2: '	https://drive.googl
 customer3: '	DECO POINT 	', amount3: '	15	',  url3: '	https://drive.google.com/file/d/1bZUj3PaLw6aYRt4Q-r2yqwCfLVriyhCE/view?usp=sharing	',
 customer4: '	PANDEY GENERAL	', amount4: ' 	0	',  url4: '	https://drive.google.com/file/d/1FlDkbJU48o98NY1h5wl0nNVczPuyCLqc/view?usp=sharing	',
 customer5: '	R.T WOMENS	', amount5: '	15002	',  url5: '	https://drive.google.com/file/d/1jUPA_oQjL9y0qQC_ua1MDkbHjGgiggPe/view?usp=sharing	',
-customer6: '	SADHANA PHOTO STUDIO	', amount6: '	21975	',  url6: '	https://drive.google.com/file/d/1pbbt3wk5EkZigLoAwpd9GKseZeQmi7zK/view?usp=sharing	',
+customer6: '	SADHANA PHOTO STUDIO	', amount6: '	19002	',  url6: '	https://drive.google.com/file/d/1pbbt3wk5EkZigLoAwpd9GKseZeQmi7zK/view?usp=sharing	',
 customer7: '	TIME CORNER (PENDRA)	', amount7: '	0	',  url7: '	https://drive.google.com/file/d/1hYMhX7km-IwDI7P-CwACqyAib1XN5U-y/view?usp=sharing	',
 customer8: '	SAI MAHASALE (PENDRA)	', amount8: '	35892	',  url8: '	https://drive.google.com/file/d/19FjJkGLnOwVlxg7L0VO7wvzNmdhyh87u/view?usp=sharing	',
 customer9: '	SAI SAKTI (PENDRA)	', amount9: '	4471	',  url9: '	https://drive.google.com/file/d/1URLS1kMcVHO6xgvP2111UB3Flw5ctJL-/view?usp=sharing	',
@@ -475,7 +476,7 @@ customer3: '	MAA KALI MUSIC (SIRGITI)	', amount3: '	1	',  url3: '	<b><br>TOYS -	
 						},
 {id: 1, name: '	TAKHATPUR	', 				
 customer1: '	KISHAN (BELPAN)	', amount1: ' 	12445	',  url1: '	/2084377289testbysam/TAKHATPUR/KISHAN%20(BELPAN).htm	',
-customer2: '	MAYUR GENERAL	', amount2: '	14187	',  url2: '	/2084377289testbysam/TAKHATPUR/MAYUR%20GENERAL%20(TAKHATPUR)%20276.htm	',
+customer2: '	MAYUR GENERAL	', amount2: '	15287	',  url2: '	/2084377289testbysam/TAKHATPUR/MAYUR%20GENERAL%20(TAKHATPUR)%20276.htm	',
 customer3: '	MARUTI GENERAL (TAKHATPUR)	', amount3: '	0	',  url3: '	/2084377289testbysam/TAKHATPUR/MARUTI%20(TAKAHTPUR)%2067.htm	',
 customer4: '	VIJAY STORE (TAKHATPUR)	', amount4: '	32075	',  url4: '	/2084377289testbysam/TAKHATPUR/VIJAY%20STORE%20(TAKHATPUR)%20-%20299.htm	',
 customer5: '	NAWAZ GENERAL	', amount5: '	8749	',  url5: '	/2084377289testbysam/TAKHATPUR/NAWAZ%20%20BHAI%20(TAKAHTPUR)%2075.htm	',
