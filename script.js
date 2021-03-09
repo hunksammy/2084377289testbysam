@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 document.write("PAGDI PERCENT - 	38.32%	<br> LAST UPDATE - 08/03/2021");				
+=======
+document.write("PAGDI PERCENT - 	37.69%	<br> <hr> LAST UPDATE - 0/0/2021 ");				
+>>>>>>> parent of b4b3c67 (Update script.js)
 						
 var myApp = angular.module('myApp', ['ngRoute'])						
 						
