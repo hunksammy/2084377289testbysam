@@ -1,4 +1,4 @@
-document.write("PAGDI PERCENT - 	38.32%	<br> LAST UPDATE - 08/03/2021 <br>	BALANCE	1378309	");	
+document.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PAGDI PERCENT - 	38.32%	 LAST UPDATE - 08/03/2021 	BALANCE	1378309	");	
 						
 var myApp = angular.module('myApp', ['ngRoute'])						
 						
