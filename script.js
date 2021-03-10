@@ -60,7 +60,7 @@ var myApp = angular.module('myApp', ['ngRoute'])
 							
 {id: 1, name: '	AKALTARA	', 					
 customer1: '	VINOD GENERAL (AKALTARA)	', amount1: '	2186	',  url1: '		',	
-customer2: '	CHANDAN GENERAL (AKALTARA)	', amount2: '	5753	',  url2: '	/2084377289testbysam/CHANDAN%20GENERAL%20(AKALTARA)%2029.mht	',	
+customer2: '	CHANDAN GENERAL (AKALTARA)	', amount2: '	5753	',  url2: '	/2084377289testbysam/AKALTARA/CHANDAN%20GENERAL%20(AKALTARA)%2029.htm	',	
 customer3: '	DEEPAK GENERAL (AKALTARA)	', amount3: '	2651	',  url3: '	/2084377289testbysam/AKALTARA/DEEPAK%20(AKALTARA)%20130.htm	',	
 customer4: '	SHRIMANAGALM (AKALTARA)	', amount4: '	0	',  url4: '	/2084377289testbysam/AKALTARA/SHRIMANGALAM%20(AKALTARA)%20298.htm	',	
 customer5: '	SHARMA GENERAL  (AKALTARA)	', amount5: '	0	',  url5: '	/2084377289testbysam/AKALTARA/SHARMA%20GENERAL%20(AKALTARA)%20282.htm	',	
