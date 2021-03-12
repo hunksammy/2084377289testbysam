@@ -1,4 +1,3 @@
-document.getElementById("demo").innerHTML = "SAM";
 document.write("&nbsp;&nbsp;&nbsp;&nbsp;PAGDI-	40.70%	, UPDATE - 11/03/2021  ,	BALANCE -	1338289	");	
 						
 var myApp = angular.module('myApp', ['ngRoute'])						
