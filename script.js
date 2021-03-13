@@ -1,4 +1,4 @@
-document.write("&nbsp;&nbsp;&nbsp;&nbsp;PAGDI-	40.70%	, UPDATE - 11/03/2021  ,	BALANCE -	1338289	");	
+document.write("&nbsp;&nbsp;&nbsp;&nbsp;PAGDI-	41.74%	, UPDATE - 12/03/2021  ,	BALANCE -	1343626	");	
 						
 var myApp = angular.module('myApp', ['ngRoute'])						
 						
@@ -152,7 +152,7 @@ customer6: '	SIDDARTH (CHBT)	', amount6: '	0	',  url6: '	/2084377289testbysam/CH
 {id: 1, name: '	CHAMPA	', 				
 customer1: '	AMIT SHRINGAR AND GIFT (CHAMPA)	', amount1: ' 	4	',  url1: '	<b><br>TOYS -	',
 customer2: '	SOHAM GIFT (CHAMPA)	', amount2: '	229	',  url2: '	<b><br>TOYS -	',
-customer3: '	HEMA SHRINGAR (CHAMPA)	', amount3: '	0	',  url3: '	<b><br>TOYS -	',
+customer3: '	HEMA SHRINGAR (CHAMPA)	', amount3: '	5880	',  url3: '	<b><br>TOYS -	',
 customer4: '	RANI GENERAL (CHAMPA)	', amount4: ' 	0	',  url4: '	<b><br>TOYS -	',
 customer5: '	SHRINGAR SADAN (CHAMPA)	', amount5: '	20	',  url5: '	<b><br>TOYS -	',
 customer6: '	RADHA SWAMI (CHAMPA)	', amount6: '	0	',  url6: '	<b><br>TOYS -	',
@@ -174,7 +174,7 @@ customer1: '	AKANKSHA  (DHARAMJAYGARH)	', amount1: ' 	0	',  url1: '	<b><br>TOYS 
 						},
 						
 {id: 1, name: '	DIPKA	', 				
-customer1: '	KOLKATA MAHASALE (DIPKA)	', amount1: ' 	34786	',  url1: '	/2084377289testbysam/DIPKA/KOLKATA%20MAHA%20SALE%20(DIPKA)%2048.htm	',
+customer1: '	KOLKATA MAHASALE (DIPKA)	', amount1: ' 	18786	',  url1: '	/2084377289testbysam/DIPKA/KOLKATA%20MAHA%20SALE%20(DIPKA)%2048.htm	',
 customer2: '	NEW BOOK DEPO (DIPKA)	', amount2: '	2	',  url2: '	/2084377289testbysam/DIPKA/NEW%20BOOK%20DEPO.%20(DIPKA)%20110.htm	',
 customer3: '	GEETA BOOK DEPO (DIPKA)	', amount3: '	0	',  url3: '	/2084377289testbysam/DIPKA/GEETA%20BOOK%20DEPO.%20(DIPKA)%20266.htm	',
 customer4: '	SHANTI SUHAG (DIPKA)	', amount4: ' 	1371	',  url4: '	/2084377289testbysam/DIPKA/SHANTI%20SUHAG%20(DIPKA)%20129.htm	',
@@ -362,7 +362,7 @@ customer7: '	SOUGAAT GIFT (PANDARIYA)	', amount7: '	6488	',  url7: '	/2084377289
 {id: 1, name: '	PANDATARAI	', 				
 customer1: '	ARJUN GENERAL (PANDATARAI)	', amount1: ' 	0	',  url1: '	/2084377289testbysam/PANDATARAI/ARJUN GENERAL (PANDATARAI) 181.htm	',
 customer2: '	DURGA GENERAL (PANDATARAI)	', amount2: '	0	',  url2: '	/2084377289testbysam/PANDATARAI/DURGA GENERAL (PANDATARAI) 274.htm	',
-customer3: '	SATGURU	', amount3: '	4706	',  url3: '	/2084377289testbysam/PANDATARAI/SATGURU GENERAL (PANDATARAI)  162.htm	',
+customer3: '	SATGURU	', amount3: '	22449	',  url3: '	/2084377289testbysam/PANDATARAI/SATGURU GENERAL (PANDATARAI)  162.htm	',
 customer4: '	VIDYA SUHAG	', amount4: ' 	6797	',  url4: '	/2084377289testbysam/PANDATARAI/VIDYA SUHAG (PANDATARAI) 147.htm	',
 customer5: '	PREETI GENERAL (PANDATARAI)	', amount5: '	4517	',  url5: '	/2084377289testbysam/PANDATARAI/PREETI GENERAL. (PANDATARAI) 112.htm	',
 customer6: '	GANESH (PANDATARAI)	', amount6: '	3477	',  url6: '	/2084377289testbysam/PANDATARAI/GANESH GENERAL (PANDATARAI)  279.htm	',
@@ -435,6 +435,7 @@ customer4: '	SANJAY STORE (SARANGARH)	', amount4: '	-2	',  url4: '	/2084377289te
 customer5: '	PRIYANKA GENERAL (SARANGARH)	', amount5: '	840	',  url5: '	/2084377289testbysam/SARANGARH/PRIYANKA (SARANGARH) 212.htm	',
 customer6: '	SANTOSH VASTRALAY (SARANGARH)	', amount6: '	0	',  url6: '	/2084377289testbysam/SARANGARH/SANTOSH VASTRALAY (SARANGARH) 220.htm	',
 customer7: '	NEW CLOTH STORE (SARANGARH)	', amount7: '	0	',  url7: '	/2084377289testbysam/SARANGARH/NEW CLOTH (SARANGARH)  256.htm	',
+customer7: '	MAHALAXMI (SARANGARH)	', amount7: '	3514	',  url7: '	/2084377289testbysam/SARANGARH/MAHALAXMI  GENERAL (SARANGARH).htm	',
 						},
 {id: 1, name: '	SARGAON	', 				
 customer1: '	SUNITA GENERAL	', amount1: ' 	0	',  url1: '	/2084377289testbysam/SARGAON/SUNITA%20(SARGAON)%20%2047.htm	',
@@ -500,7 +501,7 @@ customer1: '	SHUSHMITA URGA	', amount1: ' 	7764	',  url1: '	/2084377289testbysam
 customer1: '	SAI PROVISION	', amount1: ' 		',  url1: '	<b><br>TOYS -	',
 						},
 {id: 1, name: '	VENKATNAGAR	', 				
-customer1: '	SANTOSH GENERAL	', amount1: ' 	5816	',  url1: '	<b><br>TOYS -	',
+customer1: '	SANTOSH GENERAL	', amount1: ' 	16	',  url1: '	<b><br>TOYS -	',
 						},
 						
 						
