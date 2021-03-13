@@ -302,9 +302,33 @@ SUNDAY IS REST <br><hr/>	</div></div></div></div></div>
 
 	  <!-- 	template for displaying a contacts info	 -->
     <script type="text/ng-template" id="contact_info.html">
-      <div class="list-group-item">
-        <h3 class="text-left">{{currentContact.name}}</h3>
-        
+      
+	  <style>
+
+
+h1 {
+  background-color: #000000;
+ 
+   color: #FFFFFF;
+   text-align: center;
+   border-radius: 15px 50px;
+}
+
+h2 {
+  background-color: #000000;
+  border: 0px solid white;
+  font-size: 25px;
+   color: #FFFFFF;
+   text-align: left;
+  border-radius: 15px 50px;
+}
+
+</style>
+
+	  <div class="list-group-item">
+        <h2 class="text-left">&nbsp;&nbsp;{{currentContact.name}}</h2>
+       
+	   
         <p> {{currentContact.customer1}} 
 		<a ng-href="{{currentContact.url1}}">{{currentContact.amount1}}</a></p> <br>
         
