@@ -1,4 +1,4 @@
-document.write("&nbsp;&nbsp;&nbsp;&nbsp;PAGDI-	42.54%	, UPDATE - 14/03/2021  ,	BALANCE -	1376720	");	
+document.write("&nbsp;&nbsp;&nbsp;&nbsp;PAGDI-	42.56%	, UPDATE - 14/03/2021  ,	BALANCE -	1376620	");	
 						
 var myApp = angular.module('myApp', ['ngRoute'])						
 						
@@ -59,8 +59,8 @@ var myApp = angular.module('myApp', ['ngRoute'])
   var contactList = [						
 						
 {id: 1, name: '	AKALTARA	', 				
-customer1: '	VINOD GENERAL (AKALTARA)	', amount1: '	2186	',  url1: '		',
-customer2: '	CHANDAN GENERAL (AKALTARA)	', amount2: '	5753	',  url2: '	/2084377289testbysam/AKALTARA/CHANDAN%20GENERAL%20(AKALTARA)%2029.htm	',
+customer1: '	VINOD GENERAL (AKALTARA)	', amount1: '	2186	',  url1: '	/2084377289testbysam/AKALTARA/VINOD GENERAL (AKALTARA).htm	',
+customer2: '	CHANDAN GENERAL (AKALTARA)	', amount2: '	5653	',  url2: '	/2084377289testbysam/AKALTARA/CHANDAN%20GENERAL%20(AKALTARA)%2029.htm	',
 customer3: '	DEEPAK GENERAL (AKALTARA)	', amount3: '	2651	',  url3: '	/2084377289testbysam/AKALTARA/DEEPAK%20(AKALTARA)%20130.htm	',
 customer4: '	SHRIMANAGALM (AKALTARA)	', amount4: '	0	',  url4: '	/2084377289testbysam/AKALTARA/SHRIMANGALAM%20(AKALTARA)%20298.htm	',
 customer5: '	SHARMA GENERAL  (AKALTARA)	', amount5: '	0	',  url5: '	/2084377289testbysam/AKALTARA/SHARMA%20GENERAL%20(AKALTARA)%20282.htm	',
