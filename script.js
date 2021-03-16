@@ -1,4 +1,4 @@
-document.write("&nbsp;&nbsp;&nbsp;&nbsp;PAGDI-	44.61%	, UPDATE - 15/03/2021  ,	BALANCE -	1398875	");	
+document.write("&nbsp;&nbsp;&nbsp;&nbsp;PAGDI-	44.61%	, UPDATE - 15/03/2021  ,	BALANCE -	1398713	");	
 						
 var myApp = angular.module('myApp', ['ngRoute'])						
 						
@@ -87,10 +87,10 @@ customer9: '	GOYAL GENERAL (BALODA)	', amount9: '	0	',  url9: '	/2084377289testb
 customer1: '	CHANDINI GIFT	', amount1: ' 	22751	',  url1: '	https://drive.google.com/file/d/1cDoRcpVI1bzC7aFxInzw8iaHHs9veSdG/view?usp=sharing	',
 						},
 {id: 1, name: '	BARADWAR	', 				
-customer1: '	ASHIRWAD GENERAL (BARADWAR)	', amount1: ' 	9090	',  url1: '		',
-customer2: '	SIDDHI VINAYAK (BARADWAR)	', amount2: '	8355	',  url2: '		',
-customer3: '	SAMRAT GENERAL (BARADWAR)	', amount3: '	0	',  url3: '		',
-customer4: '	SAKTIYA SETH (BARADWAR)	', amount4: '	0	',  url4: '		',
+customer1: '	ASHIRWAD GENERAL (BARADWAR)	', amount1: ' 	9090	',  url1: '	/2084377289testbysam/BARADWAR/ASHIRWAD GENERAL (BARADWAR) 13.htm	',
+customer2: '	SIDDHI VINAYAK (BARADWAR)	', amount2: '	8355	',  url2: '	/2084377289testbysam/BARADWAR/SIDDHI VINAYAK GENERAL (BARADWAR) 268.htm	',
+customer3: '	SAMRAT GENERAL (BARADWAR)	', amount3: '	0	',  url3: '	/2084377289testbysam/BARADWAR/SAMRATH GENERAL (BARADWAR).htm	',
+customer4: '	SAKTIYA SETH (BARADWAR)	', amount4: '	0	',  url4: '	/2084377289testbysam/BARADWAR/SAKTIYA SETH (BARADWAR) 219.htm	',
 						},
 						
 {id: 1, name: '	BELGEHNA	', 				
@@ -452,9 +452,9 @@ customer3: '	SHRIYA SHRINGAR (SARSIWA)	', amount3: '	0	',  url3: '	/2084377289te
 customer1: '	SHIVAM GENERAL	', amount1: ' 	3	',  url1: '	<b><br>TOYS -	',
 						},
 {id: 1, name: '	SHIVNI	', 				
-customer1: '	KHAGESHWAR GENERAL	', amount1: ' 	29717	',  url1: '	<b><br>TOYS -	',
-customer2: '	JAI AMBEL (SHIVNI)	', amount2: '	3253	',  url2: '	<b><br>TOYS -	',
-customer3: '	NEW MAHAMAYA GENERAL (SHIVNI)	', amount3: '	-1	',  url3: '	<b><br>TOYS -	',
+customer1: '	KHAGESHWAR GENERAL	', amount1: ' 	29555	',  url1: '	/2084377289testbysam/SHIVNI/KHAGESHWAR (SHIVNI) 269.htm	',
+customer2: '	JAI AMBEL (SHIVNI)	', amount2: '	3253	',  url2: '	/2084377289testbysam/SHIVNI/JAI AMBE (SHIVNI) 208.htm	',
+customer3: '	NEW MAHAMAYA GENERAL (SHIVNI)	', amount3: '	-1	',  url3: '	/2084377289testbysam/SHIVNI/NEW MAHAMAYA GENERAL 2 (SHIVNI) (NEW 9).htm	',
 						},
 {id: 1, name: '	SHIVRINARAYN	', 				
 customer1: '	MAHI SHRINGAR (SHIVRIN)	', amount1: ' 	4851	',  url1: '	/2084377289testbysam/SHIVRINARAYAN/MAHI SHRINGAR (SHIVRINARAYN).htm	',
