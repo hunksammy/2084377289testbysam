@@ -153,7 +153,7 @@ customer6: '	SIDDARTH (CHBT)	', amount6: '	0	',  url6: '	/2084377289testbysam/CH
 {id: 1, name: '	CHAMPA	', 				
 customer1: '	AMIT SHRINGAR AND GIFT (CHAMPA)	', amount1: ' 	4	',  url1: '	/2084377289testbysam/CHAMPA/AMIT SHRINGAR AND GIFT (CHAMPA).htm	',
 customer2: '	SOHAM GIFT (CHAMPA)	', amount2: '	229	',  url2: '	/2084377289testbysam/CHAMPA/SOHAM GIFT (CHAMPA) 86.htm	',
-customer3: '	HEMA SHRINGAR (CHAMPA)	', amount3: '	5880	',  url3: '	\2084377289testbysam\CHAMPA\HEMA SUHAG (CHAMPA).htm	',
+customer3: '	HEMA SHRINGAR (CHAMPA)	', amount3: '	5880	',  url3: '	/2084377289testbysam/CHAMPA/HEMA SUHAG (CHAMPA).htm	',
 customer4: '	RANI GENERAL (CHAMPA)	', amount4: ' 	0	',  url4: '	/2084377289testbysam/CHAMPA/RANI GENERAL STORE (CHAMPA).htm	',
 customer5: '	SHRINGAR SADAN (CHAMPA)	', amount5: '	20	',  url5: '	/2084377289testbysam/CHAMPA/SHRINGAR SAADAN (CHAMPA) 284.htm	',
 customer6: '	RADHA SWAMI (CHAMPA)	', amount6: '	0	',  url6: '	/2084377289testbysam/CHAMPA/RADHA%20SWAMI%20(CHAMPA).htm	',
