@@ -341,7 +341,7 @@ customer1: '	BABA SCHOOL POINT (PAMGARH)	', amount1: ' 	-3	',  url1: '	/20843772
 						},
 						
 {id: 1, name: '	PALI	', 				
-customer1: '	ARADHYA GENERAL (PALI)	', amount1: ' 	5362	',  url1: '	<b><br>TOYS -	',
+customer1: '	ARADHYA GENERAL (PALI)	', amount1: ' 	5362	',  url1: '	/2084377289testbysam/PALI/ARADHYA GENERAL (PALI).htm	',
 customer2: '	JAI  MAHAMAYA (PALI)	', amount2: '	11764	',  url2: '	/2084377289testbysam/PALI/JAI%20MAHAMAYA%20(PALI)%20267.htm	',
 customer3: '	SHIV BEEJ	', amount3: '	9	',  url3: '	/2084377289testbysam/PALI/SHIV%20BEEJ%20(PALI)%20255.htm	',
 customer4: '	DEEPAK READYMATE (PALI)	', amount4: ' 	10	',  url4: '	/2084377289testbysam/PALI/DEEPAK%20READYMATE%20(PALI).htm	',
