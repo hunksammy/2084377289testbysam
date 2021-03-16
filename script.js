@@ -1,4 +1,4 @@
-document.write("&nbsp;&nbsp;&nbsp;&nbsp;PAGDI-	43.25%	, UPDATE - 15/03/2021  ,	BALANCE -	1398876	");	
+document.write("&nbsp;&nbsp;&nbsp;&nbsp;PAGDI-	44.61%	, UPDATE - 15/03/2021  ,	BALANCE -	1398876	");	
 						
 var myApp = angular.module('myApp', ['ngRoute'])						
 						
