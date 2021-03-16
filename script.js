@@ -1,4 +1,4 @@
-document.write("&nbsp;&nbsp;&nbsp;&nbsp;PAGDI-	44.61%	, UPDATE - 15/03/2021  ,	BALANCE -	1398876	");	
+document.write("&nbsp;&nbsp;&nbsp;&nbsp;PAGDI-	44.61%	, UPDATE - 15/03/2021  ,	BALANCE -	1398875	");	
 						
 var myApp = angular.module('myApp', ['ngRoute'])						
 						
@@ -151,16 +151,16 @@ customer5: '	LAXMI KITABGHAR (CHBT)	', amount5: '	0	',  url5: '	/2084377289testb
 customer6: '	SIDDARTH (CHBT)	', amount6: '	0	',  url6: '	/2084377289testbysam/CHAKKARBHATA/SIDDARTH%20(CHAKKARBHATA)%20139.htm	',
 						},
 {id: 1, name: '	CHAMPA	', 				
-customer1: '	AMIT SHRINGAR AND GIFT (CHAMPA)	', amount1: ' 	4	',  url1: '	<b><br>TOYS -	',
-customer2: '	SOHAM GIFT (CHAMPA)	', amount2: '	229	',  url2: '	<b><br>TOYS -	',
-customer3: '	HEMA SHRINGAR (CHAMPA)	', amount3: '	5880	',  url3: '	<b><br>TOYS -	',
-customer4: '	RANI GENERAL (CHAMPA)	', amount4: ' 	0	',  url4: '	<b><br>TOYS -	',
-customer5: '	SHRINGAR SADAN (CHAMPA)	', amount5: '	20	',  url5: '	<b><br>TOYS -	',
-customer6: '	RADHA SWAMI (CHAMPA)	', amount6: '	0	',  url6: '	<b><br>TOYS -	',
-customer7: '	MOHSIN (CHAMPA)	', amount7: '	1061	',  url7: '	<b><br>TOYS -	',
-customer8: '	MAA BHAGWATI (CHAMPA)	', amount8: '	25157	',  url8: '	<b><br>TOYS -	',
-customer9: '	POOJA NOVELTY (CHAMPA)	', amount9: '	0	',  url9: '	<b><br>TOYS -	',
-customer10: '	KANHA SUPERBAZAR (CHAMPA)	', amount10: '	1	',  url10: '	<b><br>TOYS -	',
+customer1: '	AMIT SHRINGAR AND GIFT (CHAMPA)	', amount1: ' 	4	',  url1: '	/2084377289testbysam/CHAMPA/AMIT SHRINGAR AND GIFT (CHAMPA).htm	',
+customer2: '	SOHAM GIFT (CHAMPA)	', amount2: '	229	',  url2: '	/2084377289testbysam/CHAMPA/SOHAM GIFT (CHAMPA) 86.htm	',
+customer3: '	HEMA SHRINGAR (CHAMPA)	', amount3: '	5880	',  url3: '	/2084377289testbysam/CHAMPA/HEMA SUHAG (CHAMPA).htm	',
+customer4: '	RANI GENERAL (CHAMPA)	', amount4: ' 	0	',  url4: '	/2084377289testbysam/CHAMPA/RANI GENERAL STORE (CHAMPA).htm	',
+customer5: '	SHRINGAR SADAN (CHAMPA)	', amount5: '	20	',  url5: '	/2084377289testbysam/CHAMPA/SHRINGAR SAADAN (CHAMPA) 284.htm	',
+customer6: '	RADHA SWAMI (CHAMPA)	', amount6: '	0	',  url6: '	/2084377289testbysam/CHAMPA/RADHA%20SWAMI%20(CHAMPA).htm	',
+customer7: '	MOHSIN (CHAMPA)	', amount7: '	1061	',  url7: '	/2084377289testbysam/CHAMPA/MOHSIN BHAI (CHAMPA) 271.htm	',
+customer8: '	MAA BHAGWATI (CHAMPA)	', amount8: '	25157	',  url8: '	/2084377289testbysam/CHAMPA/MAA BHAGWATI (CHAMPA) 238.htm	',
+customer9: '	POOJA NOVELTY (CHAMPA)	', amount9: '	0	',  url9: '	/2084377289testbysam/CHAMPA/POOJAA NOVELTY (CHAMPA) 40.htm	',
+customer10: '	KANHA SUPERBAZAR (CHAMPA)	', amount10: '	0	',  url10: '	/2084377289testbysam/CHAMPA/KANHA SUPER BAZAAR (CHAMPA) 262.htm	',
 						},
 {id: 1, name: '	CHURRI	', 				
 customer1: '	NEHA GENERAL (CHURI)	', amount1: ' 	3103	',  url1: '	/2084377289testbysam/CHURI/NEHA%20(CHURRI)%2071.htm	',
