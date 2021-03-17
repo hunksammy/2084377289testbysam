@@ -1,4 +1,4 @@
-document.write("&nbsp;&nbsp;&nbsp;&nbsp;PAGDI-	44.61%	, UPDATE - 15/03/2021  ,	BALANCE -	1398713	");	
+document.write("&nbsp;&nbsp;&nbsp;&nbsp;PAGDI-	44.61%	, UPDATE - 15/03/2021  ,	BALANCE -	1422647	");	
 						
 var myApp = angular.module('myApp', ['ngRoute'])						
 						
@@ -365,8 +365,9 @@ customer1: '	ARJUN GENERAL (PANDATARAI)	', amount1: ' 	0	',  url1: '	/2084377289
 customer2: '	DURGA GENERAL (PANDATARAI)	', amount2: '	0	',  url2: '	/2084377289testbysam/PANDATARAI/DURGA GENERAL (PANDATARAI) 274.htm	',
 customer3: '	SATGURU	', amount3: '	22449	',  url3: '	/2084377289testbysam/PANDATARAI/SATGURU GENERAL (PANDATARAI)  162.htm	',
 customer4: '	VIDYA SUHAG	', amount4: ' 	6797	',  url4: '	/2084377289testbysam/PANDATARAI/VIDYA SUHAG (PANDATARAI) 147.htm	',
-customer5: '	PREETI GENERAL (PANDATARAI)	', amount5: '	4517	',  url5: '	/2084377289testbysam/PANDATARAI/PREETI GENERAL. (PANDATARAI) 112.htm	',
+customer5: '	PREETI GENERAL (PANDATARAI)	', amount5: '	18219	',  url5: '	/2084377289testbysam/PANDATARAI/PREETI GENERAL. (PANDATARAI) 112.htm	',
 customer6: '	GANESH (PANDATARAI)	', amount6: '	3477	',  url6: '	/2084377289testbysam/PANDATARAI/GANESH GENERAL (PANDATARAI)  279.htm	',
+customer7: '	PRACHI GENERAL (PANDATARAI)	', amount7: '	10172	',  url7: '	/2084377289testbysam/PANDATARAI/PRACHI GENERAL (PANDATARAI).htm	',
 						},
 						
 {id: 1, name: '	PANTORA	', 				
@@ -409,10 +410,10 @@ customer1: '	SHIV SAHU (PODI)	', amount1: ' 	3348	',  url1: '	<b><br>TOYS -	',
 customer1: '	CHAAVI GENERAL 	', amount1: ' 	-1	',  url1: '	/2084377289testbysam/RAHOD/CHAVI (RAHOD) 12.htm	',
 						},
 {id: 1, name: '	RATANPUR	', 				
-customer1: '	 GOLU RATANPUR	', amount1: ' 	84	',  url1: '	\2084377289testbysam\RATANPUR\GOLU (RATANPUR)  196.htm	',
-customer2: '	RAJA YADAV	', amount2: '	1099	',  url2: '	\2084377289testbysam\RATANPUR\RAJA YADAV (RATANPUR) 146.htm	',
+customer1: '	 GOLU RATANPUR	', amount1: ' 	84	',  url1: '	/2084377289testbysam/RATANPUR/GOLU (RATANPUR)  196.htm	',
+customer2: '	RAJA YADAV	', amount2: '	1099	',  url2: '	/2084377289testbysam/RATANPUR/RAJA YADAV (RATANPUR) 146.htm	',
 customer3: '	USHA CHAUHAN (RATANPUR)	', amount3: '	N/A	',  url3: '	<b><br>TOYS -	',
-customer4: '	RIYA GENERAL	', amount4: ' 	10	',  url4: '	\2084377289testbysam\RATANPUR\RIYA. (RATANPUR)  253.htm	',
+customer4: '	RIYA GENERAL	', amount4: ' 	10	',  url4: '	/2084377289testbysam/RATANPUR/RIYA. (RATANPUR)  253.htm	',
 						},
 {id: 1, name: '	SAKRI	', 				
 customer1: '	GUPTA GENERAL	', amount1: ' 	0	',  url1: '	/2084377289testbysam/SAKRI/GUPTA (SAKRI)  39.htm	',
@@ -493,7 +494,7 @@ customer7: '	BHARAT BAG HOUSE	', amount7: '	8615	',  url7: '	/2084377289testbysa
 customer1: '	 POOJA TAPKARA	', amount1: ' 	34350	',  url1: '	<b><br>TOYS -	',
 						},
 {id: 1, name: '	UDAIPUR	', 				
-customer1: '	PRIYA UDAIPUR	', amount1: ' 	16063	',  url1: '	<b><br>TOYS -	',
+customer1: '	PRIYA UDAIPUR	', amount1: ' 	16123	',  url1: '	<b><br>TOYS -	',
 						},
 {id: 1, name: '	URGA	', 				
 customer1: '	SHUSHMITA URGA	', amount1: ' 	7764	',  url1: '	/2084377289testbysam/URGA/SUSHMITA%20(URGA)%20125.htm	',
