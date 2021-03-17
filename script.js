@@ -1,4 +1,4 @@
-document.write("&nbsp;&nbsp;&nbsp;&nbsp;PAGDI-	44.61%	, UPDATE - 15/03/2021  ,	BALANCE -	1422647	");	
+document.write("&nbsp;&nbsp;&nbsp;&nbsp;PAGDI-	44.87%	, UPDATE - 16/03/2021  ,	BALANCE -	1422647	");	
 						
 var myApp = angular.module('myApp', ['ngRoute'])						
 						
@@ -421,13 +421,13 @@ customer2: '	KAUSHIK GENERAL (SAKRI)	', amount2: '	590	',  url2: '	/2084377289te
 customer3: '	SHRI RAM (SAKRI)	', amount3: '	32	',  url3: '	/2084377289testbysam/SAKRI/SHRIRAM GENERAL (SAKRI)  20.htm	',
 						},
 {id: 1, name: '	SAKTI	', 				
-customer1: '	PAPPI GUPTA (SAKTI)	', amount1: ' 	0	',  url1: '	<b><br>TOYS -	',
-customer2: '	DIWA FANCY (SAKTI)	', amount2: '	5962	',  url2: '	<b><br>TOYS -	',
-customer3: '	VIKAS (SAKTI)	', amount3: '	0	',  url3: '	<b><br>TOYS -	',
-customer4: '	ANMOL GIFT (SAKTI)	', amount4: '	122	',  url4: '	<b><br>TOYS -	',
+customer1: '	PAPPI GUPTA (SAKTI)	', amount1: ' 	0	',  url1: '	/2084377289testbysam/SAKTI/PAPPI  GUPTA  (SAKTI).htm	',
+customer2: '	DIWA FANCY (SAKTI)	', amount2: '	5962	',  url2: '	/2084377289testbysam/SAKTI/DIVA FANCY (SAKTI)  14.htm	',
+customer3: '	VIKAS (SAKTI)	', amount3: '	0	',  url3: '	/2084377289testbysam/SAKTI/VIKAS (SAKTI) 296.htm	',
+customer4: '	ANMOL GIFT (SAKTI)	', amount4: '	122	',  url4: '	/2084377289testbysam/SAKTI/ANMOL (SAKTI)  16.htm	',
 						},
 {id: 1, name: '	SARAGAON	', 				
-customer1: '	GOVIND KESARWANI	', amount1: ' 	15064	',  url1: '	<b><br>TOYS -	',
+customer1: '	GOVIND KESARWANI	', amount1: ' 	15064	',  url1: '	/2084377289testbysam/SARAGAON/GOVIND KESARWANI (SARAGAON) 138.htm	',
 						},
 {id: 1, name: '	SARANGARH	', 				
 customer1: '	VIKAS  TEXTILE (SARANGARH)	', amount1: ' 	470	',  url1: '	/2084377289testbysam/SARANGARH/VIKAS TEXTILE (SARANGARH).htm	',
