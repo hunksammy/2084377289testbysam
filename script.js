@@ -1,4 +1,4 @@
-document.write("&nbsp;&nbsp;&nbsp;&nbsp;PAGDI-	47.42%		, UPDATE - 17/03/2021  ,	BALANCE -	1419990	");	
+document.write("&nbsp;&nbsp;&nbsp;&nbsp;PAGDI-	47.42%		, UPDATE - 17/03/2021  ,	BALANCE -	1427190	");	
 							
 var myApp = angular.module('myApp', ['ngRoute'])							
 							
@@ -327,7 +327,7 @@ customer1: '	TOY ZONE 		', amount1: ' 	7820	',  url1: '	/2084377289testbysam/MUN
 customer2: '	BABA GENERAL		', amount2: '	-1	',  url2: '	/2084377289testbysam/MUNGELI/BABA%20GENERAL%20(MUNGELI)%20%2023.htm	',
 customer3: '	GURUNANAK GENERAL		', amount3: '	1181	',  url3: '	/2084377289testbysam/MUNGELI/GURUNANAK%20GENERAL%20(MUNGELI)%2076.htm	',
 customer4: '	 JEENAT BENGALS (MUNGELI)		', amount4: ' 	4997	',  url4: '	/2084377289testbysam/MUNGELI/ZEENAT%20BENGALS%20(MUNGELI)%2045.htm	',
-customer5: '	PAYAL BAG HOUSE		', amount5: '	-6692	',  url5: '	/2084377289testbysam/MUNGELI/PAYAL%20BAG%20(MUNGELI)%20171.htm	',
+customer5: '	PAYAL BAG HOUSE		', amount5: '	508	',  url5: '	/2084377289testbysam/MUNGELI/PAYAL%20BAG%20(MUNGELI)%20171.htm	',
 customer6: '	PRIYA LADIES		', amount6: '	4981	',  url6: '	/2084377289testbysam/MUNGELI/PRIYA%20LADIES%20(MUNGELI)%2099.htm	',
 customer7: '	SANGAM FANCY		', amount7: '	3195	',  url7: '	/2084377289testbysam/MUNGELI/SANGAM%20FANCY%20(MUNGELI)%20(NEW%20169).htm	',
 customer8: '	OM GENERAL (MUNGELI)		', amount8: '	0	',  url8: '	/2084377289testbysam/MUNGELI/OM%20GENERAL%20(MUNGELI)%2087.htm	',
