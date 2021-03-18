@@ -3,23 +3,9 @@ body {
         padding: 0;
     }
     * {
-        box-sizing: border-box;
-        -moz-box-sizing: border-box;
-    }
-    .page {
-        width: 21cm;
-        min-height: 29.7cm;
-        padding: 2cm;
-        margin: 1cm auto;
-        border: none;
-        background: #F4F3F1;
-    }
-    .page-inner{
-        padding: 1cm;
-        border: 2px solid black;
-        height: 256mm;
-        outline: 2cm #F4F3F1 solid;
-    }
+     
+
+ 
     
     @page {
         size: A4;

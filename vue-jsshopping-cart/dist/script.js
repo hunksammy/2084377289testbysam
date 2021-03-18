@@ -102,14 +102,24 @@ var app = new Vue({
         img: "https://chenyiya.com/codepen/product-2.jpg",
         title: "Eco Bag",
         price: "73",
+        id: "eco-bg"
+      },
+	  
+	     {
+        img: "https://hunksammy.github.io/2084377289testbysam/1.jpg",
+        title: "Eco Bag",
+        price: "73",
         id: "eco-bag"
       },
+	  
       {
         img: "https://chenyiya.com/codepen/product-3.jpg",
         title: "Paper Bag",
         price: "35",
         id: "paper-bag"
       }
+	  
+	  
     ],
     buyitems: []
   },
