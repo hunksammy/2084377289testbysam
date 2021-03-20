@@ -1,7 +1,7 @@
 var config = {
-  apiKey: "AIzaSyB_6jCXJa6PJi37FiHaXaBRX3ZAEAD2FmY",
-  authDomain: "catcon-5b2a8.firebaseapp.com",
-  databaseURL: "https://catcon-5b2a8.firebaseio.com",
+  apiKey: "AIzaSyAySDZWMIhy8ZU3ShtNsB8YJ47LOArTQsI",
+  authDomain: "post-57b3e.firebaseapp.com",
+  databaseURL: "https://post-57b3e-default-rtdb.firebaseio.com",
 };
 
 // requires access to be set to public, or have user logged in
