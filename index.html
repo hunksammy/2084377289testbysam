@@ -461,7 +461,7 @@ h2 {
 <div id="app">
   <h2>REMINDER</h2>
   <div v-for="item in items" class="item" :key="item.key">
-    <button @click="removeItem(item)">&times;</button> {{item.value}} <small>{{new Date(item.ts).toGMTString()}} <hr/> </small>
+    <button @click="removeItem(item)">&times;</button> {{item.value}} <small><br>{{new Date(item.ts).toGMTString()}} <hr/> </small>
   </div>
 
   <div>
