@@ -1,0 +1,310 @@
+/*
+
+TODO
+------
+~ Animations & Transitions 
+~ fontAwesome
+
+*/
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400);
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-50%);
+  }
+}
+.fadeIn {
+  animation: fadeIn 0.25s;
+  animation-fill-mode: backwards;
+  animation-delay: 0.25s;
+}
+
+.fadeOut {
+  animation: fadeOut 0.25s;
+  animation-fill-mode: backwards;
+}
+
+#vue {
+  margin: 0 auto;
+  padding: 1em;
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+}
+#vue .hero {
+  margin: 0.5em auto 0.25em;
+  font-size: 3em;
+  color: #1289fe;
+  text-shadow: 1px 1px 0px #e5e5ea, 2px 2px 0px #e5e5ea, 3px 3px 0px #e5e5ea;
+}
+#vue .login {
+  margin: 0;
+}
+#vue .notification {
+  margin-top: 0;
+  margin-bottom: 1.5em;
+}
+#vue .notification.bad {
+  color: #ea0000;
+}
+#vue input {
+  display: block;
+  appearance: none;
+  margin: 0.5em auto;
+  padding: 0.5em;
+  vertical-align: middle;
+  border: 1px solid #e5e5ea;
+  border-radius: 2px;
+  font-size: 1em;
+  width: 100%;
+  max-width: 20em;
+}
+#vue input.messageInput {
+  display: inline-block;
+  width: calc(100% - 3.5em);
+}
+#vue button {
+  appearance: none;
+  padding: 0.5em;
+  vertical-align: middle;
+  border: none;
+  background: none;
+  color: #1289fe;
+  font-weight: 400;
+  font-size: 1em;
+  cursor: pointer;
+  transition: color 0.25s ease-out;
+}
+#vue button:hover {
+  color: #0163c3;
+}
+#vue .messagesWrapper {
+  padding: 0.5em;
+  max-height: 500px;
+  overflow-y: scroll;
+}
+#vue .messagesWrapper .message {
+  margin: 2em auto;
+  padding: 0 1em;
+  padding-right: 2em;
+  background: #e5e5ea;
+  border-radius: 1em;
+  position: relative;
+  text-align: left;
+}
+#vue .messagesWrapper .message span, #vue .messagesWrapper .message p {
+  display: inline-block;
+  vertical-align: middle;
+}
+#vue .messagesWrapper .message span {
+  position: absolute;
+  top: -1.25em;
+  left: 0.75em;
+  right: auto;
+  font-size: 0.85em;
+  color: #bbbbc8;
+  white-space: nowrap;
+  vertical-align: top;
+}
+#vue .messagesWrapper .message span time {
+  display: none;
+  vertical-align: top;
+}
+#vue .messagesWrapper .message:hover span time {
+  display: inline;
+}
+#vue .messagesWrapper .message p {
+  width: auto;
+}
+#vue .messagesWrapper .message i {
+  display: none;
+  font-size: 1em;
+  vertical-align: middle;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0.5em;
+}
+#vue .messagesWrapper .message[data-person=Me] {
+  background: #1289fe;
+  color: white;
+}
+#vue .messagesWrapper .message[data-person=Me]:after {
+  content: "";
+  position: absolute;
+  right: -0.5em;
+  bottom: 0;
+  width: 0.5em;
+  height: 1em;
+  border-left: 0.5em solid #1289fe;
+  border-bottom-left-radius: 1em 0.5em;
+}
+#vue .messagesWrapper .message[data-person=Me] span {
+  right: 0.75em;
+  left: auto;
+  color: #1289fe;
+}
+#vue .messagesWrapper .message[data-person=Me] i {
+  display: inline-block;
+  cursor: pointer;
+}
+#vue .messagesWrapper .message:not([data-person=Me]):after {
+  content: "";
+  position: absolute;
+  left: -0.5em;
+  bottom: 0;
+  width: 0.5em;
+  height: 1em;
+  border-right: 0.5em solid #e5e5ea;
+  border-bottom-right-radius: 1em 0.5em;
+}
+#vue .messagesWrapper .message i {
+  padding: 0.25em;
+  cursor: pointer;
+}
+#vue .usersTyping {
+  text-align: left;
+  font-size: 0.85em;
+  margin: 0 auto;
+  color: #bbbbc8;
+}
+#vue .usersOnline {
+  text-decoration: underline;
+  margin-bottom: 0.25em;
+}
+#vue .users {
+  margin: 0 auto;
+}
+#vue .addMessage {
+  margin: 1em auto;
+  text-align: left;
+}
+#vue .chatroomFlexContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 1em auto;
+}
+#vue .chatroomFlexContainer .chatroom {
+  position: relative;
+  flex-grow: 1;
+  margin: 0.5em;
+  padding: 1em;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  transition: all 0.1s;
+  cursor: pointer;
+}
+#vue .chatroomFlexContainer .chatroom i.fa-close {
+  opacity: 0;
+  position: absolute;
+  top: 0.25em;
+  right: 0.25em;
+  padding: 0.5em;
+  cursor: pointer;
+  transition: opacity 0.1s;
+}
+#vue .chatroomFlexContainer .chatroom i.fa-cog {
+  opacity: 0;
+  position: absolute;
+  top: 0.25em;
+  left: 0.25em;
+  padding: 0.5em;
+  cursor: pointer;
+  transition: opacity 0.1s;
+}
+#vue .chatroomFlexContainer .chatroom:hover {
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 15px 30px 0 rgba(0, 0, 0, 0.19);
+}
+#vue .chatroomFlexContainer .chatroom:hover i {
+  opacity: 1;
+}
+#vue .chatroomFlexContainer .chatroom:nth-of-type(1n) {
+  background-color: #1289FE;
+}
+#vue .chatroomFlexContainer .chatroom:nth-of-type(2n) {
+  background-color: #075DB2;
+}
+#vue .chatroomFlexContainer .chatroom:nth-of-type(3n) {
+  background-color: #0B5298;
+}
+#vue .chatroomFlexContainer .chatroom:nth-of-type(4n) {
+  background-color: #0B5298;
+}
+#vue .chatroomFlexContainer .chatroom:nth-of-type(5n) {
+  background-color: #0B5298;
+}
+#vue .chatroomFlexContainer .chatroom:nth-of-type(6n) {
+  background-color: #073765;
+}
+#vue .modalWrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#vue .modalWrapper .overlay {
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+#vue .modalWrapper .modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  z-index: 1;
+  padding: 1em;
+  border-radius: 5px;
+}
+#vue .modalWrapper .modal h2 {
+  margin-bottom: 0;
+}
+#vue .modalWrapper .modal p.notification {
+  margin-top: 0;
+  color: #ea0000;
+}
+#vue .modalWrapper .modal i.fa-close {
+  position: absolute;
+  top: 0.5em;
+  right: 0.5em;
+  cursor: pointer;
+}
