@@ -445,34 +445,6 @@ h2 {
 
 
 
-<!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>CodePen - vuejs firebase list</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-<link rel="stylesheet" href="./stylereminder.css">
-
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<div id="app">
-  <h2>REMINDER</h2>
-  <div v-for="item in items" class="item" :key="item.key">
-    <button @click="removeItem(item)">&times;</button> {{item.value}} <small><br>{{new Date(item.ts).toGMTString()}} <hr/> </small>
-  </div>
-
-  <div>
-   <form action="#"><input v-model="tempItem"><button @click="addItem(tempItem); tempItem = ''" :disabled="tempItem===''"> SEND </button> </form>
-  </div>
-</div>
-<!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.10/vue.min.js'></script>
-<script src='https://www.gstatic.com/firebasejs/5.8.6/firebase.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/vuefire/1.4.5/vuefire.min.js'></script><script  src="./scriptreminder.js"></script>
-
-</body>
-</html>
 
 
 
@@ -529,7 +501,7 @@ body {
 
 <div class="navbar">
   <a href="#home" class="active">HOME</a>
-  <a href="#news"></a>
+  <a href="https://hunksammy.github.io/2084377289testbysam/indexnotes.html"> REMINDER</a>
   <a href="#contact">REMINDER</a>
 </div>
 
