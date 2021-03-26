@@ -1,13 +1,8 @@
 var app = angular.module("myApp", []);
 app.controller("myCtrl", function($scope) {
     $scope.transportName1 = "JIVESH TRANSPORT";
-    $scope.transportNumber1 = "9301489299";
-	$scope.transportName2 = "COOLIE BROTHERS";
-    $scope.transportNumber2 = "97705030946";
-		$scope.transportName3 = "";
-    $scope.transportNumber3 = "";
-	$scope.transportName4 = "";
-    $scope.transportNumber4 = "";
+
+	
 	
 	
 	$scope.area1 = "MASTURI" ; 
