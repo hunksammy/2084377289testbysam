@@ -1,4 +1,4 @@
-document.write("&nbsp;&nbsp;&nbsp;&nbsp;P.-	57.67%	, P.LEFT	42.33%	, UPDATE - 03/04/2021  ,	BAL -	1342679	");	
+document.write("&nbsp;&nbsp;&nbsp;&nbsp;P.-	57.67%	, P.LEFT	42.33%	, UPDATE - 04/04/2021  ,	BAL -	1342679	");	
 								
 var myApp = angular.module('myApp', ['ngRoute'])								
 								
