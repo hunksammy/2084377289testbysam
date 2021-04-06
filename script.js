@@ -1,4 +1,4 @@
-document.write("&nbsp;&nbsp;&nbsp;&nbsp;P.-	61.32%	, P.LEFT	38.68%	, UPDATE - 05/04/2021  ,	BAL -	1387814	");
+document.write("&nbsp;&nbsp;&nbsp;&nbsp;P.-	64.89%	, P.LEFT	35.11%	, UPDATE - 05/04/2021  ,	BAL -	1387824	");
 							
 var myApp = angular.module('myApp', ['ngRoute'])							
 							
@@ -272,7 +272,7 @@ customer1: '	BANSAL ENTERPRISES		', amount1: ' 	3401	',  url1: '	/2084377289test
 {id: 1, name: '	KOTA		', 				
 customer1: '	AGGARWAL GENERAL (KOTA)		', amount1: ' 	0	',  url1: '	/2084377289testbysam/KOTA/AGGARWAL GENERAL. (KOTA) 30.htm	',
 customer2: '	MAHAMAYA FASHION HOUSE		', amount2: '	0	',  url2: '	/2084377289testbysam/KOTA/MAHAMAYA FASHION HOUSE (KOTA) 18.htm	',
-customer3: '	NISHA GENERAL (KOTA)		', amount3: '	4192	',  url3: '	/2084377289testbysam/KOTA/NISHA GENERAL (KOTA) 260.htm	',
+customer3: '	NISHA GENERAL (KOTA)		', amount3: '	4202	',  url3: '	/2084377289testbysam/KOTA/NISHA GENERAL (KOTA) 260.htm	',
 customer4: '	NIKITA GENERAL (KOTA)		', amount4: ' 	1416	',  url4: '	/2084377289testbysam/KOTA/NIKITA (KOTA).htm	',
 customer5: '	AKANKSHA GENERAL (KOTA)		', amount5: '	0	',  url5: '	/2084377289testbysam/KOTA/AKANKSHA GENERAL(KOTA) 7.htm	',
 customer6: '	SARITA GENERAL (KOTA)		', amount6: '	0	',  url6: '	/2084377289testbysam/KOTA/SARITA GENERAL (KOTA).htm	',
