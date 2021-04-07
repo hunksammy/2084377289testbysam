@@ -1,4 +1,4 @@
-document.write("&nbsp;&nbsp;&nbsp;&nbsp;P.-	65.25%	, P.LEFT	34.75%	, UPDATE - 06/04/2021  ,	BAL -	1478497	");
+document.write("&nbsp;&nbsp;&nbsp;&nbsp;P.-	66.24%	, P.LEFT	33.76%	, UPDATE - 06/04/2021  ,	BAL -	1478497	");
 							
 var myApp = angular.module('myApp', ['ngRoute'])							
 							
@@ -433,7 +433,7 @@ customer1: '	PAPPI GUPTA (SAKTI)		', amount1: ' 	0	',  url1: '	/2084377289testby
 customer2: '	DIWA FANCY (SAKTI)		', amount2: '	0	',  url2: '	/2084377289testbysam/SAKTI/DIVA FANCY (SAKTI)  14.htm	',
 customer3: '	VIKAS (SAKTI)		', amount3: '	0	',  url3: '	/2084377289testbysam/SAKTI/VIKAS (SAKTI) 296.htm	',
 customer4: '	ANMOL GIFT (SAKTI)		', amount4: '	122	',  url4: '	/2084377289testbysam/SAKTI/ANMOL (SAKTI)  16.htm	',
-customer5: '	DULHA SAARE (SAKTI)  		', amount5: '	11670	',  url5: '	/2084377289testbysam/SAKTI/DULHA SAARE (SAKTI).htm	',
+customer5: '	DULHAN SAARE (SAKTI)  		', amount5: '	11670	',  url5: '	/2084377289testbysam/SAKTI/DULHA SAARE (SAKTI).htm	',
 							},
 {id: 1, name: '	SARAGAON		', 				
 customer1: '	GOVIND KESARWANI		', amount1: ' 	7004	',  url1: '	/2084377289testbysam/SARAGAON/GOVIND KESARWANI (SARAGAON) 138.htm	',
