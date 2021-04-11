@@ -1,4 +1,4 @@
-document.write("&nbsp;&nbsp;&nbsp;&nbsp;P.-	67.60%	, P.LEFT	32.40%	, UPDATE - 08/04/2021  ,	BAL -	1490556	");
+document.write("&nbsp;&nbsp;&nbsp;&nbsp;P.-	70.66%	, P.LEFT	29.34%	, UPDATE - 08/04/2021  ,	BAL -	1488946	");
 							
 var myApp = angular.module('myApp', ['ngRoute'])							
 							
@@ -209,7 +209,7 @@ customer4: '	CHAVI GENERAL (HASOD)		', amount4: ' 	2462	',  url4: '	/2084377289t
 customer5: '	MAHARAJ FANCY (HASOD)		', amount5: '	3191	',  url5: '	/2084377289testbysam/HASOD/MAHARAJ%20FANCY%20STORE%20(HASOD).htm	',
 							},
 {id: 1, name: '	JAITHARI		', 				
-customer1: '	SHIV PLASTIC (JAITHARI)		', amount1: ' 	27502	',  url1: '	<b><br>TOYS -	',
+customer1: '	SHIV PLASTIC (JAITHARI)		', amount1: ' 	27542	',  url1: '	<b><br>TOYS -	',
 customer2: '	MUSKAN FANCY (JAITHARI)		', amount2: '	5940	',  url2: '	<b><br>TOYS -	',
 							},
 {id: 1, name: '	JANJGIR		', 				
@@ -250,7 +250,7 @@ customer2: '	SHUBHAM GENERAL (KHAMARIYA)		', amount2: '	6254	',  url2: '	/208437
 							},
 {id: 1, name: '	KHAMI		', 				
 customer1: '	AMISHA GENERAL (KHAMI)		', amount1: ' 	2	',  url1: '	/2084377289testbysam/KHAMI/AMISHA GENERAL (KHAMI).htm	',
-customer2: '	SAHU GENERAL (KHAMI)		', amount2: ' 	5329	',  url2: '	/2084377289testbysam/KHAMI/SAHU GENERAL (KHAMI).htm	',
+customer2: '	SAHU GENERAL (KHAMI)		', amount2: ' 	3689	',  url2: '	/2084377289testbysam/KHAMI/SAHU GENERAL (KHAMI).htm	',
 							},
 {id: 1, name: '	KARNODH		', 				
 customer1: '	ASHOK KARNODH		', amount1: ' 	12	',  url1: '	<b><br>TOYS -	',
@@ -276,7 +276,7 @@ customer3: '	NISHA GENERAL (KOTA)		', amount3: '	5430	',  url3: '	/2084377289tes
 customer4: '	NIKITA GENERAL (KOTA)		', amount4: ' 	1416	',  url4: '	/2084377289testbysam/KOTA/NIKITA (KOTA).htm	',
 customer5: '	AKANKSHA GENERAL (KOTA)		', amount5: '	0	',  url5: '	/2084377289testbysam/KOTA/AKANKSHA GENERAL(KOTA) 7.htm	',
 customer6: '	SARITA GENERAL (KOTA)		', amount6: '	0	',  url6: '	/2084377289testbysam/KOTA/SARITA GENERAL (KOTA).htm	',
-customer7: '	SHAILESH GENERAL (KOTA)		', amount7: '	7751	',  url7: '	/2084377289testbysam/KOTA/SHAILESH GENERAL. (KOTA) 121.htm	',
+customer7: '	SHAILESH GENERAL (KOTA)		', amount7: '	7741	',  url7: '	/2084377289testbysam/KOTA/SHAILESH GENERAL. (KOTA) 121.htm	',
 customer8: '	ALL IN ONE (KOTA)		', amount8: '	0	',  url8: '	/2084377289testbysam/KOTA/ALL IN ONE (KOTA).htm	',
 customer9: '	KALPANA GENERAL BABAN (KOTA)		', amount9: '	0	',  url9: '	/2084377289testbysam/KOTA/KALPANA (KOTA) 85.htm	',
 customer10: '	AKANKSHA GENERAL (BABLU) (KOTA)		', amount10: '	510	',  url10: '	/2084377289testbysam/KOTA/AKANKSHA GENERAL BABLO (KOTA) 122.htm	',
