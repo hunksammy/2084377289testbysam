@@ -26,18 +26,42 @@ AppComponent = __decorate([
 
 <!DOCTYPE html>
 <html>
-<title>W3.CSS</title>
+<head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+</style>
+</head>
 <body>
-
-<div class="w3-container w3-center w3-animate-top">
-  <h1>Animation is Fun!</h1>
-  <p>The w3-animate-top class slides in an element from the top.</p>
-</div>
-
-</body>
-</html>
 
 
 
