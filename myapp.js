@@ -20,7 +20,7 @@ AppComponent = __decorate([
     Component({
         selector: 'my-app',
         template: `
-   <h1>{{title}} </h1>
+   <h1>{{title}} this is my test</h1>
     TODO: Define your Angular ${VERSION.major} component.
   `
     }),
