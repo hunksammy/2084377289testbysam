@@ -12,8 +12,8 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 const { Component, VERSION } = ng.core;
 let AppComponent = class AppComponent {
     constructor() {
-        this.title = "hello world angular 6 working";
-        // TODO: Define your Angular component implementation
+        this.title = "hello world angular sammy";
+        // TODO: Define your Angular component implementation sammysammyyy
     }
 };
 AppComponent = __decorate([
@@ -21,7 +21,7 @@ AppComponent = __decorate([
         selector: 'my-app',
         template: `
    <h1>{{title}} this is my test</h1>
-    TODO: Define your Angular app working ${VERSION.major} component.
+    TODO: Define your Angular ye bhi testing hai ${VERSION.major} component.
   `
     }),
     __metadata("design:paramtypes", [])
