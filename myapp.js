@@ -23,10 +23,6 @@ AppComponent = __decorate([
    <h1>{{title}} this is my test sammy</h1>
 
 
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {margin:0;}
 
@@ -58,7 +54,7 @@ body {margin:0;}
   margin-top: 30px;
   height: 1500px; /* Used in this example to enable scrolling */
 }
-</style>
+</style> <html>
 
 <div class="navbar">
   <a href="#home">Home</a>
