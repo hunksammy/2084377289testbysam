@@ -1,6 +1,6 @@
 const Employees = [
 { name: 'AKALTARA', department: 'Tech', Transport: 'JIVESH', age: 30 },
-{ name: 'BALCO', department: 'Mech', age: 26 },
+{ name: 'BALCO', department: 'Mech', Transport: 'Sharda', age: 26 },
 { name: 'BAMNIDIH', department: 'Prod', age: 33 },
 { name: 'BARADWAR', department: 'Tech', age: 20 },
 { name: 'BELGEHNA', department: 'Mech', age: 36 },
