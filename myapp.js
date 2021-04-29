@@ -1,10 +1,10 @@
 const Employees = [
-{ name: 'John Doe', department: 'Tech', age: 30 },
-{ name: 'Jane Doe', department: 'Mech', age: 26 },
-{ name: 'William Elliott', department: 'Prod', age: 33 },
-{ name: 'Carl Ross', department: 'Tech', age: 20 },
-{ name: 'Jeremy Scott', department: 'Mech', age: 36 },
-{ name: 'Monica Geller', department: 'Prod', age: 23 }];
+{ name: 'AKALTARA', department: 'Tech', age: 30 },
+{ name: 'BALCO', department: 'Mech', age: 26 },
+{ name: 'BAMNIDIH', department: 'Prod', age: 33 },
+{ name: 'BARADWAR', department: 'Tech', age: 20 },
+{ name: 'BELGEHNA', department: 'Mech', age: 36 },
+{ name: 'BELTARA', department: 'Prod', age: 23 }];
 
 
 function Row(props) {
