@@ -12,6 +12,7 @@ function Row(props) {
     React.createElement("tr", null, /*#__PURE__*/
     React.createElement("td", null, props.employee.name), /*#__PURE__*/
     React.createElement("td", null, props.employee.department), /*#__PURE__*/
+    React.createElement("td", null, props.employee.Transport), /*#__PURE__*/
     React.createElement("td", null, props.employee.age)));
 
 
