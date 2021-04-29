@@ -1,3 +1,36 @@
+const Employees = [
+  {name:'John Doe', department:'Tech', age:30},
+  {name:'Jane Doe', department:'Mech', age:26},
+  {name:'William Elliott', department:'Prod', age:33},
+  {name:'Carl Ross', department:'Tech', age:20},
+  {name:'Jeremy Scott', department:'Mech', age:36},
+  {name:'Monica Geller', department:'Prod', age:23}, 
+]
+
+function Row (props){
+  return(
+    <tr>
+      <td>{props.employee.name}</td>  
+      <td>{props.employee.department}</td>
+      <td>{props.employee.age}</td>
+    </tr>
+  );
+}
+
+
+class App extends React.Component {  
+  constructor(props){
+    super(props);
+    this.state = {
+      employees : Employees      
+    }  
+    this.handleSelectChnage = this.handleSelectChnage.bind(this);
+
+
+
+
+
+
 "use strict";
 // app.js
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
