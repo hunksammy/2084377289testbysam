@@ -1,5 +1,5 @@
 const Employees = [
-{ name: 'AKALTARA', department: 'Tech', age: 30 },
+{ name: 'AKALTARA', department: 'Tech', Transport: 'JIVESH', age: 30 },
 { name: 'BALCO', department: 'Mech', age: 26 },
 { name: 'BAMNIDIH', department: 'Prod', age: 33 },
 { name: 'BARADWAR', department: 'Tech', age: 20 },
@@ -84,6 +84,7 @@ class App extends React.Component {
       React.createElement("tr", null, /*#__PURE__*/
       React.createElement("th", null, "Name"), /*#__PURE__*/
       React.createElement("th", null, "Department"), /*#__PURE__*/
+      React.createElement("th", null, "TRANSPORT"), /*#__PURE__*/
       React.createElement("th", null, "Age"))), /*#__PURE__*/
 
 
