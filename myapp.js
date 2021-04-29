@@ -78,7 +78,7 @@ class App extends React.Component {
       React.createElement("div", { className: "form-group" }, /*#__PURE__*/
       React.createElement("input", { className: "form-control", placeholder: "Search Employee", onChange: this.handleInputChnage })), /*#__PURE__*/
 
-      React.createElement("h3", null, "Employee Management"), /*#__PURE__*/
+      React.createElement("h3", null, "BILASPUR TRANSPORT"), /*#__PURE__*/
       React.createElement("table", { className: "table table-striped table-hover table-bordered table-hoved" }, /*#__PURE__*/
       React.createElement("thead", null, /*#__PURE__*/
       React.createElement("tr", null, /*#__PURE__*/
