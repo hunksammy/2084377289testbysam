@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - How to copy a link to clipboard with  message</title>
+  <link rel="stylesheet" href="./captionstyle.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+
+
+
+
+<span class="clipboard">Link Copied on Clipboard</span>
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - JavaScript Search Bar with Harry Potter CaptioN</title>
+  <link rel="stylesheet" href="./captionappstyle.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Document</title>
+        <link rel="stylesheet" href="app.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h1>&#x2728;MY CAPTION APP&#x2728;</h1>
+            <div id="searchWrapper">
+                <input
+                    type="text"
+                    name="searchBar"
+                    id="searchBar"
+                    placeholder="search for a caption
+                                 "
+                />
+            </div>
+            <ul id="charactersList"></ul>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
+<!-- partial -->
+  <script> const charactersList = document.getElementById('charactersList');
+const searchBar = document.getElementById('searchBar');
+let hpCharacters = [];
+
+searchBar.addEventListener('keyup', (e) => {
+    const searchString = e.target.value.toLowerCase();
+
+    const filteredCharacters = hpCharacters.filter((character) => {
+        return (
+            character.name.toLowerCase().includes(searchString) ||
+            character.house.toLowerCase().includes(searchString)
+        );
+    });
+    displayCharacters(filteredCharacters);
+});
+
+const loadCharacters = async () => {
+    try {
+        const res = await fetch('https://raw.githubusercontent.com/hunksammy/2084377289testbysam/main/myapp.api');
+        hpCharacters = await res.json();
+        displayCharacters(hpCharacters);
+    } catch (err) {
+        console.error(err);
+    }
+};
+
+const displayCharacters = (characters) => {
+    const htmlString = characters
+        .map((character) => {
+            return `
+            <li class="character">
+            
+            <h2>${character.name}</h2>
+            
+            <div>
+<a href="javascript:void(0)" data-link="
+                ${character.name}"> Copy Text<i class="fa fa-link"></i></a>
+</div>
+                
+            </li>
+        `;
+        })
+        .join('');
+    charactersList.innerHTML = htmlString;
+};
+
+loadCharacters();
+</script>
+
+</body>
+</html>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script><script  src="./captionappscript.js"></script>
+
+</body>
+</html>
