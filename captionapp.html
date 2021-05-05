@@ -19,7 +19,7 @@
 fetch(endpoints)
  .then(blob => blob.json())
  .then(data => {
- ul.innerHTML=data.map(place => `<h1>${place.date}</h1> <br>`).join("");
+ ul.innerHTML=data.map(place => `<h1>${place.date}</h1> <br> <br>`).join("");
 })</script>
 
 </body>
