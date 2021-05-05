@@ -2,20 +2,11 @@
 <html>
 <body>
 
-<p>This example calls a function which outputs "Hello World" in a p element with id="demo".</p>
+
 
 <p id="demo"></p>
 
-<script>
-function myFunction() {
-  document.getElementById("demo").innerHTML = "Hello World!";
-}
 
-myFunction();
-</script>
-
-</body>
-</html>
 
 
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
@@ -108,13 +99,23 @@ const displayCharacters = (characters) => {
             <li class="character">
             
             <h2>${character.name}</h2>
-            
-  <div         
-<a href="javascript:void(0)" data-link="https://www.google.com/">Copy Link <i class="fa fa-link"></i></a>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = " <div> <a href="javascript:void(0)" data-link="https://www.google.com/">Copy Link <i class="fa fa-link"></i></a>
 </div>
 
 
-<span class="clipboard">Link Copied on Clipboard</span>
+<span class="clipboard">Link Copied on Clipboard</span>";
+}
+
+myFunction();
+</script>
+
+</body>
+</html>
+            
+  <div>         
 
                
             </li>
