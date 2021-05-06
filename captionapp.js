@@ -5,7 +5,7 @@ const endpoints="https://raw.githubusercontent.com/hunksammy/2084377289testbysam
 fetch(endpoints)
  .then(blob => blob.json())
  .then(data => {
- ul.innerHTML=data.map(place => `<h1><div class="item">${place.date}</div></h1><br> `).join("");
+ ul.innerHTML=data.map(place => `<h1><div class="card">${place.date}</div></h1><br> `).join("");
 })
 
 $(document).ready(function(){
