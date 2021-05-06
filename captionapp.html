@@ -1,0 +1,38 @@
+
+  
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <title>CodePen - fetch JSON (no function)</title>
+  
+
+</head>
+<body>
+
+
+
+<body>
+<!-- partial:index.partial.html -->
+<!--REF: https://ianchen.thisistap.com/fetch/-->
+<ul id="ul"></ul>
+<!-- partial -->
+  <script> const endpoints="https://raw.githubusercontent.com/hunksammy/2084377289testbysam/main/myapp.api";
+
+
+
+fetch(endpoints)
+ .then(blob => blob.json())
+ .then(data => {
+ ul.innerHTML=data.map(place => `<h3>${place.date}</h3> <br>`).join("");
+})</script>
+
+</body>
+</html>
+
+</div>
+
+
