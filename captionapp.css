@@ -1,0 +1,66 @@
+body{
+			margin-top: 0px;
+			line-height: 1.6
+		}
+		.container{
+			width: 100%;
+			margin: 0 auto;
+		}
+
+.city {
+  width: 100%;
+  text-align: center;
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  margin: 0px;
+  padding: 10px;
+}
+
+
+.card {
+  width: 100%;
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  margin: 0px;
+  padding: 10px;
+}
+
+.item 
+{background:white;
+ text-align: center;
+  font-weight: bold;
+width:440px;
+padding-bottom:30px;
+  padding-top:30px;
+margin:0 auto 2em;}
+
+
+		ul.tabs{
+			margin: 0px;
+			padding: 0px;
+			list-style: none;
+		}
+		ul.tabs li{
+			background: none;
+			color: #222;
+			display: inline-block;
+			padding: 10px 15px;
+			cursor: pointer;
+		}
+
+		ul.tabs li.current{
+			background: #ededed;
+			color: #222;
+		}
+
+		.tab-content{
+			display: none;
+			background: #ededed;
+			padding: 15px;
+		}
+
+		.tab-content.current{
+			display: inherit;
+		}
