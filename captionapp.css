@@ -14,7 +14,7 @@ body{
   width: 300px;
   border: 3px solid #73AD21;
   width: 100%;
-  text-align: center;
+  text-align: left;
   background-color: black;
   color: white;
   border: 2px solid black;
@@ -35,7 +35,7 @@ body{
 
 .item 
 {background:white;
- text-align: center;
+ text-align: left;
   font-weight: bold;
 width:440px;
 padding-bottom:30px;
