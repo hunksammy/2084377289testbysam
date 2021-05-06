@@ -3,18 +3,18 @@ body{
 			line-height: 1.6
 		}
 		.container{
-			width: auto;
-			margin: auto;
+			width: 100%;
+			margin: 0 auto;
 		}
 
 .city {
- position: fixed;
-  bottom: 0;
+  position: fixed;
+  bottom: 100;
   right: 0;
-  
+  width: 300px;
   border: 3px solid #73AD21;
-  
-  text-align: left;
+  width: 100%;
+  text-align: center;
   background-color: black;
   color: white;
   border: 2px solid black;
@@ -24,7 +24,8 @@ body{
 
 
 .card {
-  
+  margin-top: 100px;
+  width: 100%;
   background-color: black;
   color: white;
   border: 2px solid black;
@@ -49,7 +50,7 @@ margin:0 auto 2em;}
 		}
 		ul.tabs li{
 			background: none;
-			color: white;
+			color: #222;
 			display: inline-block;
 			padding: 10px 15px;
 			cursor: pointer;
@@ -57,14 +58,13 @@ margin:0 auto 2em;}
 
 		ul.tabs li.current{
 			background: #ededed;
-			color: white;
+			color: #222;
 		}
 
 		.tab-content{
 			display: none;
 			background: #ededed;
 			padding: 15px;
-			color: white;
 		}
 
 		.tab-content.current{
