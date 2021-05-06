@@ -56,13 +56,13 @@ padding-bottom:30px;
 		}
 
 		ul.tabs li.current{
-			background: #black;
+			background: black;
 			color: #222;
 		}
 
 		.tab-content{
 			display: none;
-			background: #ededed;
+			background: black;
 			padding: 15px;
 		}
 
