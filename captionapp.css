@@ -8,6 +8,7 @@ body{
 		}
 
 .city {
+position:  fixed;
   width: 100%;
   text-align: center;
   background-color: black;
