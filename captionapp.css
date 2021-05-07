@@ -27,16 +27,17 @@ h1 {
 .character {
     list-style-type: none;
     background-color: #eaeaea;
+	width: 100%;
     border-radius: 5px;
     padding: 20px 20px;
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 12fr 1fr;
     grid-template-areas:
         'name image'
         'house image';
     text-align: left;
   margin-bottom: 30px;
-  width: 100%;
+  
 }
 
 .character > h2 {
