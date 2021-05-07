@@ -4,7 +4,7 @@
   box-sizing: border-box;
   font-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: black;
 }
 html,
 body {
@@ -12,17 +12,17 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background: #222;
+  background: #000000;
   font-family: Josefin Sans, Helvetica, Helvetica Neue, Arial, sans-serif;
   font-size: 16px;
   font-weight: normal;
 }
 .stage {
-  width: 10%;
+  width: 50%;
   height: 10%;
   display: flex;
-  align-items: left;
-  justify-content: left;
+  align-items: center;
+  justify-content: center;
 }
 .wrapper {
   position: relative;
@@ -57,7 +57,7 @@ body {
   transform: translate(-50%, -50%);
   width: 0.75rem;
   height: 120%;
-  background: #232323;
+  background: #000000;
   z-index: -1;
 }
 .slash:after {
