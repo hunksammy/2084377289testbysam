@@ -3,7 +3,6 @@ body {
     background-color: #111d4a;
 }
 
-<<<<<<< HEAD
 * {
     box-sizing: border-box;
 }
@@ -16,21 +15,6 @@ h1 {
     margin: 0 auto;
     max-width: 1000px;
     text-align: center;
-=======
-.city {
-  position: fixed;
-  bottom: 100;
-  right: 0;
-  width: 100px;
-  border: 3px solid #73AD21;
-  width: 100%;
-  text-align: left;
-  background-color: black;
-  color: white;
-  border: 2px solid black;
-  margin: 0px;
-  padding: 10px;
->>>>>>> 6dcae78f90b8db044dc45e9759d625eca6df4b7a
 }
 
 #charactersList {
@@ -40,7 +24,6 @@ h1 {
     grid-gap: 20px;
 }
 
-<<<<<<< HEAD
 .character {
     list-style-type: none;
     background-color: #eaeaea;
@@ -59,25 +42,6 @@ h1 {
     grid-area: name;
     margin-bottom: px;
 }
-=======
-.card {
-  margin-top: 1em;
-  width: 100%;
-  background-color: black;
-  color: white;
-  border: 2px solid black;
-  margin: 0px;
-  padding: 10px;
-}
-
-.item 
-{background:white;
- text-align: left;
-  font-weight: bold;
-width:440px;
-padding-bottom:30px;
-  padding-top:30px;
->>>>>>> 6dcae78f90b8db044dc45e9759d625eca6df4b7a
 
 .character > p {
     grid-area: house;
@@ -90,7 +54,6 @@ padding-bottom:30px;
     grid-area: image;
 }
 
-<<<<<<< HEAD
 #searchBar {
     width: 100%;
     height: 32px;
@@ -110,19 +73,3 @@ padding-bottom:30px;
     top: 7px;
     right: 15px;
 }
-=======
-		ul.tabs li.current{
-			background: black;
-			color: #222;
-		}
-
-		.tab-content{
-			display: none;
-			background: black;
-			padding: 15px;
-		}
-
-		.tab-content.current{
-			display: inherit;
-		}
->>>>>>> 6dcae78f90b8db044dc45e9759d625eca6df4b7a
