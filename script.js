@@ -59,7 +59,7 @@ var myApp = angular.module('myApp', ['ngRoute'])
   var contactList = [							
 							
 {id: 1, name: '	AKALTARA		', 				
-customer1: '	VINOD GENERAL (AKALTARA)		', amount1: '	2186 ',  url1: '	/2084377289testbysam/AKALTARA/VINOD GENERAL (AKALTARA).htm <hr>	 	', 
+customer1: '	VINOD GENERAL (AKALTARA)		', amount1: '	2186	',  url1: '	/2084377289testbysam/AKALTARA/VINOD GENERAL (AKALTARA).htm	',
 customer2: '	CHANDAN GENERAL (AKALTARA)		', amount2: '	3653	',  url2: '	/2084377289testbysam/AKALTARA/CHANDAN%20GENERAL%20(AKALTARA)%2029.htm	',
 customer3: '	DEEPAK GENERAL (AKALTARA)		', amount3: '	2651	',  url3: '	/2084377289testbysam/AKALTARA/DEEPAK%20(AKALTARA)%20130.htm	',
 customer4: '	SHRIMANAGALM (AKALTARA)		', amount4: '	26766	',  url4: '	/2084377289testbysam/AKALTARA/SHRIMANGALAM%20(AKALTARA)%20298.htm	',
@@ -526,8 +526,7 @@ customer1: '	SANTOSH GENERAL		', amount1: ' 	16	',  url1: '	<b><br>TOYS -	',
 							
 							
 							
-	var element = document.getElementById("takhatpur");element.innerHTML = "	MAYUR GENERAL - <br> nawaz 	";
-						
+							
 							
 							
 							
