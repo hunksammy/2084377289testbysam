@@ -1,4 +1,4 @@
-var element = document.getElementById("id01");element.innerHTML = "PAGDI -	74.00%	&nbsp;&nbsp;P.LEFT	26.00%	&nbsp;&nbsp;UPDATE - 08/04/2021  	&nbsp;&nbsp;BAL -	1488946	";
+var element = document.getElementById("id01");element.innerHTML = "PAGDI -	75.22%	&nbsp;&nbsp;P.LEFT	24.78%	&nbsp;&nbsp;UPDATE - 08/04/2021  	&nbsp;&nbsp;BAL -	1488946	";
 							
 var myApp = angular.module('myApp', ['ngRoute'])							
 							
