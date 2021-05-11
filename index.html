@@ -17,14 +17,6 @@
 </head>
 <body>
 <style>
-
-
-div{
-    height : 50px;
-    background-color:blue;
-}
-
-
 .header {
   font-size: 11px;
   background-color:black;
@@ -65,7 +57,6 @@ body {
 Resources1× 0.5× 0.25×Rerun
   
 </style>
-<div style="display:none" id="popup">
 <div class='glow'>ੴ </div>
 
 <b><div class="header" id="id01">LOADING <br> </div></b>
@@ -389,22 +380,5 @@ h2 {
   <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js'></script>
 <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.2.1/angular-route.min.js'></script><script  src="./script.js"></script>
 
-<script>
-$(document).ready(function() {
-    if(localStorage.getItem('popState') != 'shown'){
-        $("#popup").delay(2000).fadeIn();
-        localStorage.setItem('popState','shown')
-    }
-
-    $('#popup-close').click(function(e) // You are clicking the close button
-    {
-    $('#popup').fadeOut(); // Now the pop up is hiden.
-    });
-    $('#popup').click(function(e) 
-    {
-    $('#popup').fadeOut(); 
-    });
-});
-</script>
 </body>
 </html>
