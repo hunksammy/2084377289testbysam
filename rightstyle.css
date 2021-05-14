@@ -1,12 +1,14 @@
 .ptc-logs-page-wrapper {
-  max-width: 860px;
+  max-width: 460px;
   padding: 40px;
   margin: 0 auto;
+
 }
 
 .ptc-logs-expandable-card {
   position: relative;
   margin-bottom: 16px;
+
 }
 
 [cardContent] {
@@ -15,6 +17,7 @@
   border-radius: 8px;
   box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.1);
   cursor: pointer;
+  
 }
 [cardContent] [collapsedContent] {
   display: flex;
