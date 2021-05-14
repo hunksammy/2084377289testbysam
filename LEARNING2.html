@@ -149,115 +149,119 @@ Resources1× 0.5× 0.25×Rerun
 
 
 
-<style>
-.line {
-  font-size: 15px;
-  color:black;
-  text-align: left;
-  }
-  
-  
-  
-  
-</style>
-	  
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Expanding cards demo</title>
+  <link href="https://fonts.googleapis.com/css?family=Oxygen:400,700" rel="stylesheet"><link rel="stylesheet" href="./rightstyle.css">
 
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="ptc-logs-page-wrapper">
+  <div id="profile-1" class="ptc-logs-expandable-card">
+    <div cardContent>
+      <div collapsedContent>
+        <div class="ptc-logs-expandable-card--left-col col">
+          <div class="ptc-logs-expandable-card--profile-image">
+            ON
+          </div>
+        </div>
+        <div class="ptc-logs-expandable-card--right-col col">
+          <div class="ptc-logs-expandable-card--title">
+            Hall light
+          </div>
+          <div class="ptc-logs-expandable-card--sub-title">
+            <p>Jane Doe</p>
+            <p>03/03/1976</p>
+            <p>Vizag, India</p>
+          </div>
+        </div>
+      </div>
+      <div expandedContent>
+        <div class="ptc-logs-mock-content"></div>
+      </div>
+    </div>
+  </div>
+  <div id="profile-2" class="ptc-logs-expandable-card">
+    <div cardContent>
+      <div collapsedContent>
+        <div class="ptc-logs-expandable-card--left-col col">
+          <div class="ptc-logs-expandable-card--profile-image" style="background: cyan;">
+            24°C
+          </div>
+        </div>
+        <div class="ptc-logs-expandable-card--right-col col">
+          <div class="ptc-logs-expandable-card--title">
+            AC
+          </div>
+          <div class="ptc-logs-expandable-card--sub-title" >
+            <p>Henry Gregson</p>
+            <p>10/11/1990</p>
+            <p>Vizag, India</p>
+          </div>
+        </div>
+      </div>
+      <div expandedContent>
+        <div class="ptc-logs-mock-content"></div>
+      </div>
+    </div>
+  </div>
+  <div id="profile-3" class="ptc-logs-expandable-card">
+    <div cardContent>
+      <div collapsedContent>
+        <div class="ptc-logs-expandable-card--left-col col">
+          <div class="ptc-logs-expandable-card--profile-image" style="background: pink;">
+            50%
+          </div>
+        </div>
+        <div class="ptc-logs-expandable-card--right-col col">
+          <div class="ptc-logs-expandable-card--title">
+            Fan
+          </div>
+          <div class="ptc-logs-expandable-card--sub-title">
+            <p>Perry Ferento</p>
+            <p>04/01/1988</p>
+            <p>Vizag, India</p>
+          </div>
+        </div>
+      </div>
+      <div expandedContent>
+        <div class="ptc-logs-mock-content"></div>
+      </div>
+    </div>
+  </div>
+  <div id="profile-4" class="ptc-logs-expandable-card">
+    <div cardContent>
+      <div collapsedContent>
+        <div class="ptc-logs-expandable-card--left-col col">
+          <div class="ptc-logs-expandable-card--profile-image" style="background: gold;">
+            OFF
+          </div>
+        </div>
+        <div class="ptc-logs-expandable-card--right-col col">
+          <div class="ptc-logs-expandable-card--title">
+            Geyser
+          </div>
+          <div class="ptc-logs-expandable-card--sub-title">
+            <p>Juan Pedro</p>
+            <p>04/01/1988</p>
+            <p>Vizag, India</p>
+          </div>
+        </div>
+      </div>
+      <div expandedContent>
+        <div class="ptc-logs-mock-content"></div>
+    ptc-logs-  </div>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js'></script><script  src="./rightscript.js"></script>
 
-<h1><p style="color:black;"><b><u>MONDAY</b></u></p></h1>
-<div class="line">1) CHAKKARBHATA <br> 
-2) BILHA <br> 3) SARGAON <br> 4) PATHARIYA<br> 5) MUNGELI<br> 6) TAKHATPUR<br> 7) SAKRI</h1></div> <hr/>
-
-<h1><p style="color:black;"><b><u>TUESDAY</b></u></p></h1>
-<div class="line">1)KORBA<br>2)PANTORA<br>3)BALCO<br>4)HARDIBAZAR<br>5)DIPKA<br>6)URGA</h1></div> <hr/>
-			
-<h1><p style="color:black;"><b><u>WEDNESDAY</b></u></p></h1>
-<div class="line">1)PENDRA <br> 2)BELGEHNA</h1></div> <hr/>
-			
-			<h1><p style="color:black;"><b><u>THUSDAY</b></u></p></h1>
-<div class="line">1)KUNDA<br>
-2)MOHGAON<br>
-3)PANDATARAI<br>
-4)PANDARIYA<br>
-5)BOADTARA<br>
-6)LORMI<br>
-7)KHAMI<br>
-8)KOTA<br>
-9)GANYARI<br>
-10)SAKRI</h1></div> <hr/>
-	
-	
-	 <h1><p style="color:black;"><b><u> FRIDAY</b></u></p></h1>
-<div class="line">FRIDAY IS REST</h1></div> <hr/>
-  
-  <h1><p style="color:black;"><b><u> SATURDAY</b></u></p></h1>
-<div class="line">1)SARANGARH
-2)SARSIWA<br>
-3)BHADGAON<br>
-4)BHIALIGARH<br>
-5)SHIVRINARAYAN<br>
-6)KHAROD<br>
-7)RAHOD</h1></div> <hr/>
- 
- <h1><p style="color:black;"><b><u> SUNDAY</b></u></p></h1>
-<div class="line">SUNDAY IS REST</h1></div> <hr/> <br> <br> <br> 
-			
-			
- <h1><p style="color:black;"><b><u>MONDAY</b></u></p></h1>
-<div class="line">1)AKALTARA <br>
-2)BALODA <br>
-3)KHAMARIYA<br> 
-4)SIPAT<br></h1></div> <hr/>
-
-		
-	
-			
-<h1><p style="color:black;"><b><u>TUESDAY	</b></u></p></h1>
-<div class="line">1)PAMGARH<br>
- 2)HASOD<br>
- 3)BIRRA</h1></div> <hr/>
- 
-
-
-<h1><p style="color:black;"><b><u>WEDNESDAY</b></u></p></h1>
-	<div class="line">1)CHURRI <br>
-	2)KATGHORA <br>
-	3)PALI <br> 
-	4)BELTARA	 <br>
-	5)RATANPUR</h1></div> <hr/>
-	
-	
-
-			
-
-			
-<h1><p style="color:black;"><b><u>THUSDAY</b></u></p></h1>
-<div class="line">1)JANJGIR  <br> 
-2)CHAMPA  <br> 
-3)SHIVNI  <br> 
-4)BARADWAR  <br> 
-5)SAKTI <br> 
-6)SARAGAON</h1></div> <hr/>
-
-		
-	
-			
-<h1><p style="color:black;"><b><u>FRIDAY</b></u></p></h1>
-<div class="line">1)MASTURI <br> 
- 2)MALHAR <br>
- 3)PACHPEDI <br>
- 4)LAWAN <br>
- 5)KATGI <br> 
- 6)KASHDOL</h1></div> <hr/>
-
- 	
-			
-<h1><p style="color:black;"><b><u>SATURDAY</b></u></p></h1>
-<div class="line">1)KAWARDHA <br></h1></div> <hr/>
-	
-
-			
-<h1><p style="color:black;"><b><u>SUNDAY</b></u></p></h1>
-<div class="line">SUNDAY IS REST <br></h1></div> <hr/>
+</body>
+</html>
 	
 			
 

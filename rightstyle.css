@@ -1,0 +1,79 @@
+.ptc-logs-page-wrapper {
+  max-width: 860px;
+  padding: 40px;
+  margin: 0 auto;
+}
+
+.ptc-logs-expandable-card {
+  position: relative;
+  margin-bottom: 16px;
+}
+
+[cardContent] {
+  position: relative;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+[cardContent] [collapsedContent] {
+  display: flex;
+  flex-direction: row;
+  padding: 24px;
+}
+[cardContent] [expandedContent] {
+  visibility: hidden;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  padding: 24px;
+  overflow: hidden;
+}
+
+.ptc-logs-expanding-card--backdrop {
+  background: black;
+  opacity: 0.5;
+}
+
+.ptc-logs-expandable-card--title {
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+
+.ptc-logs-expandable-card--sub-title {
+  font-size: 14px;
+  color: #888888;
+}
+
+.ptc-logs-expandable-card--profile-image {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #69f0ae;
+  color: black;
+  font-size: 21px;
+  font-weight: bold;
+  border-radius: 1000px;
+}
+
+.col:first-child {
+  margin-right: 24px;
+}
+
+.ptc-logs-expanding-card--placeholder {
+  position: relative;
+  height: 0;
+  visibility: hidden;
+}
+
+.ptc-logs-mock-content .ptc-logs-mock-content-line {
+  background: #888888;
+  height: 16px;
+  margin-bottom: 8px;
+}
