@@ -12,10 +12,12 @@
 }
 
 [cardContent] {
+  margin-left:  100px;
+  align-items: center;
   position: relative;
   background: white;
-  border-radius: 8px;
-  box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 0px;
+  box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.0);
   cursor: pointer;
   
 }
