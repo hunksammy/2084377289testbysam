@@ -1,14 +1,5 @@
 var element = document.getElementById("id01");element.innerHTML = "PAGDI -	76.54%	&nbsp;&nbsp;P.LEFT	23.46%	&nbsp;&nbsp;UPDATE - 08/04/2021  	&nbsp;&nbsp;BAL -	1488946	";
 							
-							
-document.getElementById("demo").addEventListener("click", myFunction);							
-function myFunction() {							
-document.getElementById("demo").innerHTML = "<b>CHAKKARBHATA</b> <br> <p> MAHAMAYA THREAD - -4 <br> MAHESH STD - 16253 <br></p>";							
-}							
-							
-							
-							
-							
 var myApp = angular.module('myApp', ['ngRoute'])							
 							
 //ng-route config							
@@ -529,6 +520,25 @@ customer1: '	SANTOSH GENERAL		', amount1: ' 	16	',  url1: '	/2084377289testbysam
   							
   return factory;							
 }]);							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
 							
 							
 							
