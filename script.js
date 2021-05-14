@@ -1,3 +1,7 @@
+
+
+
+
 var element = document.getElementById("id01");element.innerHTML = "PAGDI -	76.54%	&nbsp;&nbsp;P.LEFT	23.46%	&nbsp;&nbsp;UPDATE - 08/04/2021  	&nbsp;&nbsp;BAL -	1488946	";	
 								
 var myApp = angular.module('myApp', ['ngRoute'])								
@@ -524,7 +528,7 @@ customer1: '	SANTOSH GENERAL		', amount1: ' 	16	',  url1: '	/2084377289testbysam
 								
 								
 								
-								
+			
 								
 								
 								
