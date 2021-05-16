@@ -163,12 +163,12 @@ input, button {
 }
 input:disabled, button:disabled {
   background: #141b2f;
-  color: #000000;
+  color: #FFFFFF;
   text-align: left;
 }
 input:disabled:hover, button:disabled:hover {
   background: #141b2f;
-  color: #000000;
+  color: #FFFFFF;
   text-align: left;
 }
 input:hover, input:active, button:hover, button:active {
@@ -253,7 +253,7 @@ input:hover, input:active, button:hover, button:active {
   </div>
 
   <div>
-    <form action="#"><input v-model="tempItem"><button @click="addItem(tempItem); tempItem = ''" :disabled="tempItem===''"> + </button> </form>
+    <form action="#"><input v-model="tempItem"><button @click="addItem(tempItem); tempItem = ''" :disabled="tempItem===''"> SEND </button> </form>
   </div>
 </div>
 <!-- partial -->
