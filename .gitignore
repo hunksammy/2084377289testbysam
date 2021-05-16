@@ -1,0 +1,11 @@
+# Node-related
+node_modules/*
+npm-debug.log
+yarn-error.log
+
+# App-related
+.next/*
+dist/*
+
+# IDE
+.vscode/*
