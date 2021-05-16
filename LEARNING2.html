@@ -1,4 +1,122 @@
-﻿
+﻿<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Multiple Bootstrap Modals with next/prev buttons</title>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'><link rel="stylesheet" href="./headstyle.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- Button trigger modal -->
+
+<div class="btn-group">
+<button type="button" class="button" data-toggle="modal" data-target="#myModal1">
+  HOME
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title 1</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default btn-prev">Prev</button>
+        <button type="button" class="btn btn-default btn-next">Next</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Button trigger modal -->
+<button type="button" class="button" data-toggle="modal" data-target="#myModal2">
+  DEMO-1
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title 2</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Button trigger modal -->
+<button type="button" class="button" data-toggle="modal" data-target="#myModal3">
+  DEMO-2
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title 3</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default btn-prev">Prev</button>
+        <button type="button" class="btn btn-default btn-next">Next</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Button trigger modal -->
+<button type="button" class="button" data-toggle="modal" data-target="#myModal4">
+  DEMO-3
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title 4</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default btn-prev">Prev</button>
+        <button type="button" class="btn btn-default btn-next">Next</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js'></script><script  src="./headscript.js"></script>
+
+</body>
+</html>
+
 
 
 
@@ -59,6 +177,8 @@ Resources1× 0.5× 0.25×Rerun
 </style>
 <div class='glow'>ੴ </div>
 
+
+
 <b><div class="header" id="id01">LOADING <br> </div></b>
 
 
@@ -72,7 +192,6 @@ Resources1× 0.5× 0.25×Rerun
 
 
 
-
  
     
   <div class="container">
@@ -80,8 +199,6 @@ Resources1× 0.5× 0.25×Rerun
       <div class="panel-heading">
   
       </div>
-	  
-	  
       
 	 
 
@@ -103,35 +220,7 @@ Resources1× 0.5× 0.25×Rerun
           </li>
         </ul> 
       </div>
-	  
-	  
-
-	  
-<p id="demo"><style="color:black;"><b><u>MONDAY</b></u></p>
-1) CHAKKARBHATA <br> 
-2) BILHA <br> 3) SARGAON <br> 4) PATHARIYA<br> 5) MUNGELI<br> 6) TAKHATPUR<br> 7) SAKRI <hr/>
-
-
-
-</body>
-</html>
-	   
-	   
-	   
-	   
-	   
-	   
-	   
-	   
-	   
-	   
-	   
-	   
-	   
-	   
-	   
-	  	  
-
+      
 	  
 
 	  
@@ -141,9 +230,6 @@ Resources1× 0.5× 0.25×Rerun
           <div ng-view></div>
         </div>
       </div>
-	  
-	  
-
       
       <!-- footer -->
       <div class="panel-heading">
@@ -155,24 +241,22 @@ Resources1× 0.5× 0.25×Rerun
     </div>
   </div>
 
-
-
-
- 
-
-
-
-
     <!--  html templates used by angular, usually in separate files -->
     <script type="text/ng-template" id="default.html">
-      <div class="alert alert-success text-center" ng-class="{hidden : !removed}"> {{removed}}</div> 
+      <div class="alert alert-success text-center" ng-class="{hidden : !removed}"> {{removed}}</div>
       
+
+
+
+</head>
+<body>
+
+
 
 </body>
 </html>
 
 
-</script>
 
 
 
@@ -180,6 +264,123 @@ Resources1× 0.5× 0.25×Rerun
 
 
 
+
+
+
+
+
+<style>
+.line {
+  font-size: 15px;
+  color:black;
+  text-align: left;
+  }
+  
+  
+  
+  
+</style>
+	  
+
+
+<h1><p style="color:black;"><b><u>MONDAY</b></u></p></h1>
+<div class="line">1) CHAKKARBHATA <br> 
+2) BILHA <br> 3) SARGAON <br> 4) PATHARIYA<br> 5) MUNGELI<br> 6) TAKHATPUR<br> 7) SAKRI</h1></div> <hr/>
+
+<h1><p style="color:black;"><b><u>TUESDAY</b></u></p></h1>
+<div class="line">1)KORBA<br>2)PANTORA<br>3)BALCO<br>4)HARDIBAZAR<br>5)DIPKA<br>6)URGA</h1></div> <hr/>
+			
+<h1><p style="color:black;"><b><u>WEDNESDAY</b></u></p></h1>
+<div class="line">1)PENDRA <br> 2)BELGEHNA</h1></div> <hr/>
+			
+			<h1><p style="color:black;"><b><u>THUSDAY</b></u></p></h1>
+<div class="line">1)KUNDA<br>
+2)MOHGAON<br>
+3)PANDATARAI<br>
+4)PANDARIYA<br>
+5)BOADTARA<br>
+6)LORMI<br>
+7)KHAMI<br>
+8)KOTA<br>
+9)GANYARI<br>
+10)SAKRI</h1></div> <hr/>
+	
+	
+	 <h1><p style="color:black;"><b><u> FRIDAY</b></u></p></h1>
+<div class="line">FRIDAY IS REST</h1></div> <hr/>
+  
+  <h1><p style="color:black;"><b><u> SATURDAY</b></u></p></h1>
+<div class="line">1)SARANGARH
+2)SARSIWA<br>
+3)BHADGAON<br>
+4)BHIALIGARH<br>
+5)SHIVRINARAYAN<br>
+6)KHAROD<br>
+7)RAHOD</h1></div> <hr/>
+ 
+ <h1><p style="color:black;"><b><u> SUNDAY</b></u></p></h1>
+<div class="line">SUNDAY IS REST</h1></div> <hr/> <br> <br> <br> 
+			
+			
+ <h1><p style="color:black;"><b><u>MONDAY</b></u></p></h1>
+<div class="line">1)AKALTARA <br>
+2)BALODA <br>
+3)KHAMARIYA<br> 
+4)SIPAT<br></h1></div> <hr/>
+
+		
+	
+			
+<h1><p style="color:black;"><b><u>TUESDAY	</b></u></p></h1>
+<div class="line">1)PAMGARH<br>
+ 2)HASOD<br>
+ 3)BIRRA</h1></div> <hr/>
+ 
+
+
+<h1><p style="color:black;"><b><u>WEDNESDAY</b></u></p></h1>
+	<div class="line">1)CHURRI <br>
+	2)KATGHORA <br>
+	3)PALI <br> 
+	4)BELTARA	 <br>
+	5)RATANPUR</h1></div> <hr/>
+	
+	
+
+			
+
+			
+<h1><p style="color:black;"><b><u>THUSDAY</b></u></p></h1>
+<div class="line">1)JANJGIR  <br> 
+2)CHAMPA  <br> 
+3)SHIVNI  <br> 
+4)BARADWAR  <br> 
+5)SAKTI <br> 
+6)SARAGAON</h1></div> <hr/>
+
+
+
+		
+	
+			
+<h1><p style="color:black;"><b><u>FRIDAY</b></u></p></h1>
+<div class="line">1)MASTURI <br> 
+ 2)MALHAR <br>
+ 3)PACHPEDI <br>
+ 4)LAWAN <br>
+ 5)KATGI <br> 
+ 6)KASHDOL</h1></div> <hr/>
+
+ 	
+			
+<h1><p style="color:black;"><b><u>SATURDAY</b></u></p></h1>
+<div class="line">1)KAWARDHA <br></h1></div> <hr/>
+	
+
+			
+<h1><p style="color:black;"><b><u>SUNDAY</b></u></p></h1>
+<div class="line">SUNDAY IS REST <br></h1></div> <hr/>
+	
 			
 
 
@@ -188,10 +389,8 @@ Resources1× 0.5× 0.25×Rerun
 
 	  
 	  
-
-
-
-
+	  
+    </script>
 
 
 
