@@ -13,8 +13,8 @@ h1 {
 .container {
     padding: 40px;
     margin: 0 auto;
-    max-width: 1000px;
-    text-align: center;
+    max-width: 100%;
+    text-align: left;
 }
 
 #charactersList {
