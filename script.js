@@ -59,7 +59,7 @@ var myApp = angular.module('myApp', ['ngRoute'])
   var contactList = [							
 							
 {id: 1, name: '	AKALTARA		', 				
-customer1: '	VINOD GENERAL (AKALTARA)		', amount1: '	2186	',  url1: '	/2084377289testbysam/AKALTARA/VINOD GENERAL (AKALTARA).htm	,
+customer1: '	VINOD GENERAL (AKALTARA)		', amount1: '	2186	',  url1: '	/2084377289testbysam/AKALTARA/VINOD GENERAL (AKALTARA).htm	',
 customer2: '	CHANDAN GENERAL (AKALTARA)		', amount2: '	3653	',  url2: '	/2084377289testbysam/AKALTARA/CHANDAN%20GENERAL%20(AKALTARA)%2029.htm	',
 customer3: '	DEEPAK GENERAL (AKALTARA)		', amount3: '	2651	',  url3: '	/2084377289testbysam/AKALTARA/DEEPAK%20(AKALTARA)%20130.htm	',
 customer4: '	SHRIMANAGALM (AKALTARA)		', amount4: '	5884	',  url4: '	/2084377289testbysam/AKALTARA/SHRIMANGALAM%20(AKALTARA)%20298.htm	',
