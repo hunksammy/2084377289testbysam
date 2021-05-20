@@ -1,4 +1,4 @@
-var element = document.getElementById("id01");element.innerHTML = "PAGDI -	77.44%	&nbsp;&nbsp;P.LEFT	22.56%	&nbsp;&nbsp;UPDATE - 17/05/2021  	&nbsp;&nbsp;BAL -	1579533	";
+var element = document.getElementById("id01");element.innerHTML = "PAGDI -	78.04%	&nbsp;&nbsp;P.LEFT	21.96%	&nbsp;&nbsp;UPDATE - 20/05/2021  	&nbsp;&nbsp;BAL -	1564660	";
 							
 var myApp = angular.module('myApp', ['ngRoute'])							
 							
@@ -59,10 +59,10 @@ var myApp = angular.module('myApp', ['ngRoute'])
   var contactList = [							
 							
 {id: 1, name: '	AKALTARA		', 				
-customer1: '	VINOD GENERAL (AKALTARA)		', amount1: '	2186	',  url1: '	/2084377289testbysam/AKALTARA/VINOD GENERAL (AKALTARA).htm	',
+customer1: '	VINOD GENERAL (AKALTARA)		', amount1: '	2186	',  url1: '	/2084377289testbysam/AKALTARA/VINOD GENERAL (AKALTARA).htm	,
 customer2: '	CHANDAN GENERAL (AKALTARA)		', amount2: '	3653	',  url2: '	/2084377289testbysam/AKALTARA/CHANDAN%20GENERAL%20(AKALTARA)%2029.htm	',
 customer3: '	DEEPAK GENERAL (AKALTARA)		', amount3: '	2651	',  url3: '	/2084377289testbysam/AKALTARA/DEEPAK%20(AKALTARA)%20130.htm	',
-customer4: '	SHRIMANAGALM (AKALTARA)		', amount4: '	26766	',  url4: '	/2084377289testbysam/AKALTARA/SHRIMANGALAM%20(AKALTARA)%20298.htm	',
+customer4: '	SHRIMANAGALM (AKALTARA)		', amount4: '	5884	',  url4: '	/2084377289testbysam/AKALTARA/SHRIMANGALAM%20(AKALTARA)%20298.htm	',
 customer5: '	SHARMA GENERAL  (AKALTARA)		', amount5: '	0	',  url5: '	/2084377289testbysam/AKALTARA/SHARMA%20GENERAL%20(AKALTARA)%20282.htm	',
 customer6: '	SS FANCY (AKALTARA)		', amount6: '	1915	',  url6: '	/2084377289testbysam/AKALTARA/SS%20FANCY%20(AKALTARA).htm	',
 customer7: '	KANHA GENERAL (AKALTARA)		', amount7: '	11521	',  url7: '	/2084377289testbysam/AKALTARA/KANHA%20GENERAL%20(AKALTARA)%2050.htm	',
@@ -285,7 +285,7 @@ customer10: '	AKANKSHA GENERAL (BABLU) (KOTA)		', amount10: '	510	',  url10: '	/
 customer1: '	JANVI GENERAL (KOTMISONAR)		', amount1: ' 		',  url1: '		',
 							},
 {id: 1, name: '	KUNDA		', 				
-customer1: '	CHANDRAKAR GENERAL		', amount1: ' 	7	',  url1: '	/2084377289testbysam/KUNDA/CHANDRAKAR GENERAL (KUNDA) 102.htm	',
+customer1: '	CHANDRAKAR GENERAL		', amount1: ' 	907	',  url1: '	/2084377289testbysam/KUNDA/CHANDRAKAR GENERAL (KUNDA) 102.htm	',
 customer2: '	SHREE RADHA RANI (KUNDA)		', amount2: '	4930	',  url2: '	/2084377289testbysam/KUNDA/SHREE RADHA RANI (KUNDA).htm	',
 customer3: '	SHRIRAM GENERAL (KUNDA)		', amount3: '	1	',  url3: '	/2084377289testbysam/KUNDA/SHRIRAM GENERAL. (KUNDA) 34.htm	',
 							},
@@ -371,7 +371,7 @@ customer8: '	PRATHNA GENERAL (PANDARIYA)		', amount8: '	4356	',  url8: '	/208437
 {id: 1, name: '	PANDATARAI		', 				
 customer1: '	ARJUN GENERAL (PANDATARAI)		', amount1: ' 	0	',  url1: '	/2084377289testbysam/PANDATARAI/ARJUN GENERAL (PANDATARAI) 181.htm	',
 customer2: '	DURGA GENERAL (PANDATARAI)		', amount2: '	0	',  url2: '	/2084377289testbysam/PANDATARAI/DURGA GENERAL (PANDATARAI) 274.htm	',
-customer3: '	SATGURU		', amount3: '	21538	',  url3: '	/2084377289testbysam/PANDATARAI/SATGURU GENERAL (PANDATARAI)  162.htm	',
+customer3: '	SATGURU		', amount3: '	26647	',  url3: '	/2084377289testbysam/PANDATARAI/SATGURU GENERAL (PANDATARAI)  162.htm	',
 customer4: '	VIDYA SUHAG		', amount4: ' 	0	',  url4: '	/2084377289testbysam/PANDATARAI/VIDYA SUHAG (PANDATARAI) 147.htm	',
 customer5: '	PREETI GENERAL (PANDATARAI)		', amount5: '	13702	',  url5: '	/2084377289testbysam/PANDATARAI/PREETI GENERAL. (PANDATARAI) 112.htm	',
 customer6: '	GANESH (PANDATARAI)		', amount6: '	25145	',  url6: '	/2084377289testbysam/PANDATARAI/GANESH GENERAL (PANDATARAI)  279.htm	',
