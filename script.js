@@ -1,5 +1,8 @@
-var element = document.getElementById("id01");element.innerHTML = "PAGDI -	78.04%	&nbsp;&nbsp;P.LEFT	21.96%	&nbsp;&nbsp;UPDATE - 20/05/2021  	&nbsp;&nbsp;BAL -	1566208	";
-var element = document.getElementById("id01");element.innerHTML = "PAGDI -	78.04%	&nbsp;&nbsp;P.LEFT	21.96%	&nbsp;&nbsp;UPDATE - 20/05/2021  	&nbsp;&nbsp;BAL -	1566208	";				
+var element = document.getElementById("id01");element.innerHTML = "PAGDI -	78.55%	&nbsp;&nbsp;P.LEFT	21.45%	&nbsp;&nbsp;UPDATE - 20/05/2021  	&nbsp;&nbsp;BAL -	1576489	";					
+												
+												
+												
+												
 												
 var myApp = angular.module('myApp', ['ngRoute'])												
 												
@@ -388,7 +391,7 @@ customer1: '	AKASH BOOK DEPO (PATHARIYA)	', toys1: 'TOYS:-	', amount1: ' 	0	',  
 customer2: '	HARNARAYAN	', toys2: 'TOYS:-	', amount2: '	0	',  url2: '	/2084377289testbysam/PATHARIYA/HARNARAYAN%20(PATHARIYA)%20%20199.htm						',
 customer3: '	MUKESH GENERAL 	', toys3: 'TOYS:-	', amount3: '	1	',  url3: '	/2084377289testbysam/PATHARIYA/MUKESH%20GENERAL%20(PATHARIYA)%20%20163.htm						',
 customer4: '	OM SAI KARAN (PATHARIYA)	', toys4: 'TOYS:-	', amount4: ' 	0	',  url4: '	/2084377289testbysam/PATHARIYA/OM%20SAI%20(KARAN)%20.(PATHARIYA)%20%202.htm						',
-customer5: '	SHIV GENERAL (PATHARIYA)	', toys5: 'TOYS:-	', amount5: '	11444	',  url5: '	/2084377289testbysam/PATHARIYA/SHIV GENERAL .(PATHARIYA) 118.htm						',
+customer5: '	SHIV GENERAL (PATHARIYA)	', toys5: 'TOYS:-	', amount5: '	21725	',  url5: '	/2084377289testbysam/PATHARIYA/SHIV GENERAL .(PATHARIYA) 118.htm						',
 customer6: '	SANTOSH GENERAL (PATHARIYA)	', toys6: 'TOYS:-	', amount6: '	5359	',  url6: '	/2084377289testbysam/PATHARIYA/SANTOSH%20PATHKAR.%20(PATHARIYA)%20192.htm						',
 customer7: '	PREETAM GENERAL (PATHARIYA)	', toys7: 'TOYS:-	', amount7: '	11623	',  url7: '	/2084377289testbysam/PATHARIYA/PREETAM%20(PATHARIYA)%20148.htm						',
 customer8: '	OM SUHAG (PATHARIYA)	', toys8: 'TOYS:-	', amount8: '	10	',  url8: '	/2084377289testbysam/PATHARIYA/OM%20SUHAG%20(PATHARIYA)%20%20100.htm						',
