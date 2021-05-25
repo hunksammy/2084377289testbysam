@@ -1,4 +1,4 @@
-var element = document.getElementById("id01");element.innerHTML = "PAGDI -	78.56%	&nbsp;&nbsp;P.LEFT	21.44%	&nbsp;&nbsp;UPDATE - 20/05/2021  	&nbsp;&nbsp;BAL -	1556739	";					
+var element = document.getElementById("id01");element.innerHTML = "PAGDI -	78.56%	&nbsp;&nbsp;P.LEFT	21.44%	&nbsp;&nbsp;UPDATE - 24/05/2021  	&nbsp;&nbsp;BAL -	1556739	";					
 												
 												
 												
