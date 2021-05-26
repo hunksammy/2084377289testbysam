@@ -1,4 +1,4 @@
-var element = document.getElementById("id01");element.innerHTML = "PAGDI -	78.37%	&nbsp;&nbsp;P.LEFT	21.63%	&nbsp;&nbsp;UPDATE - 25/05/2021  	&nbsp;&nbsp;BAL -	1550686	";					
+var element = document.getElementById("id01");element.innerHTML = "PAGDI -	78.37%	&nbsp;&nbsp;P.LEFT	21.63%	&nbsp;&nbsp;UPDATE - 25/05/2021  	&nbsp;&nbsp;BAL -	1539674	";					
 												
 												
 												
@@ -98,7 +98,7 @@ customer4: '	SAKTIYA SETH (BARADWAR)	', toys4: 'TOYS:-	', amount4: '	0	',  url4:
 												},
 												
 {id: 1, name: '	BELGEHNA		', 									
-customer1: '	RINKU GENERAL (BELGEHNA)	', toys1: 'TOYS:-	', amount1: '	3496	',  url1: '	/2084377289testbysam/BELGEHNA/RINKU (BELGEHNA) 109.htm	', bags1: 'BAGS:-	', amountb1: '	N/A	',  urlb1: '		',
+customer1: '	RINKU GENERAL (BELGEHNA)	', toys1: 'TOYS:-	', amount1: '	-1190	',  url1: '	/2084377289testbysam/BELGEHNA/RINKU (BELGEHNA) 109.htm	', bags1: 'BAGS:-	', amountb1: '	N/A	',  urlb1: '		',
 												},
 {id: 1, name: '	BELTARA		', 									
 customer1: '	PRATAB (BELTARA)	', toys1: 'TOYS:-	', amount1: '	12092	',  url1: '	/2084377289testbysam/BELTARA/PRATAB (BELTARA) 294.htm	', bags1: 'BAGS:-	', amountb1: '	N/A	',  urlb1: '		',
@@ -214,7 +214,7 @@ customer5: '	MAHARAJ FANCY (HASOD)	', toys5: 'TOYS:-	', amount5: '	3191	',  url5
 												},
 {id: 1, name: '	JAITHARI		', 									
 customer1: '	SHIV PLASTIC (JAITHARI)	', toys1: 'TOYS:-	', amount1: ' 	27542	',  url1: '	/2084377289testbysam/JAITHARI/MUSKAN (JAITHARI) 79.htm						',
-customer2: '	MUSKAN FANCY (JAITHARI)	', toys2: 'TOYS:-	', amount2: '	12336	',  url2: '	/2084377289testbysam/JAITHARI/SHIV PLASTICS (JAITHARI) 143.htm						',
+customer2: '	MUSKAN FANCY (JAITHARI)	', toys2: 'TOYS:-	', amount2: '	5940	',  url2: '	/2084377289testbysam/JAITHARI/SHIV PLASTICS (JAITHARI) 143.htm						',
 												},
 {id: 1, name: '	JANJGIR		', 									
 customer1: '	GARIMA FANCY (JANJGIR)	', toys1: 'TOYS:-	', amount1: ' 	4507	',  url1: '	/2084377289testbysam/JANJGIR/GARIMA FANCY (JANJGIR) 166.htm						',
@@ -408,10 +408,10 @@ customer7: '	TIME CORNER (PENDRA)	', toys7: 'TOYS:-	', amount7: '	0	',  url7: '	
 customer8: '	SAI MAHASALE (PENDRA)	', toys8: 'TOYS:-	', amount8: '	37567	',  url8: '	/2084377289testbysam/PENDRA/SAI MAHASALE. (PENDRA) 176.htm						',
 customer9: '	SAI SAKTI (PENDRA)	', toys9: 'TOYS:-	', amount9: '	7843	',  url9: '	/2084377289testbysam/PENDRA/SAI SAKTI. (PENDRA) 186.htm						',
 customer10: '	POOJA JWELLERY (PENDRA)	', toys10: 'TOYS:-	', amount10: '	0	',  url10: '	/2084377289testbysam/PENDRA/POOJA JWELLERY. (PENDRA)  190.htm						',
-customer11: '	MAA SHARDA GIFT DEEPANSHU (PENDRA)	', toys11: 'TOYS:-	', amount11: '	0	',  url11: '	/2084377289testbysam/PENDRA/SONA GARMENTS (PENDRA)_files.htm						',
+customer11: '	MAA SHARDA GIFT DEEPANSHU (PENDRA)	', toys11: 'TOYS:-	', amount11: '	0	',  url11: '	/2084377289testbysam/PENDRA/MAA SHARDA GIFT DEEPANSHU. (PENDRA).htm						',
 customer12: '	UPHAR GALLERY (PENDRA)	', toys12: 'TOYS:-	', amount12: '	5860	',  url12: '	/2084377289testbysam/PENDRA/UPHAR GALLERY. (PENDRA) 198.htm						',
 customer13: '	GUPTA ENTERPRISES (PENDRA)	', toys13: 'TOYS:-	', amount13: '	28147	',  url13: '	/2084377289testbysam/PENDRA/GUPTA ENTERPRISES. (PENDRA) 200.htm						',
-customer14: '	SANJAY GENERAL (PENDRA)	', toys14: 'TOYS:-	', amount14: '	25175	',  url14: '	/2084377289testbysam/PENDRA/SANJAY GENERAL. (PENDRA).htm						',
+customer14: '	SANJAY GENERAL (PENDRA)	', toys14: 'TOYS:-	', amount14: '	25245	',  url14: '	/2084377289testbysam/PENDRA/SANJAY GENERAL. (PENDRA).htm						',
 customer15: '	GANESH GENERAL (PENDRA)	', toys15: 'TOYS:-	', amount15: '		',  url15: '							',
 customer16: '	SONA GARMENTS (PENDRA)	', toys16: 'TOYS:-	', amount16: '	11138	',  url16: '	/2084377289testbysam/PENDRA/SONA GARMENTS (PENDRA).htm						',
 												},
