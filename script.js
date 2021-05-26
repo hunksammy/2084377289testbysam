@@ -1,4 +1,4 @@
-var element = document.getElementById("id01");element.innerHTML = "PAGDI -	78.56%	&nbsp;&nbsp;P.LEFT	21.44%	&nbsp;&nbsp;UPDATE - 24/05/2021  	&nbsp;&nbsp;BAL -	1556739	";					
+var element = document.getElementById("id01");element.innerHTML = "PAGDI -	78.37%	&nbsp;&nbsp;P.LEFT	21.63%	&nbsp;&nbsp;UPDATE - 25/05/2021  	&nbsp;&nbsp;BAL -	1550686	";					
 												
 												
 												
@@ -305,7 +305,7 @@ customer5: '	KAVYA GENERAL (LORMI)	', toys5: 'TOYS:-	', amount5: ' 	0	',  url5: 
 customer6: '	MAMTA GENERAL (LORMI)	', toys6: 'TOYS:-	', amount6: ' 	1	',  url6: '	/2084377289testbysam/LORMI/MAMTA LORMI.htm						',
 												},
 {id: 1, name: '	MALHAR		', 									
-customer1: '	ANKIT FANCY (MALHAR)	', toys1: 'TOYS:-	', amount1: ' 	15080	',  url1: '	/2084377289testbysam/MALHAR/ANKITA (MALHAR) (NEW 7).htm						',
+customer1: '	ANKIT FANCY (MALHAR)	', toys1: 'TOYS:-	', amount1: ' 	13562	',  url1: '	/2084377289testbysam/MALHAR/ANKITA (MALHAR) (NEW 7).htm						',
 customer2: '	PURVI FANCY (MALHAR)	', toys2: 'TOYS:-	', amount2: '	34545	',  url2: '	/2084377289testbysam/MALHAR/PURVI FANCY (MALHAR) 290.htm						',
 customer3: '	JAANVI GENERAL (MALHAR)	', toys3: 'TOYS:-	', amount3: '	15812	',  url3: '	/2084377289testbysam/MALHAR/JANVI GENERAL (MALHAR) 25.htm						',
 customer4: '	JITENDRA (MALHAR)	', toys4: 'TOYS:-	', amount4: ' 	1316	',  url4: '	/2084377289testbysam/MALHAR/JITENDRA (MALHAR) 168.htm						',
@@ -338,7 +338,7 @@ customer3: '	GURUNANAK GENERAL	', toys3: 'TOYS:-	', amount3: '	570	',  url3: '	/
 customer4: '	 JEENAT BENGALS (MUNGELI)	', toys4: 'TOYS:-	', amount4: ' 	11995	',  url4: '	/2084377289testbysam/MUNGELI/ZEENAT%20BENGALS%20(MUNGELI)%2045.htm						',
 customer5: '	PAYAL BAG HOUSE	', toys5: 'TOYS:-	', amount5: '	1360	',  url5: '	/2084377289testbysam/MUNGELI/PAYAL%20BAG%20(MUNGELI)%20171.htm						',
 customer6: '	PRIYA LADIES	', toys6: 'TOYS:-	', amount6: '	2981	',  url6: '	/2084377289testbysam/MUNGELI/PRIYA%20LADIES%20(MUNGELI)%2099.htm						',
-customer7: '	SANGAM FANCY	', toys7: 'TOYS:-	', amount7: '	12384	',  url7: '	/2084377289testbysam/MUNGELI/SANGAM%20FANCY%20(MUNGELI)%20(NEW%20169).htm						',
+customer7: '	SANGAM FANCY	', toys7: 'TOYS:-	', amount7: '	6424	',  url7: '	/2084377289testbysam/MUNGELI/SANGAM%20FANCY%20(MUNGELI)%20(NEW%20169).htm						',
 customer8: '	OM GENERAL (MUNGELI)	', toys8: 'TOYS:-	', amount8: '	0	',  url8: '	/2084377289testbysam/MUNGELI/OM%20GENERAL%20(MUNGELI)%2087.htm						',
 												},
 {id: 1, name: '	PACHPEDI		', 									
@@ -375,7 +375,7 @@ customer8: '	PRATHNA GENERAL (PANDARIYA)	', toys8: 'TOYS:-	', amount8: '	4356	',
 {id: 1, name: '	PANDATARAI		', 									
 customer1: '	ARJUN GENERAL (PANDATARAI)	', toys1: 'TOYS:-	', amount1: ' 	0	',  url1: '	/2084377289testbysam/PANDATARAI/ARJUN GENERAL (PANDATARAI) 181.htm						',
 customer2: '	DURGA GENERAL (PANDATARAI)	', toys2: 'TOYS:-	', amount2: '	0	',  url2: '	/2084377289testbysam/PANDATARAI/DURGA GENERAL (PANDATARAI) 274.htm						',
-customer3: '	SATGURU	', toys3: 'TOYS:-	', amount3: '	26717	',  url3: '	/2084377289testbysam/PANDATARAI/SATGURU GENERAL (PANDATARAI)  162.htm						',
+customer3: '	SATGURU	', toys3: 'TOYS:-	', amount3: '	28142	',  url3: '	/2084377289testbysam/PANDATARAI/SATGURU GENERAL (PANDATARAI)  162.htm						',
 customer4: '	VIDYA SUHAG	', toys4: 'TOYS:-	', amount4: ' 	0	',  url4: '	/2084377289testbysam/PANDATARAI/VIDYA SUHAG (PANDATARAI) 147.htm						',
 customer5: '	PREETI GENERAL (PANDATARAI)	', toys5: 'TOYS:-	', amount5: '	13702	',  url5: '	/2084377289testbysam/PANDATARAI/PREETI GENERAL. (PANDATARAI) 112.htm						',
 customer6: '	GANESH (PANDATARAI)	', toys6: 'TOYS:-	', amount6: '	25145	',  url6: '	/2084377289testbysam/PANDATARAI/GANESH GENERAL (PANDATARAI)  279.htm						',
