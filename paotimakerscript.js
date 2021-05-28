@@ -11,55 +11,32 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
   function getData() {
     let mainText = document.querySelector("#mainText");
- 
+    let counter = document.querySelector("#count");
 
     mainText.innerHTML = "";
     let firebaseText = firebase.database().ref().child("Books");
 
-    
+    let count = 0;
+    counter.innerHTML = "   (" + count + ")";
     //THis is like a for loop
     firebaseText.on("child_added", function (data) {
       let database_author = data.child("Author").val();
       let database_title = data.child("Name").val();
-
-      console.log(data.child("Author").val() + "" + data.child("Name").val());
-      mainText.innerHTML += `
-                            
-                             <label  for="${database_title}"> TO, <br> <b>${database_title}</b> <br> (${database_author}) <br> नग - <br>(कांच का सामान)
+      count++;
+      console.log(data.child("Author").val() + "</hr>" + data.child("Name").val());
+      mainText.innerHTML += `<div class="ui checkbox">
+                            <input type="checkbox" data-title="${database_title}" name="${database_title}'">
+                           <label  for="${database_title}"> TO, <br> <b>${database_title}</b> <br> ${database_author} <br> नग - <br>(कांच का सामान)
 <br> <br>FROM :- <br>
-हिंदुस्तान टॉयज <br> 
-9827186198 <br> <br> 
-
-<hr>
-
-<br>
- <label  for="${database_title}"> TO, <br> <b>${database_title}</b> <br> (${database_author}) <br> नग - <br>(कांच का सामान)
-<br> <br>FROM :- <br>
-हिंदुस्तान टॉयज <br> 
-9827186198 <br> <br> 
-
-
-
-
-
-
-
-
-
-
-
+हिंदुस्तान टॉयज <br>
+9827186198<!--<a class="delete" href=""><i class="remove circle outline icon"></i></a>
+                            --></label>
                              
                               
                             
                           </div>
                           <br>`;
-      
-
-
-
-
-
-
+      counter.innerHTML = "   (" + count + ")";
 
       getBoxes();
       //Solution to async. Will fix later
