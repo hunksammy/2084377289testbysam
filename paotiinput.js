@@ -1,40 +1,3 @@
-var today = new Date();
-
-var day = today.getDate();
-var month = today.getMonth() + 1;
-var year = today.getFullYear();
-
-if (day < 10) {
-  day = '0' + day
-}
-if (month < 10) {
-  month = '0' + month
-}
-
-var out = document.getElementById("output");
-
-out.innerHTML = day + "/" + month + "/" + year;
-
-
-var today = new Date();
-
-var day = today.getDate();
-var month = today.getMonth() + 1;
-var year = today.getFullYear();
-
-if (day < 10) {
-  day = '0' + day
-}
-if (month < 10) {
-  month = '0' + month
-}
-
-var out = document.getElementById("output1");
-
-out.innerHTML = day + "/" + month + "/" + year;
-
-
-
 document.addEventListener("DOMContentLoaded", function (event) {
   //FIREBASE STARTING
   const config = {
@@ -48,46 +11,33 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
   function getData() {
     let mainText = document.querySelector("#mainText");
-
+  
 
     mainText.innerHTML = "";
     let firebaseText = firebase.database().ref().child("Books");
 
-    
-    
+
+
     //THis is like a for loop
     firebaseText.on("child_added", function (data) {
       let database_author = data.child("Author").val();
 	  let database_qty = data.child("qty").val();
       let database_title = data.child("Name").val();
-      
+
       console.log(data.child("Author").val() + data.child("qty").val() + data.child("Name").val());
-      mainText.innerHTML += `
-                         
-  <label  for="${database_title}"> TO, <br> <b>${database_title}</b> <br> (${database_author}) <br> <br> नग -  ${database_qty} <br> <br>(कांच का सामान)
-<br> <br>FROM :- <br> <b>
-हिंदुस्तान टॉयज  </b><br> 
-9827186198 <br> <br> <hr> 
-
-
-
-
-
-
-<label  for="${database_title}"> <br> <br> TO, <br> <b>${database_title}</b> <br> (${database_author}) <br> <br> नग -  ${database_qty} <br> <br>(कांच का सामान)
-<br> <br>FROM :- <br> <b>
-हिंदुस्तान टॉयज </b> <br> 
-9827186198
-
-
- <!--<a class="delete" href=""><i class="remove circle outline icon"></i></a>
+      mainText.innerHTML += `<div class="ui checkbox">
+                            <input type="checkbox" data-title="${database_title}" name="${database_title}'">
+                           <label  for="${database_title}"> TO, <br> <b>${database_title}</b> <br> ${database_author} <br> <br> नग - ${database_qty} <br> (कांच का सामान)
+<br> <br>FROM :- <br>
+हिंदुस्तान टॉयज <br>
+9827186198<!--<a class="delete" href=""><i class="remove circle outline icon"></i></a>
                             --></label>
                              
                               
                             
                           </div>
                           <br>`;
-      
+     
 
       getBoxes();
       //Solution to async. Will fix later
@@ -222,15 +172,3 @@ document.addEventListener("DOMContentLoaded", function (event) {
     }
   });
 });
-
-
-
-
-
-
-
-
-
-
-
-

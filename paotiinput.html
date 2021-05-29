@@ -5,7 +5,7 @@
   <title>CodePen - FireBase &amp; ES6</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.7/semantic.min.css'>
-<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'><link rel="stylesheet" href="./paotioutput.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'><link rel="stylesheet" href="./paotiinput.css">
 
 </head>
 <body>
@@ -22,73 +22,46 @@
 
 
 
-  
-  </head>
-
-<body>
-  
-
 <div id="app">
+<div id="top" class="ui raised very padded text container segment">
+  <h2 class="ui header"><i class="fa fa-book" aria-hidden="true"></i> PAOTI MAKER</h2>
+  <div class="ui input">
+  <input id="title" type="text" placeholder="Customer Name">
+     
+</div><br>
+
+
+<div class="ui input">
+  <input id="author" type="text" placeholder="City/Village">
+    
+</div><br>
+
+ <div class="ui input">
+  <input id="qty" type="text" placeholder="Qty">
+    
+</div><br>
   
   
 
 
 
-
-
+  <div class="ui tiny negative message">
+  <div class="header">
+    Need both values in order to be enter into the database
   </div>
   </div><br>
+  <button id="submitButton" class="ui green button">Submit</button>
+ 
+
   
 </div>
   
   
- 
-<style>
-body {
-  background-color:  white;
-  font-size: 20px;
-  text-align: center;
-  color: black;
-  
-}
-
-.h1 {
-  color: black;
-  text-align: center;
-   margin: -340px;
-   margin-bottom: 25px;
-}
-
-.p {
-margin-top: -200px;
-  font-family: verdana;
-  font-size: 20px;
-  text-align: center;
-  color: black;
-  
-
-</style>  
+  <div  class="ui raised very padded text container segment">
+    <h2 class="ui header"> PAOTI <span id="count"></span></h2>
     
-    <div id="output"></div>
-<span class="p" id="mainText"> </span>
-
-<div class="h1" id="output1"></div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
+    <div id="mainText">
       
     <div>
 </div>
@@ -103,26 +76,7 @@ margin-top: -200px;
 </html>
 <!-- partial -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
-<script src='https://www.gstatic.com/firebasejs/3.6.8/firebase.js'></script><script  src="./paotioutput.js"></script>
+<script src='https://www.gstatic.com/firebasejs/3.6.8/firebase.js'></script><script  src="./paotiinput.js"></script>
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
