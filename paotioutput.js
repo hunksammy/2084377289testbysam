@@ -11,22 +11,22 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
   function getData() {
     let mainText = document.querySelector("#mainText");
-    let counter = document.querySelector("#count");
+
 
     mainText.innerHTML = "";
     let firebaseText = firebase.database().ref().child("Books");
 
-    let count = 0;
-    counter.innerHTML = "   (" + count + ")";
+    
+    
     //THis is like a for loop
     firebaseText.on("child_added", function (data) {
       let database_author = data.child("Author").val();
+	  let database_qty = data.child("qty").val();
       let database_title = data.child("Name").val();
-      count++;
-      console.log(data.child("Author").val() + "</hr>" + data.child("Name").val());
-      mainText.innerHTML += `<div class="ui checkbox">
-                            <input type="checkbox" data-title="${database_title}" name="${database_title}'">
-                           <label  for="${database_title}"> TO, <br> <b>${database_title}</b> <br> ${database_author} <br> नग - <br>(कांच का सामान)
+      
+      console.log(data.child("Author").val() + data.child("qty").val() + data.child("Name").val());
+      mainText.innerHTML += `
+                           <label  for="${database_title}"> TO, <br> <b>${database_title}</b> <br> ${database_author} <br> <br> नग -  ${database_qty} <br> <br>(कांच का सामान)
 <br> <br>FROM :- <br>
 हिंदुस्तान टॉयज <br>
 9827186198<!--<a class="delete" href=""><i class="remove circle outline icon"></i></a>
@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
                             
                           </div>
                           <br>`;
-      counter.innerHTML = "   (" + count + ")";
+      
 
       getBoxes();
       //Solution to async. Will fix later
@@ -82,6 +82,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     for (let i = 0; i < restoreItems.length; i++) {
       database.push().set({
         Author: restoreItems[i].Author,
+		qty: restoreItems[i].qty,
         Name: restoreItems[i].Name });
 
     }
@@ -91,13 +92,15 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
   function setData() {
     let author = document.querySelector("#author");
-    let title = document.querySelector("#title");
+	let qty = document.querySelector("#qty");
+	let title = document.querySelector("#title");
     let negative = document.querySelector(".negative");
 
-    if (!(author.value.trim() == "") && !(title.value.trim() == "")) {
+    if (!(author.value.trim() == "") && !(qty.value.trim() == "") && !(title.value.trim() == "")) {
       negative.classList.remove("show");
       firebase.database().ref("Books/").push().set({
         Author: author.value.trim(),
+		qty: qty.value.trim(),
         Name: title.value.trim() });
 
     } else {
@@ -110,6 +113,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
   function clearInputFields() {
     author.value = "";
+	qty.value = "";
     title.value = "";
   }
 
