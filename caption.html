@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - papa-parse</title>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes">
+<link rel='stylesheet' href='https://rawgit.com/binhbbbb/51334c66f70c165997fc093fad160ad8/raw/2bb3a380c889f096fec6e8a9b14136fcbee6f36b/vd.css'>
+<style>
+body {
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+</style>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<base href="https://raw-dot-custom-elements.appspot.com/PolymerVis/papa-parse/2.0.1/papa-parse/">
+
+<script src="../webcomponentsjs/webcomponents-lite.js"></script>
+<link rel="import" href="../polymer/lib/elements/dom-bind.html">
+<link rel="import" href="../polymer/lib/elements/dom-repeat.html">
+<link rel="import" href="papa-parse.html">
+<link rel="import" href="papa-unparse.html">
+
+<dom-bind>
+  <template is="dom-bind">
+    <!-- download and parse into JSON -->
+    <papa-parse auto     url="https://hunksammy.github.io/2084377289testbysam/test.csv" rows="{{rows}}"></papa-parse>
+
+    <!-- render as a table -->
+    <h4>Parsed CSV table:</h4>
+    <table>
+      <template is="dom-repeat" items="[[rows]]" as="row">
+        <tr>
+          <template is="dom-repeat" items="[[row]]">
+            <b> [[item]] <hr> </b>
+          </template>
+        </tr>
+      </template>
+    </table>
+
+    <!-- unparse JSON into string -->
+    <papa-unparse header json-array="[[rows]]" csv-str="{{csvStr}}"></papa-unparse>
+
+
+  </template>
+</dom-bind>
+<!-- partial -->
+  
+</body>
+</html>
