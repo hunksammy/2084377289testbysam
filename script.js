@@ -1,4 +1,4 @@
-var element = document.getElementById("id01");element.innerHTML = "PAGDI -	81.29%	&nbsp;&nbsp;P.LEFT	18.71%	&nbsp;&nbsp;UPDATE - 10/06/2021  	&nbsp;&nbsp;BAL -	1432509	";					
+var element = document.getElementById("id01");element.innerHTML = "PAGDI -	81.49%	&nbsp;&nbsp;P.LEFT	18.51%	&nbsp;&nbsp;UPDATE - 10/06/2021  	&nbsp;&nbsp;BAL -	1419869	";					
 												
 												
 												
@@ -476,12 +476,12 @@ customer1: '	KHAGESHWAR GENERAL	', toys1: 'TOYS:-	', amount1: ' 	12252	',  url1:
 customer2: '	JAI AMBEL (SHIVNI)	', toys2: 'TOYS:-	', amount2: '	4129	',  url2: '	/2084377289testbysam/SHIVNI/JAI AMBE (SHIVNI) 208.htm						',
 customer3: '	NEW MAHAMAYA GENERAL (SHIVNI)	', toys3: 'TOYS:-	', amount3: '	-1	',  url3: '	/2084377289testbysam/SHIVNI/NEW MAHAMAYA GENERAL 2 (SHIVNI) (NEW 9).htm						',
 												},
-{id: 1, name: '	SHIVRINARAYN (	51241	)', 									
+{id: 1, name: '	SHIVRINARAYN (	32646	)', 									
 customer1: '	MAHI SHRINGAR (SHIVRIN)	', toys1: 'TOYS:-	', amount1: ' 	1	',  url1: '	/2084377289testbysam/SHIVRINARAYAN/MAHI SHRINGAR (SHIVRINARAYN).htm						',
 customer2: '	RUPESH  GENERAL	', toys2: 'TOYS:-	', amount2: '	1981	',  url2: '	/2084377289testbysam/SHIVRINARAYAN/RUPESH (SHIVRINARAYAN)  64.htm						',
 customer3: '	ATUL GENERAL	', toys3: 'TOYS:-	', amount3: '	14276	',  url3: '	/2084377289testbysam/SHIVRINARAYAN/ATUL (SHIVRINARAYAN) 254.htm						',
 customer4: '	NARAYANI COLLECTION (SHIVRIN)	', toys4: 'TOYS:-	', amount4: '	10774	',  url4: '	/2084377289testbysam/SHIVRINARAYAN/NARAYANI (SHIVRINARAYAN) 136.htm						',
-customer5: '	LAXMI VASTRALAY (SHIVRI)	', toys5: 'TOYS:-	', amount5: '	24209	',  url5: '	/2084377289testbysam/SHIVRINARAYAN/LAXMI VASTRALAY (SHIVRINARAYAN).htm						',
+customer5: '	LAXMI VASTRALAY (SHIVRI)	', toys5: 'TOYS:-	', amount5: '	5614	',  url5: '	/2084377289testbysam/SHIVRINARAYAN/LAXMI VASTRALAY (SHIVRINARAYAN).htm						',
 customer6: '	VIKAS GENERAL (SHIVRI)	', toys6: 'TOYS:-	', amount6: '	0	',  url6: '	/2084377289testbysam/SHIVRINARAYAN/VIKAS GENERAL (SHIVRINARAYAN).htm						',
 												},
 												
@@ -501,12 +501,12 @@ customer1: '	BABY SUHAG	', toys1: 'TOYS:-	', amount1: ' 	2692	',  url1: '	/20843
 customer2: '	KIRAN SIRGITI	', toys2: 'TOYS:-	', amount2: '		',  url2: '	<b><br>TOYS -						',
 customer3: '	MAA KALI MUSIC (SIRGITI)	', toys3: 'TOYS:-	', amount3: '	1	',  url3: '	/2084377289testbysam/SIRGITI/MAA KALI MUSIC CENTER (SIRGITTI) 210.htm						',
 												},
-{id: 1, name: '	TAKHATPUR (	65722	)', 									
+{id: 1, name: '	TAKHATPUR (	71677	)', 									
 customer1: '	KISHAN (BELPAN)	', toys1: 'TOYS:-	', amount1: ' 	12445	',  url1: '	/2084377289testbysam/TAKHATPUR/KISHAN%20(BELPAN).htm						',
 customer2: '	MAYUR GENERAL	', toys2: 'TOYS:-	', amount2: '	0	',  url2: '	/2084377289testbysam/TAKHATPUR/MAYUR%20GENERAL%20(TAKHATPUR)%20276.htm						',
 customer3: '	MARUTI GENERAL (TAKHATPUR)	', toys3: 'TOYS:-	', amount3: '	0	',  url3: '	/2084377289testbysam/TAKHATPUR/MARUTI%20(TAKAHTPUR)%2067.htm						',
 customer4: '	VIJAY STORE (TAKHATPUR)	', toys4: 'TOYS:-	', amount4: '	18075	',  url4: '	/2084377289testbysam/TAKHATPUR/VIJAY%20STORE%20(TAKHATPUR)%20-%20299.htm						',
-customer5: '	NAWAZ GENERAL	', toys5: 'TOYS:-	', amount5: '	4807	',  url5: '	/2084377289testbysam/TAKHATPUR/NAWAZ%20%20BHAI%20(TAKAHTPUR)%2075.htm						',
+customer5: '	NAWAZ GENERAL	', toys5: 'TOYS:-	', amount5: '	10762	',  url5: '	/2084377289testbysam/TAKHATPUR/NAWAZ%20%20BHAI%20(TAKAHTPUR)%2075.htm						',
 customer6: '	RAJESH GENERAL	', toys6: 'TOYS:-	', amount6: '	22938	',  url6: '	/2084377289testbysam/TAKHATPUR/RAJESH%20GENERAL%20(TAKAHTPUR)%20259.htm						',
 customer7: '	BHARAT BAG HOUSE	', toys7: 'TOYS:-	', amount7: '	7457	',  url7: '	/2084377289testbysam/TAKHATPUR/BHARAT%20BAG%20HOUSE%20(TAKHATPUR)%20194.htm						',
 												},
