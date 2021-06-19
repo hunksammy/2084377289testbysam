@@ -1,23 +1,23 @@
-var delay = 5000; //in milleseconds
+var delay = 1; //in milleseconds
 
 jQuery(document).ready(function($){
   setTimeout(function(){ showNewsletterPopup(); }, delay);
   
   $('.popup-close').click(function(){
-      $('.newsletter-overlay').hide();
+      $('.newsletter-overlays').hide();
       
       //when closed create a cookie to prevent popup to show again on refresh
-      setCookie('newsletter-popup', 'popped', 30);
+      setCookie('newsletter-popups', 'poppeds', 30);
   });
 });
 
 function showNewsletterPopup(){
-  if( getCookie('newsletter-popup') == ""){
+  if( getCookie('newsletter-popups') == ""){
      $('.newsletter-overlay').show();
-     setCookie('newsletter-popup', 'popped', 30);
+     setCookie('newsletter-popups', 'poppeds', 30);
   }
   else{
-    console.log("Newsletter popup blocked.");
+    console.log("Newsletter popup blockeds.");
   }
 }
 
