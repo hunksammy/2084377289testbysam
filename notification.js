@@ -1,43 +1,35 @@
-var delay = 1; //in milleseconds
-
-jQuery(document).ready(function($){
-  setTimeout(function(){ showNewsletterPopup(); }, delay);
+$(function() {
+  var popup = $('#mainpopup');
+  var time = $(".will-close strong");
+  var closeSeconds = $("#mainpopup").attr("data-close");
+  var openSeconds = $("#mainpopup").attr("data-open");
+  var dataSrc = $("#mainpopup").attr("data-href");
   
-  $('.popup-close').click(function(){
-      $('.newsletter-overlays').hide();
+
+  setTimeout(function(e) {
+    
+    popup.modal('show');
+    time.html(closeSeconds);
+    
+    setInterval(function(){
+      time.html(closeSeconds);
+      closeSeconds--;
       
-      //when closed create a cookie to prevent popup to show again on refresh
-      setCookie('newsletter-popups', 'poppeds', 30);
-  });
-});
-
-function showNewsletterPopup(){
-  if( getCookie('newsletter-popups') == ""){
-     $('.newsletter-overlay').show();
-     setCookie('newsletter-popups', 'poppeds', 30);
-  }
-  else{
-    console.log("Newsletter popup blockeds.");
-  }
-}
-
-
-function setCookie(cname,cvalue,exdays)
-{
-    var d = new Date();
-    d.setTime(d.getTime()+(exdays*24*60*60*1000));
-    var expires = "expires="+d.toGMTString();
-    document.cookie = cname+"="+cvalue+"; "+expires+"; path=/";
-}
-
-function getCookie(cname)
-{
-    var name = cname + "=";
-    var ca = document.cookie.split(';');
-    for(var i=0; i<ca.length; i++) 
-    {
-        var c = jQuery.trim(ca[i]);
-        if (c.indexOf(name)==0) return c.substring(name.length,c.length);
+      if(closeSeconds < 0){
+        popup.modal('hide');
+      }
+      
+    }, 1000)
+    
+  }, openSeconds * 1000);
+  
+    $.ajax({
+    url: dataSrc,
+    dataType: "html",
+    success: function(data) {
+      $(".modal-body").html(data);
     }
-    return "";
-}
+  });
+  
+  
+});
