@@ -4,40 +4,40 @@ angular.module('myApp')
 .controller('myController', function ($scope) {
   
   $scope.inventory = [
-    { id :  1, category : "/2084377289testbysam/PRODUCTS/TORCH/1.jpeg", description : "TORCH",   price :   300, qty : 1 },
+    { id :  1, category : "/2084377289testbysam/PRODUCTS/TORCH/1.jpeg", description : "TORCH",   price :   172, qty : 1 },
     
     
-    { id :  2, category : "/2084377289testbysam/PRODUCTS/TORCH/2.jpeg", description : "TORCH",   price :   368, qty : 1, onSale : true },
+    { id :  2, category : "/2084377289testbysam/PRODUCTS/TORCH/2.jpeg", description : "TORCH",   price :   136, qty : 1, onSale : true },
   
-    { id :  3, category : "/2084377289testbysam/PRODUCTS/TORCH/3.jpeg",   description : "TORCH",     price :   6.99, qty : 1 },
+    { id :  3, category : "/2084377289testbysam/PRODUCTS/TORCH/3.jpeg",   description : "TORCH",     price :   71, qty : 1 },
     
-    { id :  4, category : "/2084377289testbysam/PRODUCTS/TORCH/4.jpeg",   description : "TORCH",       price :  699, qty : 1 },
+    { id :  4, category : "/2084377289testbysam/PRODUCTS/TORCH/4.jpeg",   description : "TORCH",       price :  71, qty : 1 },
     
     
-    { id :  5, category : "/2084377289testbysam/PRODUCTS/TORCH/5.jpeg",        description : "TORCH",          price :  29.99, qty : 1 },
+    { id :  5, category : "/2084377289testbysam/PRODUCTS/TORCH/5.jpeg",        description : "TORCH",          price :  64, qty : 1 },
     
-    { id :  6, category : "/2084377289testbysam/PRODUCTS/TORCH/6.jpeg",        description : "TORCH",            price :  130, qty : 1 },
+    { id :  6, category : "/2084377289testbysam/PRODUCTS/TORCH/6.jpeg",        description : "TORCH",            price :  192, qty : 1 },
     
-    { id :  7, category : "/2084377289testbysam/PRODUCTS/TORCH/7.jpeg", description : "TORCH",  price :  49.99, qty : 1 },
-    { id :  8, category : "/2084377289testbysam/PRODUCTS/TORCH/8.jpeg", description : "TORCH",  price :  79.99, qty : 1 },
-    { id :  9, category : "/2084377289testbysam/PRODUCTS/TORCH/9.jpeg",         description : "TORCH",        price : 119.99, qty : 1 },
-    { id : 10, category : "/2084377289testbysam/PRODUCTS/TORCH/10.jpeg",         description : "TORCH",        price : 169.99, qty : 1 },
-    { id : 11, category : "/2084377289testbysam/PRODUCTS/TORCH/11.jpeg",         description : "TORCH",        price : 249.99, qty : 1 },
-    { id : 12, category : "/2084377289testbysam/PRODUCTS/TORCH/12.jpeg",         description : "TORCH",        price : 319.99, qty : 1 }
-	{ id : 12, category : "/2084377289testbysam/PRODUCTS/TORCH/13.jpeg",         description : "TORCH",        price : 319.99, qty : 1 }
-	{ id : 12, category : "/2084377289testbysam/PRODUCTS/TORCH/14.jpeg",         description : "TORCH",        price : 319.99, qty : 1 }
-	{ id : 12, category : "/2084377289testbysam/PRODUCTS/TORCH/15.jpeg",         description : "TORCH",        price : 319.99, qty : 1 }
-	{ id : 12, category : "/2084377289testbysam/PRODUCTS/TORCH/16.jpeg",         description : "TORCH",        price : 319.99, qty : 1 }
-	{ id : 12, category : "/2084377289testbysam/PRODUCTS/TORCH/17.jpeg",         description : "TORCH",        price : 319.99, qty : 1 }
-	{ id : 12, category : "/2084377289testbysam/PRODUCTS/TORCH/18.jpeg",         description : "TORCH",        price : 319.99, qty : 1 }
-	{ id : 12, category : "/2084377289testbysam/PRODUCTS/TORCH/19.jpeg",         description : "TORCH",        price : 319.99, qty : 1 }
-	{ id : 12, category : "/2084377289testbysam/PRODUCTS/TORCH/20.jpeg",         description : "TORCH",        price : 319.99, qty : 1 }
-	{ id : 12, category : "/2084377289testbysam/PRODUCTS/TORCH/21.jpeg",         description : "TORCH",        price : 319.99, qty : 1 }
-	{ id : 12, category : "/2084377289testbysam/PRODUCTS/TORCH/22.jpeg",         description : "TORCH",        price : 319.99, qty : 1 }
-	{ id : 12, category : "/2084377289testbysam/PRODUCTS/TORCH/23.jpeg",         description : "TORCH",        price : 319.99, qty : 1 }
-	{ id : 12, category : "/2084377289testbysam/PRODUCTS/TORCH/24.jpeg",         description : "TORCH",        price : 319.99, qty : 1 }
-	{ id : 12, category : "/2084377289testbysam/PRODUCTS/TORCH/25.jpeg",         description : "TORCH",        price : 319.99, qty : 1 }
-	{ id : 12, category : "/2084377289testbysam/PRODUCTS/TORCH/26.jpeg",         description : "TORCH",        price : 319.99, qty : 1 }
+    { id :  7, category : "/2084377289testbysam/PRODUCTS/TORCH/7.jpeg", description : "TORCH",  price :  48, qty : 1 },
+    { id :  8, category : "/2084377289testbysam/PRODUCTS/TORCH/8.jpeg", description : "TORCH",  price :  72, qty : 1 },
+    { id :  9, category : "/2084377289testbysam/PRODUCTS/TORCH/9.jpeg",         description : "TORCH",        price : 160, qty : 1 },
+    { id : 10, category : "/2084377289testbysam/PRODUCTS/TORCH/10.jpeg",         description : "TORCH",        price : 235, qty : 1 },
+    { id : 11, category : "/2084377289testbysam/PRODUCTS/TORCH/11.jpeg",         description : "TORCH",        price : 480, qty : 1 },
+    { id : 12, category : "/2084377289testbysam/PRODUCTS/TORCH/12.jpeg",         description : "TORCH",        price : 375, qty : 1 }
+	{ id : 12, category : "/2084377289testbysam/PRODUCTS/TORCH/13.jpeg",         description : "TORCH",        price : 230, qty : 1 }
+	{ id : 12, category : "/2084377289testbysam/PRODUCTS/TORCH/14.jpeg",         description : "TORCH",        price : 175, qty : 1 }
+	{ id : 12, category : "/2084377289testbysam/PRODUCTS/TORCH/15.jpeg",         description : "TORCH",        price : 102, qty : 1 }
+	{ id : 12, category : "/2084377289testbysam/PRODUCTS/TORCH/16.jpeg",         description : "TORCH",        price : 142, qty : 1 }
+	{ id : 12, category : "/2084377289testbysam/PRODUCTS/TORCH/17.jpeg",         description : "TORCH",        price : 83, qty : 1 }
+	{ id : 12, category : "/2084377289testbysam/PRODUCTS/TORCH/18.jpeg",         description : "TORCH",        price : 100, qty : 1 }
+	{ id : 12, category : "/2084377289testbysam/PRODUCTS/TORCH/19.jpeg",         description : "TORCH",        price : 100, qty : 1 }
+	{ id : 12, category : "/2084377289testbysam/PRODUCTS/TORCH/20.jpeg",         description : "TORCH",        price : 64, qty : 1 }
+	{ id : 12, category : "/2084377289testbysam/PRODUCTS/TORCH/21.jpeg",         description : "TORCH",        price : 96, qty : 1 }
+	{ id : 12, category : "/2084377289testbysam/PRODUCTS/TORCH/22.jpeg",         description : "TORCH",        price : 166 qty : 1 }
+	{ id : 12, category : "/2084377289testbysam/PRODUCTS/TORCH/23.jpeg",         description : "TORCH",        price : 142, qty : 1 }
+	{ id : 12, category : "/2084377289testbysam/PRODUCTS/TORCH/24.jpeg",         description : "TORCH",        price : 162, qty : 1 }
+	{ id : 12, category : "/2084377289testbysam/PRODUCTS/TORCH/25.jpeg",         description : "TORCH",        price : 137, qty : 1 }
+	{ id : 12, category : "/2084377289testbysam/PRODUCTS/TORCH/26.jpeg",         description : "TORCH",        price : 162, qty : 1 }
   ];
   
   $scope.cart = [];
