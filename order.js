@@ -4,7 +4,7 @@ angular.module('myApp')
 .controller('myController', function ($scope) {						
   						
   $scope.inventory = [						
-    { id :  1, category : "	/2084377289testbysam/PRODUCTS/SOFT%20TOYS/1.jpeg	", description : "	SOFT TOYS	",   price :   	OUT OF STOCK	, qty : 1 },
+    { id :  1, category : "	/2084377289testbysam/PRODUCTS/SOFT%20TOYS/1.jpeg	", description : "	SOFT TOYS	",   price :   	10	, qty : 1 },
     { id :  2, category : "	/2084377289testbysam/PRODUCTS/SOFT%20TOYS/2.jpeg	", description : "	SOFT TOYS	",   price :   	136	, qty : 1 },
     { id :  3, category : "	/2084377289testbysam/PRODUCTS/SOFT%20TOYS/3.jpeg	", description : "	SOFT TOYS	",   price :   	136	, qty : 1 },
     { id :  4, category : "	/2084377289testbysam/PRODUCTS/SOFT%20TOYS/4.jpeg	", description : "	SOFT TOYS	",   price :   	136	, qty : 1 },
