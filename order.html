@@ -150,22 +150,11 @@ div.fixed {
       <ul>
 
         <li class="animate-repeat" ng-repeat="item in cart | orderBy:'category'">
-<style>
-span.b {
-  display: inline; /* the default for span */
-  width: 100px;
-  height: 100px;
-  padding: 5px;
-  border: 1px solid blue;    
-  background-color: yellow; 
-}         
-</style>
 
-<span class="b">
 		 <img src="
                  {{ item.category }}" alt="Girl in a jacket" width="150" height="150"> <br>
           <span>{{ item.description}} <br> QTY :- {{item.qty}} X {{item.price}} Rs. </span> 
-          <button class="btn-danger btn-xs" ng-click="removeItem(item);">X</button> </span> 
+          <button class="btn-danger btn-xs" ng-click="removeItem(item);">X</button> 
           </br>  
           
         </li>
