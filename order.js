@@ -28,12 +28,7 @@ angular.module('myApp')
     { id :  22, category : "	/2084377289testbysam/PRODUCTS/SOFT%20TOYS/22.jpeg	", description : "	SOFT TOYS	",   price :   	136	, qty : 1 },
     { id :  23, category : "	/2084377289testbysam/PRODUCTS/SOFT%20TOYS/23.jpeg	", description : "	SOFT TOYS	",   price :   	136	, qty : 1 },
     { id :  24, category : "	/2084377289testbysam/PRODUCTS/SOFT%20TOYS/24.jpeg	", description : "	SOFT TOYS	",   price :   	136	, qty : 1 },
-						
-						
-						
-						
-						
-    { id :  25, category : "	/2084377289testbysam/PRODUCTS/TORCH/1.jpeg	", description : "	TORCH	",   price :   	136	, qty : 1 },
+	{ id :  25, category : "	/2084377289testbysam/PRODUCTS/TORCH/1.jpeg	", description : "	TORCH	",   price :   	136	, qty : 1 },
     { id :  26, category : "	/2084377289testbysam/PRODUCTS/TORCH/2.jpeg	", description : "	TORCH	",   price :   	71	, qty : 1 },
     { id :  27, category : "	/2084377289testbysam/PRODUCTS/TORCH/3.jpeg	", description : "	TORCH	",   price :   	71	, qty : 1 },
     { id :  28, category : "	/2084377289testbysam/PRODUCTS/TORCH/4.jpeg	", description : "	TORCH	",   price :   	64	, qty : 1 },
