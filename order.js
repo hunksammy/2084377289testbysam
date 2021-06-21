@@ -23,7 +23,7 @@ angular.module('myApp')
     { id :  9, category : "/2084377289testbysam/PRODUCTS/TORCH/9.jpeg",         description : "TORCH",        price : 160, qty : 1 },
     { id : 10, category : "/2084377289testbysam/PRODUCTS/TORCH/10.jpeg",         description : "TORCH",        price : 235, qty : 1 },
     { id : 11, category : "/2084377289testbysam/PRODUCTS/TORCH/11.jpeg",         description : "TORCH",        price : 480, qty : 1 },
-    { id : 12, category : "/2084377289testbysam/PRODUCTS/TORCH/12.jpeg",         description : "TORCH",        price : 375, qty : 1 },
+    { id : 12, category : "/2084377289testbysam/PRODUCTS/TORCH/12.jpeg",         description : "TORCH",        price : 375, qty : 1 }
 
   ];
   
