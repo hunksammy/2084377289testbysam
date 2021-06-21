@@ -4,6 +4,35 @@ angular.module('myApp')
 .controller('myController', function ($scope) {						
   						
   $scope.inventory = [						
+    { id :  1, category : "	/2084377289testbysam/PRODUCTS/SOFT%20TOYS/1.jpeg	", description : "	SOFT TOYS	",   price :   	OUT OF STOCK	, qty : 1 },
+    { id :  1, category : "	/2084377289testbysam/PRODUCTS/SOFT%20TOYS/2.jpeg	", description : "	SOFT TOYS	",   price :   	136	, qty : 1 },
+    { id :  1, category : "	/2084377289testbysam/PRODUCTS/SOFT%20TOYS/3.jpeg	", description : "	SOFT TOYS	",   price :   	136	, qty : 1 },
+    { id :  1, category : "	/2084377289testbysam/PRODUCTS/SOFT%20TOYS/4.jpeg	", description : "	SOFT TOYS	",   price :   	136	, qty : 1 },
+    { id :  1, category : "	/2084377289testbysam/PRODUCTS/SOFT%20TOYS/5.jpeg	", description : "	SOFT TOYS	",   price :   	136	, qty : 1 },
+    { id :  1, category : "	/2084377289testbysam/PRODUCTS/SOFT%20TOYS/6.jpeg	", description : "	SOFT TOYS	",   price :   	136	, qty : 1 },
+    { id :  1, category : "	/2084377289testbysam/PRODUCTS/SOFT%20TOYS/7.jpeg	", description : "	SOFT TOYS	",   price :   	136	, qty : 1 },
+    { id :  1, category : "	/2084377289testbysam/PRODUCTS/SOFT%20TOYS/8.jpeg	", description : "	SOFT TOYS	",   price :   	136	, qty : 1 },
+    { id :  1, category : "	/2084377289testbysam/PRODUCTS/SOFT%20TOYS/9.jpeg	", description : "	SOFT TOYS	",   price :   	136	, qty : 1 },
+    { id :  1, category : "	/2084377289testbysam/PRODUCTS/SOFT%20TOYS/10.jpeg	", description : "	SOFT TOYS	",   price :   	136	, qty : 1 },
+    { id :  1, category : "	/2084377289testbysam/PRODUCTS/SOFT%20TOYS/11.jpeg	", description : "	SOFT TOYS	",   price :   	136	, qty : 1 },
+    { id :  1, category : "	/2084377289testbysam/PRODUCTS/SOFT%20TOYS/12.jpeg	", description : "	SOFT TOYS	",   price :   	136	, qty : 1 },
+    { id :  1, category : "	/2084377289testbysam/PRODUCTS/SOFT%20TOYS/13.jpeg	", description : "	SOFT TOYS	",   price :   	136	, qty : 1 },
+    { id :  1, category : "	/2084377289testbysam/PRODUCTS/SOFT%20TOYS/14.jpeg	", description : "	SOFT TOYS	",   price :   	136	, qty : 1 },
+    { id :  1, category : "	/2084377289testbysam/PRODUCTS/SOFT%20TOYS/15.jpeg	", description : "	SOFT TOYS	",   price :   	136	, qty : 1 },
+    { id :  1, category : "	/2084377289testbysam/PRODUCTS/SOFT%20TOYS/16.jpeg	", description : "	SOFT TOYS	",   price :   	136	, qty : 1 },
+    { id :  1, category : "	/2084377289testbysam/PRODUCTS/SOFT%20TOYS/17.jpeg	", description : "	SOFT TOYS	",   price :   	136	, qty : 1 },
+    { id :  1, category : "	/2084377289testbysam/PRODUCTS/SOFT%20TOYS/18.jpeg	", description : "	SOFT TOYS	",   price :   	136	, qty : 1 },
+    { id :  1, category : "	/2084377289testbysam/PRODUCTS/SOFT%20TOYS/19.jpeg	", description : "	SOFT TOYS	",   price :   	136	, qty : 1 },
+    { id :  1, category : "	/2084377289testbysam/PRODUCTS/SOFT%20TOYS/20.jpeg	", description : "	SOFT TOYS	",   price :   	136	, qty : 1 },
+    { id :  1, category : "	/2084377289testbysam/PRODUCTS/SOFT%20TOYS/21.jpeg	", description : "	SOFT TOYS	",   price :   	136	, qty : 1 },
+    { id :  1, category : "	/2084377289testbysam/PRODUCTS/SOFT%20TOYS/22.jpeg	", description : "	SOFT TOYS	",   price :   	136	, qty : 1 },
+    { id :  1, category : "	/2084377289testbysam/PRODUCTS/SOFT%20TOYS/23.jpeg	", description : "	SOFT TOYS	",   price :   	136	, qty : 1 },
+    { id :  1, category : "	/2084377289testbysam/PRODUCTS/SOFT%20TOYS/24.jpeg	", description : "	SOFT TOYS	",   price :   	136	, qty : 1 },
+						
+						
+						
+						
+						
     { id :  1, category : "	/2084377289testbysam/PRODUCTS/TORCH/1.jpeg	", description : "	TORCH	",   price :   	136	, qty : 1 },
     { id :  1, category : "	/2084377289testbysam/PRODUCTS/TORCH/2.jpeg	", description : "	TORCH	",   price :   	71	, qty : 1 },
     { id :  1, category : "	/2084377289testbysam/PRODUCTS/TORCH/3.jpeg	", description : "	TORCH	",   price :   	71	, qty : 1 },
