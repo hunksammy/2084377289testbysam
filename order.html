@@ -93,14 +93,14 @@ div.fixed {
 
 
 
-    &nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;
 <b>YOUR ORDER :-</b>
         
    
       <ul>
         <li class="animate-repeat" ng-repeat="item in cart | orderBy:'category'">
 
-          <span>{{ item.description}} X {{item.qty}} <br>  </span> 
+          <span>&nbsp;&nbsp;&nbsp;&nbsp;{{ item.description}} X {{item.qty}} <br>  </span> 
       
 
 </div>
@@ -153,8 +153,8 @@ div.fixed {
                  {{ item.category }}" alt="Girl in a jacket" width="150" height="150"> <br>
           <span>{{ item.description}} <br> QTY :- {{item.qty}} X {{item.price}} Rs. </span> 
           <button class="btn-danger btn-xs" ng-click="removeItem(item);">X</button> 
-          </br> </br> <hr/>
-          </br>
+          </br>  <hr/>
+          
         </li>
       </ul>
       
