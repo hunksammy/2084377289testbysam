@@ -1,4 +1,83 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
 
+<style>
+.h1 {
+ 
+  width: 60%;
+ 
+  font-size: 15px;
+}
+
+
+.h2 {
+  margin: auto;
+  width: 60%;
+ 
+  font-size: 8px;
+}
+</style>
+
+
+
+<style>
+.center {
+  text-align: center;
+  border: 0px solid green;
+  font-size: 11px;
+  margin: -80px;
+}
+</style>
+</head>
+<body>
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+<div ng-app="">
+ 
+<input type="text" ng-model="name" placeholder="Customers shop name"> <br>
+<input type="text" ng-model="area" placeholder="City /  Village"><br>
+<input type="text" ng-model="nug" placeholder="Qty"></p>
+
+
+<div class="center">
+<h1>DATE :-
+<script>
+ 
+var today = new Date();
+var dd = String(today.getDate()).padStart(2, '0');
+var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+var yyyy = today.getFullYear();
+
+ today = dd + '/' + mm + '/' + yyyy;
+document.write(today);
+</script>
+
+
+
+<h1>TO,  <br>{{name}}</h1>
+<h1>({{area}})</h1>
+<h1>नग -  {{nug}}</h1>
+<h1>(कांच का सामान) </h1>
+
+<h1>FROM :- <br> हिंदुस्तान टॉयज  <br> 9827186198
+<br>
+ </h1>
+ 
+ <br>
+ <br>
+ <hr>
+ <br>
 
 
 
