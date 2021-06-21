@@ -24,7 +24,7 @@ angular.module('myApp')
     { id : 10, category : "tent",         description : "2-person tent",        price : 169.99, qty : 1 },
     { id : 11, category : "tent",         description : "3-person tent",        price : 249.99, qty : 1 },
 	{ id : 12, category : "/2084377289testbysam/PRODUCTS/TORCH/1.jpeg",         description : "3-person tent",        price : 200, qty : 1 },
-    { id : 13, category : "tent",         description : "4-person tent",        price : 319.99, qty : 1 }
+    { id : 13, category : "/2084377289testbysam/PRODUCTS/TORCH/3.jpeg",         description : "4-person tent",        price : 319.99, qty : 1 }
   ];
   
   $scope.cart = [];
