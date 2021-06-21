@@ -132,7 +132,20 @@ div.fixed {
   </div>
   <div class="tab-panel" id="tab2">
         <div class="row">
-      <h2>Your Cart:</h2>
+      <h3>Your Order: Total: {{ getTotal() | currency }}</h3>  
+	  
+	  <!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Print hidden image with js</title>
+  <link rel="stylesheet" href="./Print.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+
+<a href="#" onClick="printDiv('largeimg')" class="print">DOWNLOAD AS PDF</a>
       <ul>
         <li class="animate-repeat" ng-repeat="item in cart | orderBy:'category'">
           <img src="
@@ -143,7 +156,7 @@ div.fixed {
           </br>
         </li>
       </ul>
-      <h3>Total: {{ getTotal() | currency }}</h3>
+      
       <button class="btn-danger" ng-click="clearCart();">Clear Cart</button>
     </div>
   </body>
@@ -159,18 +172,7 @@ div.fixed {
 
 
 
-<!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>CodePen - Print hidden image with js</title>
-  <link rel="stylesheet" href="./Print.css">
 
-</head>
-<body>
-<!-- partial:index.partial.html -->
-
-<a href="#" onClick="printDiv('largeimg')" class="print">DOWNLOAD AS PDF</a>
 
 <div  id="largeimg" style="display:none;"> 
 <img src="http://dummyimage.com/600x400/000/fff"> 
