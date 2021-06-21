@@ -55,7 +55,7 @@ angular.module('myApp')
     { id :  49, category : "	/2084377289testbysam/PRODUCTS/TORCH/25.jpeg	", description : "	TORCH	",   price :   	162	, qty : 1 },
     { id :  50, category : "	/2084377289testbysam/PRODUCTS/TORCH/26.jpeg	", description : "	TORCH	",   price :   	48	, qty : 1 },
 						
-    { id : 13, category : "/2084377289testbysam/PRODUCTS/TORCH/3.jpeg",         description : "4-person tent",        price : 319.99, qty : 1 }						
+    { id : 51, category : "/2084377289testbysam/PRODUCTS/TORCH/3.jpeg",         description : "4-person tent",        price : 319.99, qty : 1 }						
   ];						
   						
   $scope.cart = [];						
