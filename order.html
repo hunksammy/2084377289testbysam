@@ -320,7 +320,71 @@ div.fixed {
 </html>
   </div>
   <div class="tab-panel" id="tab3">
-    Duis at nibh nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut eget libero vel sapien interdum pretium. Aliquam odio enim, cursus id scelerisque eu, blandit at augue. Praesent vestibulum tortor eu tortor lacinia interdum. Curabitur blandit urna nec eros porta condimentum. Vestibulum posuere cursus tincidunt. Fusce non efficitur sem, sed volutpat ex. Maecenas venenatis nunc id leo tincidunt congue. Vivamus dignissim mi sed libero rhoncus eleifend. Aliquam nec porta mauris. Vivamus aliquet vulputate nibh, quis auctor nibh pellentesque ac. Praesent vitae lacus id nisi egestas interdum.
+ <h4>SEARCH PRODUCT: <input type="text" ng-model="searchText"></h4>
+    <br/>
+    <div class="row">
+      <table class="table col-md-9 col-md-offset-3">
+        
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.fixed {
+    background-color: #f0f0f1;
+  position: fixed;
+  bottom: 70;
+  right: 0;
+  width: 80px;
+  border: 0px solid #73AD21;
+  font-size: 15px;
+}
+</style>
+</head>
+<body>
+
+<div class="fixed">
+    
+
+
+
+    &nbsp;&nbsp;&nbsp;&nbsp;
+<b>YOUR ORDER :-</b>
+        
+   
+      <ul>
+        <li class="animate-repeat" ng-repeat="item in cart | orderBy:'category'">
+
+          <span>&nbsp;&nbsp;&nbsp;&nbsp;{{ item.description}} X {{item.qty}} <br>  </span> 
+      
+
+</div>
+
+</body>
+</html>
+        
+        
+        <tr class="animate-repeat" ng-repeat="item in inventory | filter:searchText | orderBy:'' ">
+         <td> <div class="center"> <img src="
+                 {{ item.category }}" alt="Girl in a jacket" width="250" height="250">
+           <br>
+            
+        <b> {{ item.description }} </b><br>
+          {{item.price}} Rs. <br>
+           <input type="number" ng-model="item.qty" class="qty"> 
+           
+          
+          
+          
+            <button class="btn-primary" ng-click="addItem(item)">Add to Cart</button>
+           
+           
+        
+      </table> </div>
+    </div>
+
+
+
+  </div>
   </div>
 </div>
 <!-- partial -->
