@@ -1,4 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+  text-align: center;
+}
 
+h2 {
+  text-align: left;
+}
+
+h3 {
+position: fixed;
+  text-align: right;
+    font-size: 10px;
+	margin-left: 300px;
+}
+</style>
+</head>
+<body>
+
+
+<h3>
+
+		
+		
+		
+		
+
+<b>YOUR ORDER :-</b>
+        
+   
+      <ul>
+        <li class="animate-repeat" ng-repeat="item in cart | orderBy:'category'">
+
+          <span>{{ item.description}} X {{item.qty}} <br>  </span> 
+      
+</h3>
+
+
+
+</body>
+</html>
 
 
 
@@ -206,50 +249,7 @@ function showSlides() {
         
 		
 		
-		<!DOCTYPE html>
-<html>
-<head>
-<style>
-h1 {
-  text-align: center;
-}
-
-h2 {
-  text-align: left;
-}
-
-h3 {
-position: fixed;
-  text-align: right;
-    font-size: 10px;
-	margin-left: 300px;
-}
-</style>
-</head>
-<body>
-
-
-<h3>
-
 		
-		
-		
-		
-
-<b>YOUR ORDER :-</b>
-        
-   
-      <ul>
-        <li class="animate-repeat" ng-repeat="item in cart | orderBy:'category'">
-
-          <span>{{ item.description}} X {{item.qty}} <br>  </span> 
-      
-</h3>
-
-
-
-</body>
-</html>
 
         
         
