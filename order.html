@@ -32,6 +32,10 @@
   <li class="tab-button"><a href="#" class="tab-link" data-tab="tab2"> Tab 2</a></li>
   <li class="tab-button"><a href="#" class="tab-link" data-tab="tab3">Tab 3</a></li>
 </ul>
+
+
+
+
 <div class="tab-pane">
   <div class="tab-panel active" id="tab1">
     <!DOCTYPE html>
@@ -204,7 +208,50 @@ function showSlides() {
     <div class="row">
       <table class="table col-md-9 col-md-offset-3">
         
+		<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: left;
+}
+
+h3 {
+position: fixed;
+  text-align: right;
+    font-size: 10px;
+	margin-left: 300px;
+}
+</style>
+</head>
+<body>
+
+
+<h3>
+
 		
+		
+		
+		
+
+<b>YOUR ORDER :-</b>
+        
+   
+      <ul>
+        <li class="animate-repeat" ng-repeat="item in cart | orderBy:'category'">
+
+          <span>{{ item.description}} X {{item.qty}} <br>  </span> 
+      
+</h3>
+
+
+
+</body>
+</html>
 		
 		
 
