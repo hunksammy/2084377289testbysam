@@ -282,54 +282,43 @@ position: fixed;
   <div class="tab-panel" id="tab2">
   
   
-  	<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 <style>
-h1 {
-  text-align: center;
+span.a {
+  display: inline; /* the default for span */
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;  
+  background-color: yellow; 
 }
 
-h2 {
-  text-align: left;
+span.b {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;    
+  background-color: yellow; 
 }
 
-sam {
-{
-      display: inline-block;
-      padding:2px 8px 8px 8px;
-      border-top:solid 1px #ccc;
-      border-left:solid 1px #ccc;
-      border-right:solid 1px #ccc;
-      border-top-left-radius:8px;
-      border-top-right-radius:8px;
-      margin-right:1rem;
-      transition: background-color .5s ease;
-      &.active, &:hover {
-         background-color: #f2f2f2;         
-      }
+span.c {
+  display: block;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;    
+  background-color: yellow; 
 }
 </style>
 </head>
 <body>
 
 
-<div class="sam">
 
-		
-		
-		
-		
-
-<b>YOUR ORDER :-</b>
-        
-   
-      
-        <li class="animate-repeat" ng-repeat="item in cart | orderBy:'category'">
-
-          <span>{{ item.description}} X {{item.qty}} <br>  </span> 
-      
-</div>
+ <span class="b">Aliquam</span> <span class="b">venenatis</span> 
 
 
 
