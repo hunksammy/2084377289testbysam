@@ -208,29 +208,34 @@ function showSlides() {
 <html>
 <head>
 <style>
-h2 {
+div.fixed {
+    background-color: #f0f0f1;
   position: fixed;
-  left: 100px;
-  top: 150px;
+  bottom: 70;
+  right: 0;
+  width: 150px;
+  border: 0px solid #73AD21;
 }
 </style>
 </head>
 <body>
 
-
-
-<h2>
-
-
+<div class="fixed">
+    
 
 
 
+    &nbsp;&nbsp;
+<b>YOUR ORDER :-</b>
+        
+   
+      <ul>
+        <li class="animate-repeat" ng-repeat="item in cart | orderBy:'category'">
 
-     <span>     {{ item.description}} X {{item.qty}} </span> </h2>
+          <span>{{ item.description}} X {{item.qty}} <br>  </span> 
       
-</body>
-</html>
-</span>
+
+</div>
 
 </body>
 </html>
