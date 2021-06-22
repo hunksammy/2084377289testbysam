@@ -217,6 +217,16 @@ div.fixed {
   border: 0px solid #73AD21;
   font-size: 15px;
 }
+
+catlog {
+
+position: absolute;
+bottom: 70;
+right: 0;
+width: 80px;
+border: 0px solid #73AD21;
+font-size: 15px;
+}
 </style>
 </head>
 <body>
@@ -243,7 +253,7 @@ div.fixed {
         
         
         <tr class="animate-repeat" ng-repeat="item in inventory | filter:searchText | orderBy:'' ">
-         <td> <div class="center"> <img src="
+         <td> <div class="catlog"> <img src="
                  {{ item.category }}" alt="Girl in a jacket" width="250" height="250">
            <br>
             
