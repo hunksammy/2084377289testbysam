@@ -318,7 +318,7 @@ span.c {
 
  <span class="animate-repeat" ng-repeat="item in cart | orderBy:'category'">
 
-		 
+<button class="btn-danger" ng-click="clearCart();">Clear Cart</button> <br>		 
 
  <span class="b"><img src="
                  {{ item.category }}" alt="Girl in a jacket" width="90" height="90"> {{ item.description}} <br> {{item.qty}} X {{item.price}}  <button class="btn-danger btn-xs" ng-click="removeItem(item);">X</button> </span> 
@@ -353,13 +353,13 @@ span.c {
         <li class="animate-repeat" ng-repeat="item in cart | orderBy:'category'">
 
 		 
-          <button class="btn-danger btn-xs" ng-click="removeItem(item);">X</button> 
+      
           </br>  
           
         </li>
       </ul>
       
-      <button class="btn-danger" ng-click="clearCart();">Clear Cart</button>
+      
     </div>
   </body>
 </html>
