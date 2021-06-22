@@ -227,39 +227,13 @@ h3 {
 
 <h1>Heading 1 (center)</h1>
 <h2>Heading 2 (left)</h2>
-<h3>Heading 3 (right)</h3>
-
-<p>The three headings above are aligned center, left and right.</p>
-
-</body>
-</html>
+<h3>Heading 3 (right)
 
 		
 		
 		
 		
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-div.fixed {
-    background-color: black;
-  position: fixed;
-  bottom: 70;
-  right: 0;
-  width: 150px;
-  border: 0px solid #73AD21;
-}
-</style>
-</head>
-<body>
 
-<div class="fixed">
-    
-
-
-
-    &nbsp;&nbsp;
 <b>YOUR ORDER :-</b>
         
    
@@ -268,11 +242,13 @@ div.fixed {
 
           <span>{{ item.description}} X {{item.qty}} <br>  </span> 
       
+</h3>
 
-</div>
+<p>The three headings above are aligned center, left and right.</p>
 
 </body>
 </html>
+
         
         
         <tr class="animate-repeat" ng-repeat="item in inventory | filter:searchText | orderBy:'' ">
