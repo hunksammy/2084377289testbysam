@@ -60,7 +60,7 @@ const store = new Vuex.Store({
 		}) => {
 			// eslint-disable-next-line no-undef
 			axios
-				.get('https://api.jsonbin.io/b/5c6eadd27bded36fef1b653e/1')
+				.get('https://hunksammy.github.io/2084377289testbysam/store/database.api')
 				.then(response => {
 					commit('LOAD_PRODUCTS', response.data.products)
 				})
