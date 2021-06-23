@@ -804,11 +804,24 @@ h2 {
     </script>
 
 
+<style>
+div.a {
+  font-size: 10px;
+}
+
+div.b {
+  font-size: large;
+}
+
+div.c {
+  font-size: 150%;
+}
+</style>
 
 <!--      template used for the ng-repeat in the contact list        -->
     <script type="text/ng-template" id="contact.html">
       <a ng-href="#/contact-info/{{contacts.indexOf(contact)}}">
-        {{contact.name}} 
+        {{contact.name}} <div class="a"> {{contact.total}} </div>
       </a>
     </script>
   </div>

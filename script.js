@@ -62,7 +62,7 @@ var myApp = angular.module('myApp', ['ngRoute'])
   // contact list, usually would be a separate database												
   var contactList = [												
 												
-{id: 1, name: '	AKALTARA (	33681	)', 									
+{id: 1, name: '	AKALTARA', total: '	(33681) 	',									
 customer1: '	VINOD GENERAL (AKALTARA) 	', toys1: 'TOYS:-	', amount1: '	2186	',  url1: '	/2084377289testbysam/AKALTARA/VINOD GENERAL (AKALTARA).htm	', bags1: 'BAGS:-	', amountb1: '	N/A	',  urlb1: '		',
 customer2: '	CHANDAN GENERAL (AKALTARA)	', toys2: 'TOYS:-	', amount2: '	653	',  url2: '	/2084377289testbysam/AKALTARA/CHANDAN%20GENERAL%20(AKALTARA)%2029.htm	', bags2: 'BAGS:-	', amountb2: '	N/A	',  urlb2: '		',
 customer3: '	DEEPAK GENERAL (AKALTARA)	', toys3: 'TOYS:-	', amount3: '	8730	',  url3: '	/2084377289testbysam/AKALTARA/DEEPAK%20(AKALTARA)%20130.htm	', bags3: 'BAGS:-	', amountb3: '	N/A	',  urlb3: '		',
