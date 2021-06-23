@@ -152,7 +152,7 @@ customer3: '	PUNNET SAHU  (BOADTARA)	', toys3: 'TOYS:-	', amount3: '	-5	',  url3
 customer1: '	KESARWANI CLOTH (BORLA)	', toys1: 'TOYS:-	', amount1: ' 	4952	',  url1: '	/2084377289testbysam/BORLA/KESARWANI CLOTH (BORLA).htm						',
 												},
 												
-{id: 1, name: '	CHAKKARBHATA ', total: ' (	25683	)', 									
+{id: 1, name: '	CHAKRBHTA ', total: ' (	25683	)', 									
 customer1: '	MAHAMAYA THRED HOUSE (CHBT)	', toys1: 'TOYS:-	', amount1: ' 	7999	',  url1: '	/2084377289testbysam/CHAKKARBHATA/MAHAMAYA%20THREAD%20(CHAKKARBHATA)%20103.htm						',
 customer2: '	MAHESH STD (CHBT)	', toys2: 'TOYS:-	', amount2: '	12222	',  url2: '	/2084377289testbysam/CHAKKARBHATA/MAHESH%20STD%20(CHAKKARBHATA)%20161.htm						',
 customer3: '	NEW JAI MATA DI  (CHBT)	', toys3: 'TOYS:-	', amount3: '	1727	',  url3: '	/2084377289testbysam/CHAKKARBHATA/NEW%20JAIMATA%20DI%20(CHAKKARBHATA)%2081.htm						',
