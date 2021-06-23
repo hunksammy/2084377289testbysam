@@ -1,5 +1,5 @@
 {"products":[{"name":"JCB","img":"SOFT%20TOYS/1","price":100,"department":"Clothes"},
-{"name":"toy","img":"SOFT%20TOYS/1","price":100,"department":"Clothes"},
+{"name":"toy","img":"SOFT%20TOYS/20","price":100,"department":"Clothes"},
 {"name":"new toy","img":"SOFT%20TOYS/5","price":75,"department":"Clothes"},
 {"name":"Jacket","img":"SOFT%20TOYS/6","price":60,"department":"Clothes"},
 {"name":"Carrots","img":"SOFT%20TOYS/7","price":0.1,"department":"Food"},
