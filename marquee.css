@@ -1,5 +1,5 @@
 body{background:#131313;}
-.marquee{overflow:hidden;height:50px;
+.marquee{overflow:hidden;height:20px;
 position:relative;background:#fff;padding-left:10px;
 border-radius:10px;margin:0px auto;border:0px solid #888;
 font-family:Georgia;font-size:1.09em;width:30em;
