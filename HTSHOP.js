@@ -14,8 +14,8 @@ $("#formLoc").submit(function(e){
   var x = {
     name:$('#nameLoc').val(),
     desc:$('#descLoc').val(),
-	name1:$('#nameLoc1').val(),
-    desc1:$('#descLoc1').val()
+	name1:$('#nameLoc').val(),
+    desc1:$('#descLoc').val()
 	
   }; 
   locRef.push(x);
