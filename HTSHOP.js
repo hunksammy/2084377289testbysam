@@ -4,7 +4,7 @@ var locRef = root.child('location');
 locRef.on('child_added', function(snap){
   var locVal = snap.val();
   $('#locList').append(
-  	"<li>"+locVal.name1+" "+locVal.desc1+"</li>"
+  	"<li>"+locVal.name+" "+locVal.desc+"</li>"
   );
 });
 
@@ -14,9 +14,8 @@ $("#formLoc").submit(function(e){
   var x = {
     name:$('#nameLoc').val(),
     desc:$('#descLoc').val(),
-    name1:$('#nameLoc1').val(),
-    desc1:$('#descLoc1').val(),
-  
+    desc1:$('#nameLoc1').val(),
+    name1:$('#descLoc1').val(),
 
 
 	
