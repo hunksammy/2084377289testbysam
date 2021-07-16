@@ -14,20 +14,15 @@ $("#formLoc").submit(function(e){
   var x = {
     name:$('#nameLoc').val(),
     desc:$('#descLoc').val(),
-
-
-	
-  }; 
-
-
-$("#formLoc2").submit(function(e){
-  e.preventDefault();
-  var x = {
-    name2:$('#nameLoc').val(),
+    name1:$('#nameLoc').val(),
     desc2:$('#descLoc').val(),
 
+
 	
   }; 
+
+
+
 
 
 
