@@ -9,15 +9,12 @@ locRef.on('child_added', function(snap){
 });
 
 
+
 $("#formLoc").submit(function(e){
   e.preventDefault();
   var x = {
-    name:$('#nameLoc').val(),
-    desc:$('#descLoc').val(),
-    name1:$('#nameLoc').val(),
-    desc1:$('#descLoc').val(),
-  
-
+    desc1:$('#nameLoc1').val(),
+    name1:$('#descLoc1').val(),
 
 	
   }; 
