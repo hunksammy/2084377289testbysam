@@ -20,11 +20,11 @@ $("#formLoc").submit(function(e){
   }; 
 
 
-$("#formLoc").submit(function(e){
+$("#formLoc2").submit(function(e){
   e.preventDefault();
   var x = {
-    name:$('#nameLoc').val(),
-    desc:$('#descLoc').val(),
+    name2:$('#nameLoc').val(),
+    desc2:$('#descLoc').val(),
 
 	
   }; 
