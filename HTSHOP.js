@@ -15,7 +15,7 @@ $("#formLoc").submit(function(e){
     name:$('#nameLoc').val(),
     desc:$('#descLoc').val(),
     name1:$('#nameLoc').val(),
-    desc2:$('#descLoc').val(),
+    desc1:$('#descLoc').val(),
   
 
 
