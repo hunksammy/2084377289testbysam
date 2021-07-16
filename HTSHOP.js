@@ -13,7 +13,9 @@ $("#formLoc").submit(function(e){
   e.preventDefault();
   var x = {
     name:$('#nameLoc').val(),
-    desc:$('#descLoc').val()
+    desc:$('#descLoc').val(),
+	desc:$('#nameLoc1').val(),
+	desc:$('#descLoc1').val()
   }; 
   locRef.push(x);
 });
