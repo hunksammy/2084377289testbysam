@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Tasks vue.js and firebase Google</title>
+  <link rel="stylesheet" href="./ORDEROUT.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html lang="pt">
+  <head>
+    <meta charset="utf-8">
+    <title>app vue.js and firebase</title>
+    <link rel="stylesheet" type="text/css" href="../../main.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <script src="https://cdn.firebase.com/js/client/2.3.2/firebase.js"></script>
+    <script src="https://cdn.jsdelivr.net/vue/1.0.24/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/vuefire/1.1.0/vuefire.min.js"></script>
+  </head>
+  <body>
+    <div id="app">
+     
+     <div class="window-wrapper">
+    <div class="window-title">
+      <div class="dots">
+        </div>
+  </div>
+    <div class="controls">
+      <div class="btns">
+        
+        
+    </div>
+    <div class="main-area">
+      <ul>
+        <li v-for="item in items" track-by=".key" class="task">
+          <div>  
+            <span class="description">
+      <img src="  {{ item.name }} " alt="." width="250" height="250"> <br> <span> {{item.desc}}</span> <b/>  <b><img src=" {{ item.desc1 }} " alt="." width="250" height="250">   <br>{{item.name1}} </br>  </span>
+            <button class="pull-right" @click="removeTodo(item['.key'])"><i class="fa fa-times"></i></button>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="footer">
+      <span>Total tasks: {{ items.length }}</span>
+    </div>
+  </div>
+
+
+    </div>
+
+    <script>
+      /* global Vue, Firebase */
+      var itemsRef = new Firebase('https://notes-12519-default-rtdb.firebaseio.com/location')
+
+      new Vue({
+        el: '#app',
+        data: {
+          newTodo: ''
+        },
+        firebase: {
+          items: itemsRef.limitToLast(25)
+        },
+        methods: {
+          removeTodo: function (key) {
+            itemsRef.child(key).remove()
+          },
+          addTodo: function () {
+            if (this.newTodo.trim()) {
+              itemsRef.push({
+                text: this.newTodo
+              })
+              this.newTodo = ''
+            }
+          }
+        }
+      })
+    </script>
+    <script>    	unescape("Desenvolvido%252520por%252520Glauber%252520Funez%252520(https%25253A%25252F%25252Fwww.facebook.com%25252Fglauber.funez)%25252C%252520precisando%252520de%252520um%252520sistema%252520web%252520entre%252520em%252520contato%252520ou%252520acesse%252520vimbo.com.br.%25250Afacebook%252520oficial%252520do%252520autor%25253A%252520https%25253A%25252F%25252Fwww.facebook.com%25252Fglauberoficial");
+    </script>
+  </body>
+</html>
+<!-- partial -->
+  <script  src="./ORDEROUT.js"></script>
+
+</body>
+</html>
