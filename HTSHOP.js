@@ -107,3 +107,24 @@ $("#formLoc72").submit(function(e){
 
   locRef.push(x);
 });
+
+
+
+$("#formLoc73").submit(function(e){
+  e.preventDefault();
+  var x = {
+    name:$('#nameLoc73').val(),
+    desc:$('#descLoc73').val(),
+    
+
+
+	
+  }; 
+
+
+
+
+
+
+  locRef.push(x);
+});
