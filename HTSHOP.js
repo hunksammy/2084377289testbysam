@@ -67,3 +67,43 @@ $("#formLoc71").submit(function(e){
 
   locRef.push(x);
 });
+
+
+$("#formLoc71").submit(function(e){
+  e.preventDefault();
+  var x = {
+    name:$('#nameLoc71').val(),
+    desc:$('#descLoc71').val(),
+    
+
+
+	
+  }; 
+
+
+
+
+
+
+  locRef.push(x);
+});
+
+
+$("#formLoc72").submit(function(e){
+  e.preventDefault();
+  var x = {
+    name:$('#nameLoc72').val(),
+    desc:$('#descLoc72').val(),
+    
+
+
+	
+  }; 
+
+
+
+
+
+
+  locRef.push(x);
+});
