@@ -68,3 +68,22 @@ $("#formLoc2").submit(function(e){
 });
 
 
+
+$("#formLoc3").submit(function(e){
+  e.preventDefault();
+  var x = {
+    desc3:$('#nameLoc3').val(),
+    name3:$('#descLoc3').val(),
+
+
+	
+  }; 
+
+
+
+
+
+
+  locRef.push(x);
+});
+
