@@ -36,7 +36,12 @@
         <li v-for="item in items" track-by=".key" class="task">
           <div>  
             <span class="description">
-      <img src="  {{ item.name }} " alt="." width="250" height="250"> <br> <span> {{item.desc}}</span> <b/>  <b><img src=" {{ item.desc1 }} " alt="." width="250" height="250">   <br>{{item.name1}} </br>  </span>
+{{item.name}} {{item.desc}} <br>
+{{item.desc1}} {{item.name1}} <br>{{item.desc2}} {{item.name2}} <br>
+{{item.desc3}} {{item.name3}} <br>     
+
+
+
             <button class="pull-right" @click="removeTodo(item['.key'])"><i class="fa fa-times"></i></button>
           </div>
         </li>
