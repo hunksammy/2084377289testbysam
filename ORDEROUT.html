@@ -30,19 +30,18 @@
     <div class="controls">
       <div class="btns">
         
-		
         
-    </div>
-	<div class="footer">
-      <span>Total tasks: {{ items.length }}</span>
     </div>
     <div class="main-area">
       <ul>
         <li v-for="item in items" track-by=".key" class="task">
           <div>  
-		  
-		  
             <span class="description">
+			
+			 <div class="footer">
+      <span>Total tasks: {{ items.length }}</span>
+    </div>
+			
 {{item.name}} {{item.desc}} <br>
 {{item.desc1}} {{item.name1}} <br>{{item.desc2}} {{item.name2}} <br>
 {{item.desc3}} {{item.name3}} <br>     
@@ -54,7 +53,7 @@
         </li>
       </ul>
     </div>
-    
+   
   </div>
 
 
