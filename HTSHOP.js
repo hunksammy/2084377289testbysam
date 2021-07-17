@@ -48,11 +48,13 @@ $("#formLoc1").submit(function(e){
 });
 
 
-$("#formLoc2").submit(function(e){
+
+$("#formLoc71").submit(function(e){
   e.preventDefault();
   var x = {
-    desc2:$('#nameLoc2').val(),
-    name2:$('#descLoc2').val(),
+    name:$('#nameLoc71').val(),
+    desc:$('#descLoc71').val(),
+    
 
 
 	
