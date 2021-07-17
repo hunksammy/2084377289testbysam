@@ -1,4 +1,4 @@
-var element = document.getElementById("id01");element.innerHTML = "LEFT - 	5.57%	&nbsp;&nbsp;		&nbsp;&nbsp;UPDATE - 14/07/2021  	&nbsp;&nbsp;BAL -	1592172	";					
+var element = document.getElementById("id01");element.innerHTML = "LEFT - 	5.57%	&nbsp;&nbsp;		&nbsp;&nbsp;UPDATE - 14/07/2021  	&nbsp;&nbsp;BAL -	1597172	";					
 												
 												
 												
@@ -242,13 +242,13 @@ customer3: '	KAREENA BOOT HOUSE (KATGHORA)	', toys3: 'TOYS:-	', amount3: '	0	', 
 customer4: '	PRADEEP BHAIYA (KATGHORA)	', toys4: 'TOYS:-	', amount4: ' 	19739	',  url4: '	/2084377289testbysam/KATGHORA/PRADEEP%20BHAI.%20(KATGHORA)%20123.htm						',
 customer5: '	PADUKA BOOT HOUSE (KATGHORA)	', toys5: 'TOYS:-	', amount5: '	0	',  url5: '	/2084377289testbysam/KATGHORA/PADUKA%20BOOT%20(KATGHORA)%20250.htm						',
 												},
-{id: 1, name: '	KATGI', total: ' (	78998	)', 									
+{id: 1, name: '	KATGI', total: ' (	83998	)', 									
 customer1: '	VIDHYARTHI GENERAL (KATGI)	', toys1: 'TOYS:-	', amount1: ' 	6090	',  url1: '	/2084377289testbysam/KATGI/VIDYARTH GENERAL (KATGI) 106.htm						',
 customer2: '	MANOJ FASHION	', toys2: 'TOYS:-	', amount2: '	22822	',  url2: '	/2084377289testbysam/KATGI/MANOJ FASHION (KATGI) 164.htm						',
 customer3: '	MAHAMAYA GENERAL (KATGI)	', toys3: 'TOYS:-	', amount3: '	655	',  url3: '	/2084377289testbysam/KATGI/MAHAMAYA GENERAL. (KATGI) 170.htm						',
 customer4: '	JYOTI GENRAL (KATGI)	', toys4: 'TOYS:-	', amount4: ' 	0	',  url4: '	/2084377289testbysam/KATGI/JYOTI GENERAL (KATGI) 10.htm						',
 customer5: '	PAWAN GENERAL STORE (KATGI)	', toys5: 'TOYS:-	', amount5: '	24288	',  url5: '	/2084377289testbysam/KATGI/PAWAN GENERAL (KATGI) 38.htm						',
-customer6: '	SAI GENERAL (KATGI)	', toys6: 'TOYS:-	', amount6: '	-202	',  url6: '	/2084377289testbysam/KATGI/SAI GENERAL (KATGI) 264.htm						',
+customer6: '	SAI GENERAL (KATGI)	', toys6: 'TOYS:-	', amount6: '	4798	',  url6: '	/2084377289testbysam/KATGI/SAI GENERAL (KATGI) 264.htm						',
 customer7: '	SURAJ GENERAL (KATGI)	', toys7: 'TOYS:-	', amount7: '	8003	',  url7: '	/2084377289testbysam/KATGI/SURAJ GENERAL. (KATGI) 27.htm						',
 customer8: '	MANOJ GENERAL (KATGI)	', toys8: 'TOYS:-	', amount8: '	17342	',  url8: '	/2084377289testbysam/KATGI/MANOJ GENERAL. (KATGI) 68.htm						',
 												},
