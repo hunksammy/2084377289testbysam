@@ -46,3 +46,22 @@ $("#formLoc1").submit(function(e){
 
   locRef.push(x);
 });
+
+
+$("#formLoc2").submit(function(e){
+  e.preventDefault();
+  var x = {
+    desc2:$('#nameLoc1').val(),
+    name2:$('#descLoc1').val(),
+
+
+	
+  }; 
+
+
+
+
+
+
+  locRef.push(x);
+});
