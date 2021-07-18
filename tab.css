@@ -23,7 +23,7 @@ a {
   display: block;
   font-weight: 600;
   padding: 10px 0;
-  text-align: center;
+  text-align: left;
   text-decoration: none;
 }
 a:hover {
