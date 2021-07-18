@@ -9,12 +9,8 @@ locRef.on('child_added', function(snap){
 });
 
 
-$("#formLoc").on('click', () => {
-  $('#formLoc').text('ADDED ✅')
-.submit(function(e){ 
-
-
-  e.preventDefault();
+$("#formLoc").submit(function(e){ 
+e.preventDefault();
   var x = {
     name:$('#nameLoc').val(),
     desc:$('#descLoc').val(),
