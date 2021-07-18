@@ -11,7 +11,6 @@ body {
 }
 
 .tabs {
-Position: fixed;
  background-color: black; 
  color: white;
   display: flex;
