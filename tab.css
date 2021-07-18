@@ -10,7 +10,7 @@ body {
 }
 
 .tabs {
-  display: block;
+  display: grid;
   list-style-type: none;
   border-bottom: 1px solid #ccc;
   overflow-x: auto;
