@@ -9,7 +9,8 @@ locRef.on('child_added', function(snap){
 });
 
 
-$("#formLoc").submit(function(e){
+$("#formLoc").submit(function(e){ 
+alert("Submitted");
   e.preventDefault();
   var x = {
     name:$('#nameLoc').val(),
