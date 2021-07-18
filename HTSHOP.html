@@ -186,7 +186,160 @@ em {
 
 					</tab-content>
 					<tab-content>
-						<p>TAB 02 content</p>
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Tasks vue.js and firebase Google</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./ORDEROUT.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html lang="pt">
+  <head>
+    <meta charset="utf-8">
+    <title>app vue.js and firebase</title>
+    <link rel="stylesheet" type="text/css" href="../../main.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <script src="https://cdn.firebase.com/js/client/2.3.2/firebase.js"></script>
+    <script src="https://cdn.jsdelivr.net/vue/1.0.24/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/vuefire/1.1.0/vuefire.min.js"></script>
+  </head>
+  <body>
+    <div id="app">
+     
+     <div class="window-wrapper">
+    <div class="window-title">
+      <div class="dots">
+        </div>
+  </div>
+    <div class="controls">
+      <div class="btns">
+        
+        
+    </div>
+    <div class="main-area">
+      <ul>
+        <li v-for="item in items" track-by=".key" class="task">
+          <div>  
+            <span class="description">
+	
+	
+	
+<style>
+img {
+  width: 75%;
+  height: auto;
+display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+</style>
+</head>
+<body>
+
+<img src="{{item.name}}" > </body>
+</html>
+<h1 style="background-color:Gray; color: black; text-align: center; "> <b>  {{item.desc}}</b></h1>  
+
+
+
+<img src="{{item.desc1}}" > </body> 
+</html> 
+<h1 style="background-color:Gray; color: black; text-align: center; "> <b>{{item.name1}}</b></h1> 
+
+<img src="{{item.desc2}}" > </body> 
+</html> 
+<h1 style="background-color:Gray; color: black; text-align: center; "> <b>{{item.name2}}</b></h1>  
+	
+<img src="{{item.desc3}}" > </body> 
+</html> 
+<h1 style="background-color:Gray; color: black; text-align: center; "> <b>{{item.name3}}</b></h1> 
+
+<img src="{{item.desc4}}" > </body> 
+</html> 
+<h1 style="background-color:Gray; color: black; text-align: center; "> <b>{{item.name4}}</b></h1> 
+
+<img src="{{item.desc5}}" > </body> 
+</html> 
+<h1 style="background-color:Gray; color: black; text-align: center; "> <b>{{item.name5}}</b></h1>  	 
+
+<img src="{{item.desc6}}" > </body> 
+</html> 
+<h1 style="background-color:Gray; color: black; text-align: center; "> <b>{{item.name6}}</b></h1> 	
+
+<img src="{{item.desc7}}" > </body> 
+</html> 
+<h1 style="background-color:Gray; color: black; text-align: center; "> <b>{{item.name7}}</b></h1> 	
+
+<img src="{{item.desc8}}" > </body> 
+</html> 
+<h1 style="background-color:Gray; color: black; text-align: center; "> <b>{{item.name8}}</b></h1> 	
+
+<img src="{{item.desc9}}" > </body> 
+</html> 
+<h1 style="background-color:Gray; color: black; text-align: center; "> <b>{{item.name9}}</b></h1> 	
+	
+	
+
+
+
+ 
+
+
+
+           </hr> <button class="pull-right" @click="removeTodo(item['.key'])"><i class="fa fa-times"></i></button></hr> 
+          </div>
+        </li>
+      </ul>
+    </div>
+   
+  </div>
+
+
+    </div>
+
+    <script>
+      /* global Vue, Firebase */
+      var itemsRef = new Firebase('https://notes-12519-default-rtdb.firebaseio.com/location')
+
+      new Vue({
+        el: '#app',
+        data: {
+          newTodo: ''
+        },
+        firebase: {
+          items: itemsRef.limitToLast(100)
+        },
+        methods: {
+          removeTodo: function (key) {
+            itemsRef.child(key).remove()
+          },
+          addTodo: function () {
+            if (this.newTodo.trim()) {
+              itemsRef.push({
+                text: this.newTodo
+              })
+              this.newTodo = ''
+            }
+          }
+        }
+      })
+    </script>
+    <script>    	unescape("Desenvolvido%252520por%252520Glauber%252520Funez%252520(https%25253A%25252F%25252Fwww.facebook.com%25252Fglauber.funez)%25252C%252520precisando%252520de%252520um%252520sistema%252520web%252520entre%252520em%252520contato%252520ou%252520acesse%252520vimbo.com.br.%25250Afacebook%252520oficial%252520do%252520autor%25253A%252520https%25253A%25252F%25252Fwww.facebook.com%25252Fglauberoficial");
+    </script>
+  </body>
+</html>
+<!-- partial -->
+  <script  src="./ORDEROUT.js"></script>
+
+</body>
+</html>
+
+						
 					</tab-content>
 					<tab-content>
 						<p>TAB 03 content</p>
