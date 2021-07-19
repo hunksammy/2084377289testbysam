@@ -1,0 +1,24 @@
+.tab-navigation {
+  padding: 0;
+  padding-left: 30px;
+  border-bottom: solid 1px #ddd;
+}
+.tab-navigation li {
+  display: inline-block;
+  margin-bottom: -1px;
+}
+.tab-navigation li a {
+  display: inline-block;
+  border: solid 1px #ddd;
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+}
+.tab-navigation .active a {
+  border-bottom-color: #fff;
+}
+.tab-content {
+  display: none;
+}
+.tab-content.active {
+  display: block;
+}
