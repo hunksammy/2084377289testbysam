@@ -19,6 +19,17 @@ body {
   overflow-x: auto;
 }
 
+
+.checkout {
+	position: fixed;
+ background-color: green; 
+ color: white;
+  display: flex;
+  list-style-type: none;
+  border-bottom: 1px solid #ccc;
+  overflow-x: auto;
+
+
 .tabs a {
   display: block;
   padding: 10px;
