@@ -132,3 +132,80 @@ $("#formLoc4").submit(function(e){
   locRef.push(x);
 });
 
+
+$("#formLoc5").submit(function(e){
+  e.preventDefault();
+  var x = {
+    desc5:$('#nameLoc5').val(),
+    name5:$('#descLoc5').val(),
+
+
+	
+  }; 
+
+
+
+
+
+
+  locRef.push(x);
+});
+
+
+$("#formLoc6").submit(function(e){
+  e.preventDefault();
+  var x = {
+    desc6:$('#nameLoc6').val(),
+    name6:$('#descLoc6').val(),
+
+
+	
+  }; 
+
+
+
+
+
+
+  locRef.push(x);
+});
+
+
+$("#formLoc7").submit(function(e){
+  e.preventDefault();
+  var x = {
+    desc7:$('#nameLoc7').val(),
+    name7:$('#descLoc7').val(),
+
+
+	
+  }; 
+
+
+
+
+
+
+  locRef.push(x);
+});
+
+
+$("#formLoc8").submit(function(e){
+  e.preventDefault();
+  var x = {
+    desc8:$('#nameLoc8').val(),
+    name8:$('#descLoc8').val(),
+
+
+	
+  }; 
+
+
+
+
+
+
+  locRef.push(x);
+});
+
+
