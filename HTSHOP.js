@@ -9,11 +9,11 @@ locRef.on('child_added', function(snap){
 });
 
 
-$("#formLoc001").submit(function(e){
+$("#formLocCUST").submit(function(e){
   e.preventDefault();
   var x = {
-    desc001:$('#nameLoc001').val(),
-    name001:$('#descLoc001').val(),
+    desc001:$('#nameLocCUST').val(),
+    name001:$('#descLocCUST').val(),
 
 
 	
