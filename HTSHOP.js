@@ -209,3 +209,20 @@ $("#formLoc8").submit(function(e){
 });
 
 
+$("#formLoc9").submit(function(e){
+  e.preventDefault();
+  var x = {
+    desc9:$('#nameLoc9').val(),
+    name9:$('#descLoc9').val(),
+
+
+	
+  }; 
+
+
+
+
+
+
+  locRef.push(x);
+});
