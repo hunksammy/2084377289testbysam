@@ -10,8 +10,7 @@ locRef.on('child_added', function(snap){
 
 
 $("#formLocCUST").submit(function(e){
-	$("input").click(function() {
-                // Change text of input button
+	// Change text of input button
                 $("#Geeks").prop("value", "Prop Click");
   e.preventDefault();
   var x = {
