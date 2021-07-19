@@ -123,6 +123,31 @@ em {
 </style>
 
 
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Tabbed View Angular Example</title>
+  <link rel="stylesheet" href="./finaltab.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div ng-app>
+  <ul class="tab-navigation">
+    <li ng-class="{'active': activeTab != 2}">
+      <a href="#" ng-click="activeTab=1">Tab Baslik 1</a>
+    </li>
+    <li ng-class="{'active': activeTab == 2}">
+      <a href="#" ng-click="activeTab=2">Tab Baslik 2</a>
+    </li>
+  </ul>
+
+  <div class="tab-content" ng-class="{'active': activeTab != 2}">
+    <p>Tab icerik 1
+
+
+
 
  
 <p>  NEW ARRIVAL </p> 
@@ -201,7 +226,12 @@ em {
  <hr/>
  
 
- 
+ </p>
+  </div>
+
+  <div class="tab-content" ng-class="{'active': activeTab == 2}">
+    <p>Tab icerik 2
+
  
 Sam testing
 		
@@ -228,6 +258,15 @@ Sam testing
 </body>		
 </html>		
   </div>	
+
+
+</p>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js'></script>
+</body>
+</html>
 
 
   
