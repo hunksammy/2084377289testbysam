@@ -9,7 +9,7 @@ locRef.on('child_added', function(snap){
 });
 
 
-$("#formLoc4").submit(function(e){
+$("#formLoc001").submit(function(e){
   e.preventDefault();
   var x = {
     desc001:$('#nameLoc001').val(),
