@@ -30,10 +30,7 @@ $("#formLocCUST").submit(function(e){
 
 
 
- $(document).ready(function() {
-            $("input").click(function() {
-                // Change text of input button
-                $("#Geeks").prop("value", "Prop Click");
+
 
 
 
