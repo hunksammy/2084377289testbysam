@@ -9,6 +9,29 @@ locRef.on('child_added', function(snap){
 });
 
 
+$("#formLoc4").submit(function(e){
+  e.preventDefault();
+  var x = {
+    desc001:$('#nameLoc001').val(),
+    name001:$('#descLoc001').val(),
+
+
+	
+  }; 
+
+
+
+
+
+
+  locRef.push(x);
+});
+
+
+
+
+
+
 $("#formLoc").submit(function(e){
   e.preventDefault();
   var x = {
