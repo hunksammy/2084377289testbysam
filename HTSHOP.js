@@ -56,7 +56,7 @@ $("#formLoc").submit(function(e){
 
 
 
-$("#formLoc1").submit(function(e){  e.preventDefault();var x = { desc1:$('#nameLoc1).val(),name1:$('#descLoc1).val(),};locRef.push(x);});
+
 
 
 
