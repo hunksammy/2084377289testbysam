@@ -39,8 +39,8 @@ $("#formLocCUST").submit(function(e){
 $("#formLoc").submit(function(e){
   e.preventDefault();
   var x = {
-    desc1:$('#nameLoc').val(),
-    name1:$('#descLoc').val(),
+    desc0:$('#nameLoc').val(),
+    name0:$('#descLoc').val(),
 
 
 	
