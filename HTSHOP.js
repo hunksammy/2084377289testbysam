@@ -827,3 +827,193 @@ $("#formLoc40").submit(function(e){
   locRef.push(x);
 });
 
+$("#formLoc41").submit(function(e){
+  e.preventDefault();
+  var x = {
+    desc41:$('#nameLoc41').val(),
+    name41:$('#descLoc41').val(),
+
+
+
+  }; 
+
+
+
+
+
+
+  locRef.push(x);
+});
+
+
+$("#formLoc42").submit(function(e){
+  e.preventDefault();
+  var x = {
+    desc42:$('#nameLoc42').val(),
+    name42:$('#descLoc42').val(),
+
+
+
+  }; 
+
+
+
+
+
+
+  locRef.push(x);
+});
+
+
+$("#formLoc43").submit(function(e){
+  e.preventDefault();
+  var x = {
+    desc43:$('#nameLoc43').val(),
+    name43:$('#descLoc43').val(),
+
+
+
+  }; 
+
+
+
+
+
+
+  locRef.push(x);
+});
+
+
+$("#formLoc44").submit(function(e){
+  e.preventDefault();
+  var x = {
+    desc44:$('#nameLoc44').val(),
+    name44:$('#descLoc44').val(),
+
+
+
+  }; 
+
+
+
+
+
+
+  locRef.push(x);
+});
+
+
+$("#formLoc45").submit(function(e){
+  e.preventDefault();
+  var x = {
+    desc45:$('#nameLoc45').val(),
+    name45:$('#descLoc45').val(),
+
+
+
+  }; 
+
+
+
+
+
+
+  locRef.push(x);
+});
+
+
+$("#formLoc46").submit(function(e){
+  e.preventDefault();
+  var x = {
+    desc46:$('#nameLoc46').val(),
+    name46:$('#descLoc46').val(),
+
+
+
+  }; 
+
+
+
+
+
+
+  locRef.push(x);
+});
+
+
+$("#formLoc47").submit(function(e){
+  e.preventDefault();
+  var x = {
+    desc47:$('#nameLoc47').val(),
+    name47:$('#descLoc47').val(),
+
+
+
+  }; 
+
+
+
+
+
+
+  locRef.push(x);
+});
+
+
+$("#formLoc48").submit(function(e){
+  e.preventDefault();
+  var x = {
+    desc48:$('#nameLoc48').val(),
+    name48:$('#descLoc48').val(),
+
+
+
+  }; 
+
+
+
+
+
+
+  locRef.push(x);
+});
+
+
+$("#formLoc49").submit(function(e){
+  e.preventDefault();
+  var x = {
+    desc49:$('#nameLoc49').val(),
+    name49:$('#descLoc49').val(),
+
+
+
+  }; 
+
+
+
+
+
+
+  locRef.push(x);
+});
+
+
+$("#formLoc50").submit(function(e){
+  e.preventDefault();
+  var x = {
+    desc50:$('#nameLoc50').val(),
+    name50:$('#descLoc50').val(),
+
+
+
+  }; 
+
+
+
+
+
+
+  locRef.push(x);
+});
+
+
