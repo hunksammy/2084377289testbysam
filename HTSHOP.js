@@ -57,16 +57,6 @@ $("#formLoc").submit(function(e){
 
 
 
-
-
-
-
-
-
-
-
-
-
 $("#formLoc1").submit(function(e){
   e.preventDefault();
   var x = {
@@ -74,7 +64,7 @@ $("#formLoc1").submit(function(e){
     name1:$('#descLoc1').val(),
 
 
-	
+
   }; 
 
 
@@ -84,6 +74,17 @@ $("#formLoc1").submit(function(e){
 
   locRef.push(x);
 });
+
+
+
+
+
+
+
+
+
+
+
 
 
 
