@@ -1,5 +1,7 @@
 .tabsdemoDynamicHeight md-content {
-  background-color: transparent !important; }
+  background-color: transparent !important; 
+    position: fixed;}
+
   .tabsdemoDynamicHeight md-content md-tabs {
     background: #ffffff;
     border: 1px solid #e1e1e1; }
