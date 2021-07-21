@@ -1,3 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - CSS Only Modal On Page Load</title>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css'><link rel="stylesheet" href="./modal.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!DOCTYPE html>		
 <html lang="en" >		
 <head>		
@@ -1187,137 +1223,54 @@ em {
   </div>	
 
 
-<style>
-body {
-    color: #333333;
-    font-family:'Helvetica', arial;
-    height:1500px;
-}
-.wrap {
-    padding: 40px;
-    text-align: center;
-}
-hr {
-    clear: both;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    border: 0;
-    border-top: 1px solid #aaaaaa;
-}
-h1 {
-    font-size: 30px;
-    margin-bottom: 40px;
-}
-p {
-    margin-bottom: 20px;
-}
-.btn {
-    background: #428bca;
-    border: #357ebd solid 1px;
-    border-radius: 3px;
-    color: #fff;
-    display: inline-block;
-    font-size: 14px;
-    padding: 8px 15px;
-    text-decoration: none;
-    text-align: center;
-    min-width: 60px;
-    position: relative;
-    transition: color .1s ease;
-}
-.btn:hover {
-    background: #357ebd;
-}
-.btn.btn-big {
-    font-size: 18px;
-    padding: 15px 20px;
-    min-width: 100px;
-}
-.btn-close {
-    color: #aaaaaa;
-    font-size: 30px;
-    text-decoration: none;
-    position: absolute;
-    right: 5px;
-    top: 0;
-}
-.btn-close:hover {
-    color: #919191;
-}
-.modal:target:before {
-    display: none;
-}
-.modal:before {
-    content:"";
-    display: block;
-    background: rgba(0, 0, 0, 0.6);
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 10;
-}
-.modal .modal-dialog {
-    background: #fefefe;
-    border: #333333 solid 1px;
-    border-radius: 5px;
-    margin-left: -200px;
-    position: fixed;
-    left: 50%;
-    z-index: 11;
-    width: 360px;
-    -webkit-transform: translate(0, 0);
-    -ms-transform: translate(0, 0);
-    transform: translate(0, 0);
-    -webkit-transition: -webkit-transform 0.3s ease-out;
-    -moz-transition: -moz-transform 0.3s ease-out;
-    -o-transition: -o-transform 0.3s ease-out;
-    transition: transform 0.3s ease-out;
-    top: 20%;
-}
-.modal:target .modal-dialog {
-    top: -100%;
-    -webkit-transform: translate(0, -500%);
-    -ms-transform: translate(0, -500%);
-    transform: translate(0, -500%);
-}
-.modal-body {
-    padding: 20px;
-}
-.modal-header, .modal-footer {
-    padding: 10px 20px;
-}
-.modal-header {
-    border-bottom: #eeeeee solid 1px;
-}
-.modal-header h2 {
-    font-size: 20px;
-}
-.modal-footer {
-    border-top: #eeeeee solid 1px;
-    text-align: right;
-}
-</style>
 
-<!-- Modal -->
-<div class="modal" id="modal-one" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-header">
-             <h2>Modal in CSS?</h2>
- <a href="#modal-one" class="btn-close" aria-hidden="true">×</a>
 
-        </div>
-        <div class="modal-body">
-            <p>One modal example here! :D</p>
-        </div>
-        <div class="modal-footer"> <a href="#modal-one" class="btn">Nice!</a>
 
-        </div>
-    </div>
-</div>
-<div class="wrap"> <a href="#" class="btn btn-big">Modal!</a>
+
+
 
 </div>
+</div>
+<div class="stripe inverse">
+	<div class="container">
+		<!-- Example row of columns -->
+		<div class="row">
+			<div class="col-md-4">
+				<h2>Heading</h2>
+				<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+				<p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+			</div>
+			<div class="col-md-4">
+				<h2>Heading</h2>
+				<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+				<p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+			</div>
+			<div class="col-md-4">
+				<h2>Heading</h2>
+				<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+				<p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+			</div>
+		</div>
+
+		<hr>
+	</div>
+</div>
+
+<div id="css-only-modals">
+	<input id="modal1" class="css-only-modal-check" type="checkbox" checked/>
+	<div class="css-only-modal">
+		<label for="modal1" class="css-only-modal-close"><i class="fa fa-times fa-2x"></i></label>
+		<h2>Modal Title</h2>
+		<hr />
+		<p>Modal body text. Lorem ipsum dolor. etc. stuff to read and alert people about.</p>
+		<label for="modal1" class="css-only-modal-btn btn btn-primary btn-lg">Okay</label>
+	</div>
+<div id="screen-shade"></div>
+</div>
+<!-- partial -->
+  
+</body>
+</html>
+
 
 
