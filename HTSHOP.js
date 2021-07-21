@@ -1767,4 +1767,95 @@ $("#formLoc90").submit(function(e){
   locRef.push(x);
 });
 
+$("#formLoc91").submit(function(e){
+  e.preventDefault();
+  var x = {
+    desc91:$('#nameLoc91').val(),
+    name91:$('#descLoc91').val(),
+
+
+
+  }; 
+
+
+
+
+
+
+  locRef.push(x);
+});
+
+$("#formLoc92").submit(function(e){
+  e.preventDefault();
+  var x = {
+    desc92:$('#nameLoc92').val(),
+    name92:$('#descLoc92').val(),
+
+
+
+  }; 
+
+
+
+
+
+
+  locRef.push(x);
+});
+
+$("#formLoc93").submit(function(e){
+  e.preventDefault();
+  var x = {
+    desc93:$('#nameLoc93').val(),
+    name93:$('#descLoc93').val(),
+
+
+
+  }; 
+
+
+
+
+
+
+  locRef.push(x);
+});
+
+$("#formLoc94").submit(function(e){
+  e.preventDefault();
+  var x = {
+    desc94:$('#nameLoc94').val(),
+    name94:$('#descLoc94').val(),
+
+
+
+  }; 
+
+
+
+
+
+
+  locRef.push(x);
+});
+
+
+$("#formLoc95").submit(function(e){
+  e.preventDefault();
+  var x = {
+    desc95:$('#nameLoc95').val(),
+    name95:$('#descLoc95').val(),
+
+
+
+  }; 
+
+
+
+
+
+
+  locRef.push(x);
+});
+
 
