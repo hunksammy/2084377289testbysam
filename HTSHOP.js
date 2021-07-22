@@ -3523,4 +3523,21 @@ $("#formLoc187").submit(function(e){
   locRef.push(x);
 });
 
+$("#formLoc188").submit(function(e){
+  e.preventDefault();
+  var x = {
+    desc188:$('#nameLoc188').val(),
+    name188:$('#descLoc188').val(),
+
+
+
+  }; 
+
+
+
+
+
+
+  locRef.push(x);
+});
 
