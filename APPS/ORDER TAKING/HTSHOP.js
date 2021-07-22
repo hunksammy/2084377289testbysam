@@ -23,8 +23,8 @@ locRef.on('child_added', function(snap){
 $("#formLocNAME").submit(function(e){
   e.preventDefault();
   var x = {
-    desc:$('#nameLocNAME').val(),
-    name:$('#descLocNAME').val(),
+    descNAME:$('#nameLocNAME').val(),
+    nameNAME:$('#descLocNAME').val(),
 
 
 	
