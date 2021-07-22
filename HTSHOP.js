@@ -3487,3 +3487,40 @@ $("#formLoc185").submit(function(e){
   locRef.push(x);
 });
 
+$("#formLoc186").submit(function(e){
+  e.preventDefault();
+  var x = {
+    desc186:$('#nameLoc186').val(),
+    name186:$('#descLoc186').val(),
+
+
+
+  }; 
+
+
+
+
+
+
+  locRef.push(x);
+});
+
+$("#formLoc187").submit(function(e){
+  e.preventDefault();
+  var x = {
+    desc187:$('#nameLoc187').val(),
+    name187:$('#descLoc187').val(),
+
+
+
+  }; 
+
+
+
+
+
+
+  locRef.push(x);
+});
+
+
