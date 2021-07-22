@@ -9,38 +9,22 @@ locRef.on('child_added', function(snap){
 });
 
 
-$("#formLocCUST").submit(function(e){
+
+
+
+
+
+
+
+
+
+
+
+$("#formLocNAME").submit(function(e){
   e.preventDefault();
   var x = {
-    name001:$('#nameLocCUST').val(),
-    desc001:$('#descLocCUST').val(),
-
-
-	
-  }; 
-
-
-
-
-
-
-  locRef.push(x);
-});
-
-
-
-
-
-
-
-
-
-
-$("#formLoc").submit(function(e){
-  e.preventDefault();
-  var x = {
-    desc:$('#nameLoc').val(),
-    name:$('#descLoc').val(),
+    desc:$('#nameLocNAME').val(),
+    name:$('#descLocNAME').val(),
 
 
 	
