@@ -2398,4 +2398,184 @@ $("#formLoc125").submit(function(e){
   locRef.push(x);
 });
 
+$("#formLoc126").submit(function(e){
+  e.preventDefault();
+  var x = {
+    desc126:$('#nameLoc126').val(),
+    name126:$('#descLoc126').val(),
+
+
+
+  }; 
+
+
+
+
+
+
+  locRef.push(x);
+});
+
+$("#formLoc127").submit(function(e){
+  e.preventDefault();
+  var x = {
+    desc127:$('#nameLoc127').val(),
+    name127:$('#descLoc127').val(),
+
+
+
+  }; 
+
+
+
+
+
+
+  locRef.push(x);
+});
+
+$("#formLoc128").submit(function(e){
+  e.preventDefault();
+  var x = {
+    desc128:$('#nameLoc128').val(),
+    name128:$('#descLoc128').val(),
+
+
+
+  }; 
+
+
+
+
+
+
+  locRef.push(x);
+});
+
+$("#formLoc129").submit(function(e){
+  e.preventDefault();
+  var x = {
+    desc129:$('#nameLoc129').val(),
+    name129:$('#descLoc129').val(),
+
+
+
+  }; 
+
+
+
+
+
+
+  locRef.push(x);
+});
+
+$("#formLoc130").submit(function(e){
+  e.preventDefault();
+  var x = {
+    desc130:$('#nameLoc130').val(),
+    name130:$('#descLoc130').val(),
+
+
+
+  }; 
+
+
+
+
+
+
+  locRef.push(x);
+});
+
+
+$("#formLoc131").submit(function(e){
+  e.preventDefault();
+  var x = {
+    desc131:$('#nameLoc131').val(),
+    name131:$('#descLoc131').val(),
+
+
+
+  }; 
+
+
+
+
+
+
+  locRef.push(x);
+});
+
+$("#formLoc132").submit(function(e){
+  e.preventDefault();
+  var x = {
+    desc132:$('#nameLoc132').val(),
+    name132:$('#descLoc132').val(),
+
+
+
+  }; 
+
+
+
+
+
+
+  locRef.push(x);
+});
+
+$("#formLoc133").submit(function(e){
+  e.preventDefault();
+  var x = {
+    desc133:$('#nameLoc133').val(),
+    name133:$('#descLoc133').val(),
+
+
+
+  }; 
+
+
+
+
+
+
+  locRef.push(x);
+});
+
+$("#formLoc134").submit(function(e){
+  e.preventDefault();
+  var x = {
+    desc134:$('#nameLoc134').val(),
+    name134:$('#descLoc134').val(),
+
+
+
+  }; 
+
+
+
+
+
+
+  locRef.push(x);
+});
+
+$("#formLoc135").submit(function(e){
+  e.preventDefault();
+  var x = {
+    desc135:$('#nameLoc135').val(),
+    name135:$('#descLoc135').val(),
+
+
+
+  }; 
+
+
+
+
+
+
+  locRef.push(x);
+});
 
