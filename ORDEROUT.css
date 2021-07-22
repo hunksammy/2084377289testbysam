@@ -141,7 +141,7 @@ ul{
 .main-area{
   overflow-y: auto;
   position: absolute;
-  top: 125px;
+  top: 0px;
   bottom: 33px;
   left: 0;
   right: 0;
