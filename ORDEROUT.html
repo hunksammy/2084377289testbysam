@@ -21,6 +21,8 @@
   </head>
   <body>
     <div id="app">
+	
+	
      
      <div class="window-wrapper">
     <div class="window-title">
@@ -37,10 +39,16 @@
         <li v-for="item in items" track-by=".key" class="task">
           <div>  
             <span class="description">
-	
-	
+
+
+<div class="customer">
+{{item.desc}} {{item.name}}  </div>	
+ 	
 	
 <style>
+
+
+
 img {
   width: 85%;
   height: auto;
@@ -54,7 +62,6 @@ display: block;
 <body>
 
 
- {{item.name}} {{item.desc}} 
 
 
 
@@ -73,14 +80,15 @@ display: block;
 
 
 
-  {{item.desc}} {{item.name}} </h1>  
+
+  
 
 <!DOCTYPE html>
 <html>
 <head>
 <style>
 .myDiv {
-  border: 3px outset black;
+  border: 0px outset black;
   background-color: white;    
   text-align: left;
     width: 260px;

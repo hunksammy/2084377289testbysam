@@ -127,7 +127,7 @@ input[type="text"], input[type="search"]{
 }/* Glauber Funez */
 li{
   display:block;
-  padding:13px 15px;
+  padding:0px 0px;
   font-size:14px;
   border-bottom:1px solid #E7E3E3;
   color: #868686;
