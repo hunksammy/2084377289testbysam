@@ -43,7 +43,6 @@ $("#formLocNAME").submit(function(e){
 
 
 $("#formLoc1").submit(function(e){
-alert("CUSTOMER NAME ADDED");
   e.preventDefault();
   var x = {
     desc1:$('#nameLoc1').val(),
