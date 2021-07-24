@@ -7,7 +7,10 @@ $(document).ready(function(e){
     // do something when whole page is done loading
     // remove the timeout when youre copying this in your website
     
- 
+    setTimeout(function () {
+      showPage();
+    },3000);
+  });
   
   function showPage() {
     // hides the preloader with a nice transition (css opacity)
