@@ -255,7 +255,7 @@ input:hover, input:active, button:hover, button:active {
 <div id="app">
   
   <div v-for="item in items" class="item" :key="item.key">
-    <button @click="removeItem(item)">&times;</button> {{item.value}} 
+    <button @click="removeItem(item)">&times;</button> {{item.name}} 
   </div>
 
   <div>
