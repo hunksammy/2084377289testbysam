@@ -9,7 +9,7 @@ $(document).ready(function(e){
     
     setTimeout(function () {
       showPage();
-    },3000);
+    },2000);
   });
   
   function showPage() {
