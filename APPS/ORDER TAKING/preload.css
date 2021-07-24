@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+div.preloader { 
+  height: 100vh;
+  width: 100vw;
+  
+  /* center anything */
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  z-index: 999;
+  position: fixed;
+  top: 0;left: 0;
+  background: #333;
+}
+
+.preloader.hidden { z-index:0;}
+
+div.preloader-color { position: absolute;border-radius:50%;}
+div.preloader-first { 
+  /* change here when you're using another animation */
+  animation: spin 1s linear infinite;
+  height: 150px;
+  width: 150px;
+  
+  border: 4px #333 solid;
+  border-top: 4px #555 solid;
+  border-left: 4px #555 solid;
+}
+
+div.preloader-second { 
+  /* change here when you're using another animation */
+  animation: spin 1.4s linear infinite;
+  
+  height: 130px;
+  width: 130px;
+  
+  border: 4px #333 solid;
+  border-top: 4px #c62828 solid;
+  border-left: 4px #c62828 solid;
+}
+
+div.preloader-third { 
+  /* change here when you're using another animation */
+  animation: spin 1.7s linear infinite;
+  
+  height: 110px;
+  width: 110px;
+  
+  border: 4px #333 solid;
+  border-bottom: 4px #444 solid;
+}
+
+/* animation to make the preloader rotate */
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg);}
+}
+
+/* change animation name at line
+
+  48
+  36
+  25
+  
+*/
+
+@keyframes spinBackwards {
+  0% { transform: rotate(360deg); }
+  100% { transform: rotate(0deg); }
+}
+
+/* ################## */
+/* ################## */
+/* ################## */
+/* NO IMPORTANT STUFF */
+/* ################## */
+/* ################## */
+/* ################## */
+
+* { transition:all 200ms ease-in-out;}
+
+body {
+  margin:0;
+}
+
+h1,h3,a { font-family: 'Lato', sans-serif;}
+
+.content {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  
+  height:100vh;
+  width: 100%;
+  
+  background-color:#333;
+}
+
+h1 {
+  width:50%;
+  color:#bbb;
+  
+  font-size:30px;
+  -webkit-font-smoothing:antialised;
+}
+
+h1 a {
+  font-size: 36px;
+  color:#fff;
+  text-decoration:none;
+}
+
+h1 a:hover {
+  color:#c62828;
+}
+
+h3 {
+  color:#aaa;
+  text-transform:uppercase;
+  cursor:pointer;
+}
+
+h3:hover {
+  color:#ccc;
+}
+
+@media screen and (max-width:500px) {
+  h1 { width: 80%;}
+}
