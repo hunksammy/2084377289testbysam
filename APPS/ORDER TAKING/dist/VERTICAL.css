@@ -82,6 +82,7 @@ ul.nav{
   width:80px;
   position: fixed;
   background: white;
+  margin-left: -40px;
 }
 .tab-content{
   float:left;
