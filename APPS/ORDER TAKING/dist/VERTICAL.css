@@ -27,7 +27,7 @@ border-radius: 4px;
 
 .tab-header{
   background:#00aeef;
-  width:100%;
+  width:0%;
   height:56px;
   border-radius: 0px 5px 5px 0px;
 }
@@ -80,6 +80,7 @@ ul.nav{
   display:block;
   float:left;
   width:80px;
+  position: fixed;
 }
 .tab-content{
   float:left;
