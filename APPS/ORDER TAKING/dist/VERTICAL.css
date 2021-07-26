@@ -82,7 +82,7 @@ ul.nav{
   width:250px;
 position: fixed;
   background: black;
-  margin-left: -40px;
+  margin-left: -60px;
 overflow:auto;
 height: 100%;
 }
@@ -90,7 +90,7 @@ height: 100%;
   float:left;
   width:150px;
   height:200px;
-  margin-left: 800px;
+  margin-left: 700px;
 }
 }
 .img-content{
