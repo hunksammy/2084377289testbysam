@@ -79,7 +79,7 @@ border-radius: 4px;
 ul.nav{
   display:block;
   float:left;
-  width:100px;
+  width:130px;
 position: fixed;
   background: black;
   margin-left: -40px;
@@ -90,7 +90,7 @@ height: 100%;
   float:left;
   width:280px;
   height:200px;
-  margin-left: 110px;
+  margin-left: 800px;
 }
 }
 .img-content{
