@@ -83,6 +83,7 @@ ul.nav{
 position: fixed;
   background: black;
   margin-left: -40px;
+overflow-y: scroll;
 }
 .tab-content{
   float:left;
