@@ -13,7 +13,7 @@ angular.module('toolDemo', ['ui.bootstrap'])
     $scope.increment = function() {
       $scope.switchStatus = ($scope.switchStatus === 0) ? 1 : 0;
     }
-  });
+  
 
 
 import { Component } from '@angular/core';
@@ -33,3 +33,7 @@ export class AppComponent  {
           .subscribe(() => window.scrollTo(0, 0));
   }
 }
+
+
+
+});
