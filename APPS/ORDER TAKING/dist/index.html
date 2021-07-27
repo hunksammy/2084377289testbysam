@@ -28,6 +28,12 @@ div {
         border-color: #33333;
         width: 50px
       }
+	  
+	   input[type=text] {
+        border-color: #33333;
+        width: 90px
+      }
+	  
       input[type=submit] {
         padding: 5px 15px;
 		float:	right;
@@ -59,12 +65,7 @@ div {
   <div class="container" ng-controller="demoCtrl">
   
 
- <div class="box box-flex">
-<form id="formLoc1">
- <label></label><input type="text" id="nameLoc1"class="name"  placeholder="CUSTOMER NAME">
-<input onclick="this.value='ADDED ✅'" type="submit" value="SEND"/>
-</form>  </div>
-<hr/>
+
  
     
     
@@ -73,7 +74,12 @@ div {
           <div class="tab-header"></div>
           
 
-
+ <div class="box box-flex">
+<form id="formLoc1">
+ <label></label><input type="text" id="nameLoc1"class="name"  placeholder="CUSTOMER NAME">
+<input onclick="this.value='ADDED ✅'" type="submit" value="SEND"/>
+</form>  </div>
+<hr/>
 
 
 
