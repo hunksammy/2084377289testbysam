@@ -78,8 +78,8 @@ border-radius: 4px;
 }
 ul.nav{
   display:block;
-  float:left;
-  width:80px;
+  float:right;
+
 position: fixed;
   background: black;
   margin-left: -40px;
