@@ -13,4 +13,5 @@ angular.module('toolDemo', ['ui.bootstrap'])
     $scope.increment = function() {
       $scope.switchStatus = ($scope.switchStatus === 0) ? 1 : 0;
     }
-  });
+  
+});
