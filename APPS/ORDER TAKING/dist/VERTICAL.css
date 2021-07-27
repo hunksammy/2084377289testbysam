@@ -90,10 +90,11 @@ overflow:auto;
 height: 100%;
 }
 .tab-content{
-  float:right;
-  width:230px;
-  height:200px;
-  margin-left: 80px;
+    float: right;
+    width: 230px;
+    height: 200px;
+    margin-left: 80px;
+    margin-top: -25px;
 }
 
 }
