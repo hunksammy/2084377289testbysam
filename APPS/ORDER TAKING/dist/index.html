@@ -65,14 +65,7 @@ div {
   <div class="container" ng-controller="demoCtrl">
   
 
-<div class="box box-flex">
-<form id="formLoc1">
- <label></label><input type="text" id="nameLoc1"class="name"  placeholder="customer name">
- <label></label>
-<input type="hidden" id="descLoc1"  />
-<input onclick="this.value='ADDED ✅'" type="submit" value="SEND"/>
-</form>  </div>
-<hr/>
+
  
     
     
@@ -7710,6 +7703,20 @@ div {
 
 
 <style>
+
+
+div.cust {
+background-color:  white;
+margin-top: 200px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100px;
+  border: 0px solid #73AD21;
+}
+
+
+
 div.fixed {
 background-color:  white;
   position: fixed;
@@ -7721,6 +7728,17 @@ background-color:  white;
 </style>
 </head>
 <body>
+
+<div class="cust">
+<div class="box box-flex">
+<form id="formLoc1">
+ <label></label><input type="text" id="nameLoc1"class="name"  placeholder="customer name">
+ <label></label>
+<input type="hidden" id="descLoc1"  />
+<input onclick="this.value='ADDED ✅'" type="submit" value="SEND"/>
+</form>  </div>
+<hr/>
+</div>
 
 
 
