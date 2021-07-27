@@ -15,5 +15,3 @@ angular.module('toolDemo', ['ui.bootstrap'])
     }
   
 });
-
-
