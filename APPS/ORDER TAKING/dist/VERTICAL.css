@@ -85,7 +85,7 @@ position: fixed;
   margin-left: -40px;
 }
 .tab-content{
-  float:left;
+  float:right;
   width:280px;
   height:200px;
   margin-left: 80px;
