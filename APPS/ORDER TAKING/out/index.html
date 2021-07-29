@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>CodePen - Angular Crud Firebase</title>
-     <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
   
 
 </head>
@@ -11,35 +11,43 @@
 <!-- partial:index.partial.html -->
 <html>
   <head>
-
+    
   </head>
   <body ng-app="app" ng-controller="appCtrl"   >
-    <h1>{{titulo}}</h1>
- <input type="text" ng-model="app.nombre" placeholder="Nombre"/>
- <input type="text" ng-model="app.apellidos" placeholder="Apellidos"/>   
- 
-    <select ng-model="app.genero" ng-options="value for value in generos">
-      
-    </select>
-    <input type="number"  ng-model="app.edad"/>
-    <button type="button" ng-click="add()">+</button>
     
-    <table style="width:100%">
+    
+    <table style="width:90%">
       <thead>
-        <th>Nombre</th>
-        <th>Apellidos</th>
-        <th>Genero</th>
-        <th>Edad</th>
-        <th>#</th>
+        
       </thead>
       <tbody>
+        
+        
+        <style>
+
+
+
+img {
+  flot: left;
+  width: 25%;
+  height: auto;
+display: block;
+    margin-left: 30;
+    margin-right: auto
+}
+
+</style>
+        
+        
         <tr ng-repeat="value in DB">
-          <td>{{value.nombre}}</td>
-          <td>{{value.apellidos}}</td>
-          <td>{{value.genero}}</td>
-          <td>{{value.edad}}</td>
+         
+          
+          
+          <td><img src="{{value.desc96}}" />  <img src="{{value.desc101}}" /></td>
+          <td>{{value.name96}}
+          {{value.name101}}</td>
           <td>
-            <button type="button" ng-click="edit(value)">Edit</button>
+            
           <button type="button" ng-click="delete(value)">Delete</button> 
           </td>
         </tr>

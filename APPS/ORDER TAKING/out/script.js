@@ -2,7 +2,7 @@ angular.module('app',["firebase" ])
 .controller('appCtrl',function($scope,$firebase){
   
   
-  var ref = new Firebase("https://vivid-inferno-5873.firebaseio.com/demcrud");
+  var ref = new Firebase("https://notes-12519-default-rtdb.firebaseio.com/location");
         var sync = $firebase(ref);
 
 
