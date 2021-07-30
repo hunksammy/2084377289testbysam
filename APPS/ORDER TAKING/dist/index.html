@@ -7972,7 +7972,7 @@ div.fixed {
  <label></label><input type="text" id="nameLoc1"class="name"  placeholder="customer name">
  <label></label>
 <input type="hidden" id="descLoc1"  />
-<input onclick="myFunction(); type="submit" value="SEND"/>
+<input onclick="this.value='ADDED ✅'" type="submit" value="SEND"/>
 </form>  </div>
 
 
@@ -7998,11 +7998,12 @@ div.fixed {
 
 <script>
 function myFunction() {
+this.value="DONE 👍";
 location.href = "www.yoursite.com";
 
 }
 
-</script>
+
 
 </div>
 
