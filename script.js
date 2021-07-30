@@ -1,4 +1,4 @@
-var element = document.getElementById("id01");element.innerHTML = "LEFT - 	5.57%	&nbsp;&nbsp;		&nbsp;&nbsp;UPDATE - 28/07/2021  	&nbsp;&nbsp;BAL -	1589027	";					
+var element = document.getElementById("id01");element.innerHTML = "LEFT - 	5.57%	&nbsp;&nbsp;		&nbsp;&nbsp;UPDATE - 29/07/2021  	&nbsp;&nbsp;BAL -	1578367	";					
 												
 												
 												
@@ -187,8 +187,8 @@ customer1: '	FASHION PARK (DABRA)	', toys1: 'TOYS:-	', amount1: ' 	11524	',  url
 customer1: '	AKANKSHA  (DHARAMJAYGARH)	', toys1: 'TOYS:-	', amount1: ' 	6010	',  url1: '	/2084377289testbysam/DHARMJAYGARH/AKANSHA GENERAL (DHARAMJAYGARH) 3.htm						',
 												},
 												
-{id: 1, name: '	DIPKA', total: ' (	81054	)', 									
-customer1: '	KOLKATA MAHASALE (DIPKA)	', toys1: 'TOYS:-	', amount1: ' 	46540	',  url1: '	/2084377289testbysam/DIPKA/KOLKATA%20MAHA%20SALE%20(DIPKA)%2048.htm						',
+{id: 1, name: '	DIPKA', total: ' (	85044	)', 									
+customer1: '	KOLKATA MAHASALE (DIPKA)	', toys1: 'TOYS:-	', amount1: ' 	50530	',  url1: '	/2084377289testbysam/DIPKA/KOLKATA%20MAHA%20SALE%20(DIPKA)%2048.htm						',
 customer2: '	NEW BOOK DEPO (DIPKA)	', toys2: 'TOYS:-	', amount2: '	2156	',  url2: '	/2084377289testbysam/DIPKA/NEW%20BOOK%20DEPO.%20(DIPKA)%20110.htm						',
 customer3: '	GEETA BOOK DEPO (DIPKA)	', toys3: 'TOYS:-	', amount3: '	1868	',  url3: '	/2084377289testbysam/DIPKA/GEETA%20BOOK%20DEPO.%20(DIPKA)%20266.htm						',
 customer4: '	SHANTI SUHAG (DIPKA)	', toys4: 'TOYS:-	', amount4: ' 	3910	',  url4: '	/2084377289testbysam/DIPKA/SHANTI%20SUHAG%20(DIPKA)%20129.htm						',
@@ -343,12 +343,12 @@ customer3: '	KISHORE KIRANA (MASTURI)	', toys3: 'TOYS:-	', amount3: '	9548	',  u
 {id: 1, name: '	MOHGAON ', total: '(	6511	)', 									
 customer1: '	MANISH GENERAL	', toys1: 'TOYS:-	', amount1: ' 	6511	',  url1: '	/2084377289testbysam/MOHAGAON/MANISH (MOHGAON) 156.htm						',
 												},
-{id: 1, name: '	MUNGELI', total: ' (	25163	)', 									
+{id: 1, name: '	MUNGELI', total: ' (	25213	)', 									
 customer1: '	TOY ZONE 	', toys1: 'TOYS:-	', amount1: ' 	0	',  url1: '	/2084377289testbysam/MUNGELI/TOY%20ZONE%20(MUNGELI).htm						',
 customer2: '	BABA GENERAL	', toys2: 'TOYS:-	', amount2: '	-1	',  url2: '	/2084377289testbysam/MUNGELI/BABA%20GENERAL%20(MUNGELI)%20%2023.htm						',
 customer3: '	GURUNANAK GENERAL	', toys3: 'TOYS:-	', amount3: '	269	',  url3: '	/2084377289testbysam/MUNGELI/GURUNANAK%20GENERAL%20(MUNGELI)%2076.htm						',
 customer4: '	 JEENAT BENGALS (MUNGELI)	', toys4: 'TOYS:-	', amount4: ' 	2958	',  url4: '	/2084377289testbysam/MUNGELI/ZEENAT%20BENGALS%20(MUNGELI)%2045.htm						',
-customer5: '	PAYAL BAG HOUSE	', toys5: 'TOYS:-	', amount5: '	2300	',  url5: '	/2084377289testbysam/MUNGELI/PAYAL%20BAG%20(MUNGELI)%20171.htm						',
+customer5: '	PAYAL BAG HOUSE	', toys5: 'TOYS:-	', amount5: '	2350	',  url5: '	/2084377289testbysam/MUNGELI/PAYAL%20BAG%20(MUNGELI)%20171.htm						',
 customer6: '	PRIYA LADIES	', toys6: 'TOYS:-	', amount6: '	7237	',  url6: '	/2084377289testbysam/MUNGELI/PRIYA%20LADIES%20(MUNGELI)%2099.htm						',
 customer7: '	SANGAM FANCY	', toys7: 'TOYS:-	', amount7: '	12340	',  url7: '	/2084377289testbysam/MUNGELI/SANGAM%20FANCY%20(MUNGELI)%20(NEW%20169).htm						',
 customer8: '	OM GENERAL (MUNGELI)	', toys8: 'TOYS:-	', amount8: '	0	',  url8: '	/2084377289testbysam/MUNGELI/OM%20GENERAL%20(MUNGELI)%2087.htm						',
@@ -363,16 +363,16 @@ customer1: '	BABA SCHOOL POINT (PAMGARH)	', toys1: 'TOYS:-	', amount1: ' 	2005	'
 customer2: '	KABIR (PAMGARH)	', toys2: 'TOYS:-	', amount2: ' 	3234	',  url2: '	/2084377289testbysam/PAMGARH/KABIR (PAMGARH).htm						',
 												},
 												
-{id: 1, name: '	PALI', total: ' (	74505	)', 									
-customer1: '	ARADHYA GENERAL (PALI)	', toys1: 'TOYS:-	', amount1: ' 	6592	',  url1: '	/2084377289testbysam/PALI/ARADHYA GENERAL (PALI).htm						',
-customer2: '	JAI  MAHAMAYA (PALI)	', toys2: 'TOYS:-	', amount2: '	18834	',  url2: '	/2084377289testbysam/PALI/JAI%20MAHAMAYA%20(PALI)%20267.htm						',
+{id: 1, name: '	PALI', total: ' (	59805	)', 									
+customer1: '	ARADHYA GENERAL (PALI)	', toys1: 'TOYS:-	', amount1: ' 	2892	',  url1: '	/2084377289testbysam/PALI/ARADHYA GENERAL (PALI).htm						',
+customer2: '	JAI  MAHAMAYA (PALI)	', toys2: 'TOYS:-	', amount2: '	16834	',  url2: '	/2084377289testbysam/PALI/JAI%20MAHAMAYA%20(PALI)%20267.htm						',
 customer3: '	SHIV BEEJ	', toys3: 'TOYS:-	', amount3: '	9	',  url3: '	/2084377289testbysam/PALI/SHIV%20BEEJ%20(PALI)%20255.htm						',
 customer4: '	DEEPAK READYMATE (PALI)	', toys4: 'TOYS:-	', amount4: ' 	10	',  url4: '	/2084377289testbysam/PALI/DEEPAK%20READYMATE%20(PALI).htm						',
 customer5: '	SHRIJAN	', toys5: 'TOYS:-	', amount5: '	5015	',  url5: '	/2084377289testbysam/PALI/SHRIJAN%20(PALI)%20116.htm						',
 customer6: '	SUMIT COLLECTION PALI	', toys6: 'TOYS:-	', amount6: '	0	',  url6: '	/2084377289testbysam/PALI/SUMIT%20COLLECTION%20.(PALI)%20285.htm						',
 customer7: '	UPHAR COLLECTION PALI	', toys7: 'TOYS:-	', amount7: '	0	',  url7: '	/2084377289testbysam/PALI/UPHAR%20COLLECTION%20(PALI)%20179.htm						',
-customer8: '	SANJAY BOOK DEPO (PALI)	', toys8: 'TOYS:-	', amount8: '	12490	',  url8: '	/2084377289testbysam/PALI/SANJAY%20BOOK%20DEPO.%20(PALI)%2054.htm						',
-customer9: '	SANJAY GIFT (PALI)	', toys9: 'TOYS:-	', amount9: '	31539	',  url9: '	/2084377289testbysam/PALI/SANJAY%20GIFT.%20(PALI)%20183.htm						',
+customer8: '	SANJAY BOOK DEPO (PALI)	', toys8: 'TOYS:-	', amount8: '	7490	',  url8: '	/2084377289testbysam/PALI/SANJAY%20BOOK%20DEPO.%20(PALI)%2054.htm						',
+customer9: '	SANJAY GIFT (PALI)	', toys9: 'TOYS:-	', amount9: '	27539	',  url9: '	/2084377289testbysam/PALI/SANJAY%20GIFT.%20(PALI)%20183.htm						',
 customer10: '	KHUSHI GENERAL (PALI)	', toys10: 'TOYS:-	', amount10: '	16	',  url10: '	/2084377289testbysam/PALI/KHUSHI GENERAL (PALI).htm						',
 												},
 {id: 1, name: '	PANDARIYA', total: ' (	38408	)', 									
