@@ -25,8 +25,6 @@ $("#formLoc11").submit(function(e){
   var x = {
     desc11:$('#nameLoc11').val(),
     name11:$('#descLoc11').val(),
-	desc11:$('#nameLoc11').val(),
-    name11:$('#descLoc11').val(),
 
 
 
