@@ -4,7 +4,7 @@ var locRef = root.child('location');
 locRef.on('child_added', function(snap){
   var locVal = snap.val();
   $('#locList').append(
-  	"<li>"+locVal.name11+" "+locVal.desc11+"</li>"
+  	"<li>"+locVal.name+" "+locVal.desc+"</li>"
   );
 });
 
@@ -23,8 +23,10 @@ locRef.on('child_added', function(snap){
 $("#formLoc11").submit(function(e){
   e.preventDefault();
   var x = {
-    desc11:$('#nameLoc401').val(),
-    name11:$('#descLoc401').val(),
+    desc11:$('#nameLoc11').val(),
+    name11:$('#descLoc11').val(),
+	desc11:$('#nameLoc11').val(),
+    name11:$('#descLoc11').val(),
 
 
 
@@ -37,5 +39,3 @@ $("#formLoc11").submit(function(e){
 
   locRef.push(x);
 });
-
-
