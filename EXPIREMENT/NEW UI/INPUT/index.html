@@ -2,96 +2,96 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Basic Angular Tab Mechanism</title>
-  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+  <title>CodePen - Responsive horizontal scroll tabs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">	
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+
+
+
+
+
+
+
 
 </head>
 <body>
 <!-- partial:index.partial.html -->
 <script type='text/javascript' src='https://cdn.firebase.com/js/client/1.0.17/firebase.js'></script>
 <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<div class="container">
+        <div class="row">
+            <div class="">
+                <!-- Nav tabs -->
+                <div class="card">
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+                        <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+                        <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+                        <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+                        <li role="presentation"><a href="#about" aria-controls="about" role="tab" data-toggle="tab">About</a></li>
+                        <li role="presentation"><a href="#contact" aria-controls="contact" role="tab" data-toggle="tab">Contacts</a></li>
+                    </ul>
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="home">
+                            <legend>Responsive Tabs</legend>
+                            <p>If you are on desktop Try resizing the window to mobile view to see the scroll effect</p>
+                            <p>Horizontal scrollable tabs</p>
+                            <p>Best for mobile view</p>
+                            <p>Similar to gravity MODE_SCROLLABLE in Android</p>
+
+                          </div>
+                        <div role="tabpanel" class="tab-pane" id="profile">
 
 
-<section class="tab-content" ng-app="myApp" ng-controller="SideBarController as tc">
-<ul class='nav nav-pills'>
- <li ng-class="{active:tc.isSet(1)}">
-   <a href  ng-click="tc.setTab(1)">Item One</a>
- </li>
- <li ng-class="{active:tc.isSet(2)}">
-  <a href ng-click="tc.setTab(2)">Item Two</a>
- </li>
- <li ng-class="{active:tc.isSet(3)}">
-  <a href ng-click="tc.setTab(3)">Item Three</a></li>
-</ul>
-<div class="tabs">
- <div ng-show="tc.isSet(1)" class="tab"><h1>Item sameer</h1></div>
- <div ng-show="tc.isSet(2)" class="tab"><h1><h2>Locations</h2>
-<ul id="locList">
-</ul>
 
-<h2>New Location</h2>
+
+
 <div class="box box-flex">
 <form id="formLoc11">
  <label></label><input type="hidden" id="nameLoc11"class="name"  value="https://hunksammy.github.io/2084377289testbysam/PRODUCTS/NEWARRIVAL/1.jpeg">
- <label>Qty:</label>
+ <label>SAMMY8:</label>
 <input type="number" id="descLoc11"   required>
 <input onclick="this.value='ADDED ✅'" type="submit" value="SEND"/>
-</form> <br> <hr/>
+</form></div>  </div>
 
-
-    <div class="tab-header"></div>
-         <img src="https://hunksammy.github.io/2084377289testbysam/PRODUCTS/BLOCKS/1.jpeg" onError="this.onerror=null;this.src='https://hunksammy.github.io/2084377289testbysam/PRODUCTS/stockout.jpg';"  alt="Girl in a jacket" width="250" height="250">
-<p>ITEM NO  - 1</p>
-<div class="box box-flex">
-<form id="formLoc26">
- <label></label><input type="hidden" id="nameLoc26"class="name"  value="https://hunksammy.github.io/2084377289testbysam/PRODUCTS/BLOCKS/1.jpeg">
- <label>Qty:</label>
-<input type="number" id="descLoc26"   required>
-<input onclick="this.value='ADDED ✅'" type="submit" value="SEND"/>
-</form>  </div>
-<hr/>
-
-
-
-
-
-<img src="https://hunksammy.github.io/2084377289testbysam/PRODUCTS/BLOCKS/2.jpeg" onError="this.onerror=null;this.src='https://hunksammy.github.io/2084377289testbysam/PRODUCTS/stockout.jpg';"  alt="Girl in a jacket" width="250" height="250">
-<p>ITEM NO  - 2</p>
-<div class="box box-flex">
-<form id="formLoc27">
- <label></label><input type="hidden" id="nameLoc27"class="name"  value="https://hunksammy.github.io/2084377289testbysam/PRODUCTS/BLOCKS/2.jpeg">
- <label>Qty:</label>
-<input type="number" id="descLoc27"   required>
-<input onclick="this.value='ADDED ✅'" type="submit" value="SEND"/>
-</form>  </div>
-<hr/>
-
-
-
-
-
-<img src="https://hunksammy.github.io/2084377289testbysam/PRODUCTS/BLOCKS/3.jpeg" onError="this.onerror=null;this.src='https://hunksammy.github.io/2084377289testbysam/PRODUCTS/stockout.jpg';"  alt="Girl in a jacket" width="250" height="250">
-<p>ITEM NO  - 3</p>
-<div class="box box-flex">
-<form id="formLoc28">
- <label></label><input type="hidden" id="nameLoc28"class="name"  value="https://hunksammy.github.io/2084377289testbysam/PRODUCTS/BLOCKS/3.jpeg">
- <label>Qty:</label>
-<input type="number" id="descLoc28"   required>
-<input onclick="this.value='ADDED ✅'" type="submit" value="SEND"/>
-</form>  </div>
-<hr/>
-
-
-</h1>  
-</div>
-
- <div ng-show="tc.isSet(3)" class="tab"><h1>Item Three</h1></div>
-</div>
-</section>
-<!-- partial -->
  <script  src="./HTSHOP.js"></script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular.min.js'></script><script  src="./script.js"></script>
 
+
+                        <div role="tabpanel" class="tab-pane" id="messages">
+                            <legend>Messages</legend>
+							
+				
+
+							
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+                        
+
+                        
+						
+						<div role="tabpanel" class="tab-pane" id="settings">
+                            <legend>Settings</legend>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passage..</div>
+                        <div role="tabpanel" class="tab-pane" id="about">
+                            <legend>About</legend>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into 1960s with the release of Letraset sheets containing Lorem Ipsum passage..</div>
+                        <div role="tabpanel" class="tab-pane" id="contact">
+                            <legend>Contact Us</legend>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passage..
+							 			<!-- partial -->
+							
+
+</body>
+</html>
+							</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- partial -->
+
+
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
 </body>
 </html>
