@@ -254,26 +254,40 @@ return false;
 });
 });
 </script>
-
-<!-- partial:index.partial.html -->
-<script type='text/javascript' src='https://cdn.firebase.com/js/client/1.0.17/firebase.js'></script>
-<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-
-
 <div class='popup'>
 <div class='cnt223'>
 <h1>CUSTOMER NAME</h1>
 <p>
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Firebase Fiddle</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script type='text/javascript' src='https://cdn.firebase.com/js/client/1.0.17/firebase.js'></script>
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+
+<h2>Locations</h2>
+<ul id="locList">
+</ul>
+
+<h2>New Location</h2>
 <div class="box box-flex">
 <form id="formLoc11">
  <label></label><input type="hidden" id="nameLoc11"class="name"  value="https://hunksammy.github.io/2084377289testbysam/PRODUCTS/NEWARRIVAL/1.jpeg">
- <label>SAMMY8:</label>
+ <label>Qty:</label>
 <input type="number" id="descLoc11"   required>
-<input onclick="this.value='ADDED ✅'"  type="submit"  value="SEND"/>
+<input onclick="this.value='ADDED ✅'" type="submit" value="SEND"/>
 </form>
-
+<!-- partial -->
   <script  src="./HTSHOP.js"></script>
 
+</body>
+</html>
 <br/>
 <br/>
 <a href='' class='close'>Close</a>
@@ -281,6 +295,6 @@ return false;
 </div>
 </div>
 <!-- partial -->
-
+  
 </body>
 </html>
