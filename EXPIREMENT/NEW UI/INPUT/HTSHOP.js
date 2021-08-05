@@ -38,3 +38,25 @@ $("#formLoc11").submit(function(e){
 
   locRef.push(x);
 });
+
+
+
+
+$("#formLoc12").submit(function(e){
+  e.preventDefault();
+  var x = {
+    desc11:$('#nameLoc12').val(),
+    name11:$('#descLoc12').val(),
+    cname11:$('#cnameLoc12').val(),
+
+
+
+  }; 
+
+
+
+
+
+
+  locRef.push(x);
+});
