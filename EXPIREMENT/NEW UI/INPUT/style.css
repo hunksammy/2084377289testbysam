@@ -1,5 +1,6 @@
 .nav-tabs {
         display: inline-flex;
+		position:  fixed;
         width: 100%;
         overflow-x: auto;
         border-bottom: 2px solid #DDD;
