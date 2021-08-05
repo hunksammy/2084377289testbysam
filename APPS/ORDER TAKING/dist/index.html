@@ -2068,7 +2068,14 @@ div {
 <form id="formLoc127">
  <label></label><input type="hidden" id="nameLoc127"class="name"  value="https://hunksammy.github.io/2084377289testbysam/PRODUCTS/TRACTOR/12.jpeg">
  <label>Qty:</label>
-<input type="number" id="descLoc127"   required>
+	
+	<p class="qty">
+			<label for="qty">Quantity:</label>
+			<button class="qtyminus" aria-hidden="true">&minus;</button>
+			<input type="number" name="qty" id="127" min="1" max="10" step="1" value="1">
+			<button class="qtyplus" aria-hidden="true">&plus;</button>
+		</p>
+
 <input onclick="this.value='ADDED ✅'" type="submit" value="SEND"/>
 </form>  </div>
 <hr/>
