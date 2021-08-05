@@ -494,6 +494,7 @@ $("#formLoc26").submit(function(e){
   var x = {
     desc26:$('#nameLoc26').val(),
     name26:$('#descLoc26').val(),
+	cname26:$('#cnameLoc26').val(),
 
 
 
@@ -512,6 +513,7 @@ $("#formLoc27").submit(function(e){
   var x = {
     desc27:$('#nameLoc27').val(),
     name27:$('#descLoc27').val(),
+    cname27:$('#cnameLoc27').val(),
 
 
 
