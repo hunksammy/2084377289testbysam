@@ -79,7 +79,7 @@ $("#formLoc3").submit(function(e){
   e.preventDefault();
   var x = {
     desc3:$('#nameLoc3').val(),
-	cname3:$('#descLoc3').val(),
+	cname3:$('cnameLoc3').val(),
     name3:$('#descLoc3').val(),
 	
 
@@ -99,7 +99,7 @@ $("#formLoc4").submit(function(e){
   e.preventDefault();
   var x = {
     desc4:$('#nameLoc4').val(),
-	cname3:$('#descLoc3').val(),
+	cname3:$('cnameLoc4').val(),
     name4:$('#descLoc4').val(),
 
 
