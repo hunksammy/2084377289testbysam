@@ -15,46 +15,74 @@
   </head>
   <body ng-app="app" ng-controller="appCtrl"   >
     
-    
-    <table style="width:90%">
-      <thead>
-        
-      </thead>
-      <tbody>
+  
         
         
-        <style>
-
-
-
-img {
-  flot: left;
-  width: 70%;
-  height: auto;
-display: block;
-    margin-left: 30;
-    margin-right: auto
-}
-
-</style>
-        
-        
-        <tr ng-repeat="value in DB">
+       
          
 
-		<td>{{value.cname11}}</td>
+		<td></td>
           <td>
 		<b>  {{value.desc1}} {{value.name1}} </b>      
  {{value.desc2}} {{value.name2}} 		  
 		  <img src="{{value.desc11}}" /></td>
           <td>{{value.name11}}</td>
           <td>
+		  
+		  
+		  
+		  
+		  
+	
             
           <button type="button" ng-click="delete(value)">Delete</button> 
           </td>
         </tr>
-      </tbody>
+    
     </table>
+	
+	
+	
+	<script src="https://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script>
+
+<table class="sortable">
+  <tr>
+    <th>Name</th>
+    <th>Address</th>
+    <th>Sales Person</th>
+  </tr>
+  
+    <tr ng-repeat="value in DB">
+
+  <tr class="item">
+    <td>{{value.cname11}}</td>
+    <td>UK</td>
+    <td>Melissa</td>
+  </tr>
+  <tr class="item">
+    <td>user:0002</td>
+    <td>France</td>
+    <td>Justin</td>
+  </tr>
+  <tr class="item">
+    <td>user:0003</td>
+    <td>San Francisco</td>
+    <td>Judy</td>
+  </tr>
+  <tr class="item">
+    <td>user:0004</td>
+    <td>Canada</td>
+    <td>Skipper</td>
+  </tr>
+  <tr class="item">
+    <td>user:0005</td>
+    <td>Christchurch</td>
+    <td>Alex</td>
+  </tr>
+
+</table>
+	
+	
     
  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.6/angular.min.js"></script>
  <script src="https://cdn.firebase.com/js/client/2.0.4/firebase.js"></script>
