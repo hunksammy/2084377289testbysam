@@ -38,45 +38,24 @@ display: block;
 
 </style>
         
-
-		
         
         <tr ng-repeat="value in DB">
          
 
-
+		<td>{{value.cname11}}</td>
+          <td>
+		<b>  {{value.desc1}} {{value.name1}} </b>      
+ {{value.desc2}} {{value.name2}} 		  
+		  <img src="{{value.desc11}}" /></td>
+          <td>{{value.name11}}</td>
+          <td>
+            
+          <button type="button" ng-click="delete(value)">Delete</button> 
+          </td>
+        </tr>
+      </tbody>
+    </table>
     
-	
-	
-	<!DOCTYPE html>
-<html>
-<title>W3.JS</title>
-<script src="../lib/w3.js"></script>
-<body>
-
-<h2>Sort Tables</h2>
-
-<p>Click the table headers to sort the  table accordingly:</p>
-
-<table id="myTable">
-  <tr>
-    <th onclick="w3.sortHTML('#myTable', '.item', 'td:nth-child(1)')" style="cursor:pointer">Name</th>
-    <th onclick="w3.sortHTML('#myTable', '.item', 'td:nth-child(2)')" style="cursor:pointer">Country</th>
-  </tr>
-  <tr class="item">
-    <td>{{value.cname11}}</td>
-    <td> <img src="{{value.desc11}}" /></td>
-  </tr>
- 
-</table>
-
-</body>
-
-<!-- Mirrored from www.w3schools.com/w3js/tryit.asp?filename=tryw3js_sort_table by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 29 May 2017 08:33:26 GMT -->
-</html>
-	
-	
-	
  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.6/angular.min.js"></script>
  <script src="https://cdn.firebase.com/js/client/2.0.4/firebase.js"></script>
 <!-- AngularFire -->
