@@ -286,7 +286,7 @@ customer1: '	AGGARWAL GENERAL (KOTA)	', toys1: 'TOYS:-	', amount1: ' 	9180	',  u
 customer2: '	MAHAMAYA FASHION HOUSE	', toys2: 'TOYS:-	', amount2: '	0	',  url2: '	/2084377289testbysam/KOTA/MAHAMAYA FASHION HOUSE (KOTA) 18.htm	', bags2: 'BAGS:-	', amountb2: '	N/A	',  urlb2: '		',
 customer3: '	NISHA GENERAL (KOTA)	', toys3: 'TOYS:-	', amount3: '	2257	',  url3: '	/2084377289testbysam/KOTA/NISHA GENERAL (KOTA) 260.htm	', bags3: 'BAGS:-	', amountb3: '	N/A	',  urlb3: '		',
 customer4: '	NIKITA GENERAL (KOTA)	', toys4: 'TOYS:-	', amount4: ' 	1416	',  url4: '	/2084377289testbysam/KOTA/NIKITA (KOTA).htm	', bags4: 'BAGS:-	', amountb4: '	N/A	',  urlb4: '		',
-customer5: '	AKANKSHA GENERAL (KOTA)	', toys5: 'TOYS:-	', amount5: '	0	',  url5: '	/2084377289testbysam/KOTA/AKANKSHA GENERAL(KOTA) 7.htm	', bags5: 'BAGS:-	', amountb5: '	889	',  urlb5: '	/HINDUSTAN BAGS/BAGS/AKANKSHA GENERAL (KOTA).htm	',
+customer5: '	AKANKSHA GENERAL (KOTA)	', toys5: 'TOYS:-	', amount5: '	0	',  url5: '	/2084377289testbysam/KOTA/AKANKSHA GENERAL(KOTA) 7.htm	', bags5: 'BAGS:-	', amountb5: '	889	',  urlb5: '	/2084377289testbysam/HINDUSTAN BAGS/BAGS/AKANKSHA GENERAL (KOTA).htm	',
 customer6: '	SARITA GENERAL (KOTA)	', toys6: 'TOYS:-	', amount6: '	0	',  url6: '	/2084377289testbysam/KOTA/SARITA GENERAL (KOTA).htm	', bags6: 'BAGS:-	', amountb6: '	N/A	',  urlb6: '		',
 customer7: '	SHAILESH GENERAL (KOTA)	', toys7: 'TOYS:-	', amount7: '	0	',  url7: '	/2084377289testbysam/KOTA/SHAILESH GENERAL. (KOTA) 121.htm	', bags7: 'BAGS:-	', amountb7: '	N/A	',  urlb7: '		',
 customer8: '	ALL IN ONE (KOTA)	', toys8: 'TOYS:-	', amount8: '	0	',  url8: '	/2084377289testbysam/KOTA/ALL IN ONE (KOTA).htm	', bags8: 'BAGS:-	', amountb8: '	N/A	',  urlb8: '		',
