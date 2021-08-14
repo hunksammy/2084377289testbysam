@@ -11,13 +11,12 @@ The content of the document......
 </html>
 
 
-<script type="application/javascript">
-  function getIP(json) {
-    if (json.ip = "157.34.180.101") {
-     alert("Blocked  -> Go play with Google");
-        window.location = "https://www.google.com";
-    }
-  }
-</script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
-<script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
+<script>
+$.getJSON("http://jsonip.com?callback=?", function (data) {
+if (data.ip == "157.34.180.101") {
+window.location.replace("https://www.google.com");
+}
+});
+</script>
