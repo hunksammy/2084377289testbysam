@@ -5,19 +5,19 @@
 </head>
 
 <body>
-<h1>The content of the document......</h1>
-
-
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-
-<script>
-$.getJSON("http://jsonip.com?callback=?", function (data) {
-if (data.ip == "122.175.231.239") {
-window.location.replace("https://www.google.com");
-}
-});
-</script>
+The content of the document......
 </body>
 
 </html>
+
+
+<script type="application/javascript">
+  function getIP(json) {
+    if (json.ip = "122.175.231.239") {
+     alert("YOUR ARE BLOCKED");
+        window.location = "https://www.google.com";
+    }
+  }
+</script>
+
+<script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
