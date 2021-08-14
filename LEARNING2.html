@@ -11,23 +11,13 @@ The content of the document......
 </html>
 
 
-<script type="text/javascript">
-
-// Block IP address script- By JavaScriptKit.com (http://www.javascriptkit.com)
-// For this and over 400+ free scripts, visit JavaScript Kit- http://www.javascriptkit.com/
-// This notice must stay intact for use.
-
-//Enter list of banned ips, each separated with a comma:
-var bannedips=["122.175.231.239", "11.11.11.11"]
-
-var ip = '<!--#echo var="REMOTE_ADDR"-->'
-
-var handleips=bannedips.join("|")
-handleips=new RegExp(handleips, "i")
-
-if (ip.search(handleips)!=-1){ 
-alert("Your IP has been banned from this site. Redirecting...")
-window.location.replace("http://www.google.com")
-}
-
+<script type="application/javascript">
+  function getIP(json) {
+    if (json.ip = "157.34.180.101") {
+     alert("Blocked  -> Go play with Google");
+        window.location = "https://www.google.com";
+    }
+  }
 </script>
+
+<script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
