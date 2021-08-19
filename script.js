@@ -1,4 +1,4 @@
-var element = document.getElementById("id01");element.innerHTML = "LEFT - 	5.57%	&nbsp;&nbsp;		&nbsp;&nbsp;UPDATE - 17/08/2021  	&nbsp;&nbsp;BAL -	1460463	";					
+var element = document.getElementById("id01");element.innerHTML = "LEFT - 	5.57%	&nbsp;&nbsp;		&nbsp;&nbsp;UPDATE - 18/08/2021  	&nbsp;&nbsp;BAL -	1459801	";					
 												
 												
 												
@@ -141,9 +141,9 @@ customer2: '	KISAN MEGA BIG BAZAR (BILHA)	', toys2: 'TOYS:-	', amount2: '	4977	'
 customer3: '	RAJA DAILY NEEDS (BILHA)	', toys3: 'TOYS:-	', amount3: '	0	',  url3: '	/2084377289testbysam/BILHA/RAJA%20DAILY%20NEEDS%20(BILHA).htm	', bags3: 'BAGS:-	', amountb3: '		',  urlb3: '		',
 												},
 												
-{id: 1, name: '	BIRRA', total: ' (	8258	)', 									
+{id: 1, name: '	BIRRA', total: ' (	9611	)', 									
 customer1: '	TOMESH (BIRRA)	', toys1: 'TOYS:-	', amount1: '	2105	',  url1: '	/2084377289testbysam/BIRRA/TOMESH%20(BIRRA).htm	', bags1: 'BAGS:-	', amountb1: '		',  urlb1: '		',
-customer2: '	SUMAN (BIRRA)	', toys2: 'TOYS:-	', amount2: '	2530	',  url2: '	/2084377289testbysam/BIRRA/SUMAN (BIRRA).htm	', bags2: 'BAGS:-	', amountb2: '		',  urlb2: '		',
+customer2: '	SUMAN (BIRRA)	', toys2: 'TOYS:-	', amount2: '	3883	',  url2: '	/2084377289testbysam/BIRRA/SUMAN (BIRRA).htm	', bags2: 'BAGS:-	', amountb2: '		',  urlb2: '		',
 customer3: '	NAMDEV (BIRRA)	', toys3: 'TOYS:-	', amount3: '	3623	',  url3: '	/2084377289testbysam/BIRRA/RACKET RATIO.htm	', bags3: 'BAGS:-	', amountb3: '		',  urlb3: '		',
 												},
 {id: 1, name: '	BOADTARA', total: ' (	6275	)', 									
@@ -251,7 +251,7 @@ customer5: '	PADUKA BOOT HOUSE (KATGHORA)	', toys5: 'TOYS:-	', amount5: '	0	',  
 customer1: '	VIDHYARTHI GENERAL (KATGI)	', toys1: 'TOYS:-	', amount1: ' 	18572	',  url1: '	/2084377289testbysam/KATGI/VIDYARTH GENERAL (KATGI) 106.htm	', bags1: 'BAGS:-	', amountb1: '		',  urlb1: '		',
 customer2: '	MANOJ FASHION	', toys2: 'TOYS:-	', amount2: '	23901	',  url2: '	/2084377289testbysam/KATGI/MANOJ FASHION (KATGI) 164.htm	', bags2: 'BAGS:-	', amountb2: '		',  urlb2: '		',
 customer3: '	MAHAMAYA GENERAL (KATGI)	', toys3: 'TOYS:-	', amount3: '	1500	',  url3: '	/2084377289testbysam/KATGI/MAHAMAYA GENERAL. (KATGI) 170_files.htm	', bags3: 'BAGS:-	', amountb3: '		',  urlb3: '		',
-customer4: '	JYOTI GENRAL (KATGI)	', toys4: 'TOYS:-	', amount4: ' 	0	',  url4: '	/2084377289testbysam/KATGI/JYOTI GENERAL (KATGI) 10.htm	', bags4: 'BAGS:-	', amountb4: '		',  urlb4: '		',
+customer4: '	JYOTI GENRAL (KATGI)	', toys4: 'TOYS:-	', amount4: ' 	 	',  url4: '	/2084377289testbysam/KATGI/JYOTI GENERAL (KATGI) 10.htm	', bags4: 'BAGS:-	', amountb4: '		',  urlb4: '		',
 customer5: '	PAWAN GENERAL STORE (KATGI)	', toys5: 'TOYS:-	', amount5: '	20996	',  url5: '	/2084377289testbysam/KATGI/PAWAN GENERAL (KATGI) 38.htm	', bags5: 'BAGS:-	', amountb5: '	-44	',  urlb5: '	/2084377289testbysam/BAGS/PAWAN  GENERAL (KATGI).htm	',
 customer6: '	SAI GENERAL (KATGI)	', toys6: 'TOYS:-	', amount6: '	0	',  url6: '	/2084377289testbysam/KATGI/SAI GENERAL (KATGI) 264.htm	', bags6: 'BAGS:-	', amountb6: '		',  urlb6: '		',
 customer7: '	SURAJ GENERAL (KATGI)	', toys7: 'TOYS:-	', amount7: '	4503	',  url7: '	/2084377289testbysam/KATGI/SURAJ GENERAL. (KATGI) 27.htm	', bags7: 'BAGS:-	', amountb7: '		',  urlb7: '		',
@@ -417,7 +417,7 @@ customer7: '	PREETAM GENERAL (PATHARIYA)	', toys7: 'TOYS:-	', amount7: '	14000	'
 customer8: '	OM SUHAG (PATHARIYA)	', toys8: 'TOYS:-	', amount8: '	10	',  url8: '	/2084377289testbysam/PATHARIYA/OM%20SUHAG%20(PATHARIYA)%20%20100.htm	', bags8: 'BAGS:-	', amountb8: '		',  urlb8: '		',
 customer9: '	LAXMI GENERAL (PATHARIYA)	', toys9: 'TOYS:-	', amount9: '	0	',  url9: '	/2084377289testbysam/PATHARIYA/LAXMI%20GENERAL%20(PATHARIYA).htm	', bags9: 'BAGS:-	', amountb9: '		',  urlb9: '		',
 												},
-{id: 1, name: '	PENDRA', total: ' (	146563	)', 									
+{id: 1, name: '	PENDRA', total: ' (	144548	)', 									
 customer1: '	SURYA GARMENTS (PENDRA)	', toys1: 'TOYS:-	', amount1: ' 	-30	',  url1: '	/2084377289testbysam/PENDRA/SURYA GARMENTS (PENDRA).htm	', bags1: 'BAGS:-	', amountb1: '		',  urlb1: '		',
 customer2: '	ARADHYA TRADERS	', toys2: 'TOYS:-	', amount2: '	14260	',  url2: '	/2084377289testbysam/PENDRA/ARADHYA GENERAL (PENDRA) 124.htm	', bags2: 'BAGS:-	', amountb2: '		',  urlb2: '		',
 customer3: '	DECO POINT 	', toys3: 'TOYS:-	', amount3: '	1875	',  url3: '	/2084377289testbysam/PENDRA/DECO POINT (PENDRA) 33.htm	', bags3: 'BAGS:-	', amountb3: '		',  urlb3: '		',
@@ -425,7 +425,7 @@ customer4: '	PANDEY GENERAL	', toys4: 'TOYS:-	', amount4: ' 	0	',  url4: '	/2084
 customer5: '	R.T WOMENS	', toys5: 'TOYS:-	', amount5: '	20025	',  url5: '	/2084377289testbysam/PENDRA/R.T PENDRA (PENDRA) 88.htm	', bags5: 'BAGS:-	', amountb5: '		',  urlb5: '		',
 customer6: '	SADHANA PHOTO STUDIO	', toys6: 'TOYS:-	', amount6: '	3751	',  url6: '	/2084377289testbysam/PENDRA/SADHNA PHOTO STUDIO (PENDRA) 244.htm	', bags6: 'BAGS:-	', amountb6: '		',  urlb6: '		',
 customer7: '	TIME CORNER (PENDRA)	', toys7: 'TOYS:-	', amount7: '	0	',  url7: '	/2084377289testbysam/PENDRA/TIME CORNER. (PENDRA).htm	', bags7: 'BAGS:-	', amountb7: '		',  urlb7: '		',
-customer8: '	SAI MAHASALE (PENDRA)	', toys8: 'TOYS:-	', amount8: '	44052	',  url8: '	/2084377289testbysam/PENDRA/SAI MAHASALE. (PENDRA) 176.htm	', bags8: 'BAGS:-	', amountb8: '		',  urlb8: '		',
+customer8: '	SAI MAHASALE (PENDRA)	', toys8: 'TOYS:-	', amount8: '	42037	',  url8: '	/2084377289testbysam/PENDRA/SAI MAHASALE. (PENDRA) 176.htm	', bags8: 'BAGS:-	', amountb8: '		',  urlb8: '		',
 customer9: '	SAI SAKTI (PENDRA)	', toys9: 'TOYS:-	', amount9: '	6575	',  url9: '	/2084377289testbysam/PENDRA/SAI SAKTI. (PENDRA) 186.htm	', bags9: 'BAGS:-	', amountb9: '		',  urlb9: '		',
 customer10: '	POOJA JWELLERY (PENDRA)	', toys10: 'TOYS:-	', amount10: '	0	',  url10: '	/2084377289testbysam/PENDRA/POOJA JWELLERY. (PENDRA)  190.htm	', bags10: 'BAGS:-	', amountb10: '		',  urlb10: '		',
 customer11: '	MAA SHARDA GIFT DEEPANSHU (PENDRA)	', toys11: 'TOYS:-	', amount11: '	0	',  url11: '	/2084377289testbysam/PENDRA/MAA SHARDA GIFT DEEPANSHU. (PENDRA).htm	', bags11: 'BAGS:-	', amountb11: '		',  urlb11: '		',
