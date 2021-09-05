@@ -1,4 +1,4 @@
-var element = document.getElementById("id01");element.innerHTML = "LEFT - 	5.57%	&nbsp;&nbsp;		&nbsp;&nbsp;UPDATE - 04/08/2021  	&nbsp;&nbsp;BAL -	1441056	";					
+var element = document.getElementById("id01");element.innerHTML = "LEFT - 	5.57%	&nbsp;&nbsp;		&nbsp;&nbsp;UPDATE - 04/08/2021  	&nbsp;&nbsp;BAL -	1441128	";					
 												
 												
 												
@@ -478,10 +478,10 @@ customer1: '	SUNITA GENERAL	', toys1: 'TOYS:-	', amount1: ' 	0	',  url1: '	/2084
 customer2: '	RAJU FANCY STORE (SARGAON)	', toys2: 'TOYS:-	', amount2: '	-1	',  url2: '	/2084377289testbysam/SARGAON/RAJU%20(SARGAON)%2042.htm	', bags2: 'BAGS:-	', amountb2: '	2529	',  urlb2: '	/2084377289testbysam/BAGS/ASHIRWAD GENERAL (BARADWAR)_files.htm	',
 customer3: '	CHAYA GENERAL (SARGAON)	', toys3: 'TOYS:-	', amount3: '	3063	',  url3: '	/2084377289testbysam/SARGAON/CHAYA (SARGAON).htm	', bags3: 'BAGS:-	', amountb3: '		',  urlb3: '		',
 												},
-{id: 1, name: '	SARSIWA ', total: '(	3857	)', 									
+{id: 1, name: '	SARSIWA ', total: '(	3929	)', 									
 customer1: '	HEMA FANCY	', toys1: 'TOYS:-	', amount1: ' 	955	',  url1: '	/2084377289testbysam/SARSIWA/HEMA FANCY (SARSIWA) 191.htm	', bags1: 'BAGS:-	', amountb1: '		',  urlb1: '		',
 customer2: '	OM SAI SARSIWA	', toys2: 'TOYS:-	', amount2: '	2902	',  url2: '	/2084377289testbysam/SARSIWA/OM SAI (SARSIWA) 6.htm	', bags2: 'BAGS:-	', amountb2: '	1146	',  urlb2: '	/2084377289testbysam/BAGS/OM SAI (SARSIWA).htm	',
-customer3: '	SHRIYA SHRINGAR (SARSIWA)	', toys3: 'TOYS:-	', amount3: '	0	',  url3: '	/2084377289testbysam/SARSIWA/SHRIYA SHRINGAR (SARSIWA).htm	', bags3: 'BAGS:-	', amountb3: '		',  urlb3: '		',
+customer3: '	SHRIYA SHRINGAR (SARSIWA)	', toys3: 'TOYS:-	', amount3: '	72	',  url3: '	/2084377289testbysam/SARSIWA/SHRIYA SHRINGAR (SARSIWA).htm	', bags3: 'BAGS:-	', amountb3: '		',  urlb3: '		',
 customer4: '	CHANDRAHASHNI (SARSIWA)	', toys4: 'TOYS:-	', amount4: '	5522	',  url4: '	/2084377289testbysam/SARSIWA/CHANDRAHASNI GENERAL (SARSIWA).htm	', bags4: 'BAGS:-	', amountb4: '		',  urlb4: '		',
 												},
 												
