@@ -1,4 +1,4 @@
-var element = document.getElementById("id01");element.innerHTML = "LEFT - 	5.57%	&nbsp;&nbsp;		&nbsp;&nbsp;UPDATE - 04/08/2021  	&nbsp;&nbsp;BAL -	1441128	";					
+var element = document.getElementById("id01");element.innerHTML = "LEFT - 	5.57%	&nbsp;&nbsp;		&nbsp;&nbsp;UPDATE - 05/09/2021  	&nbsp;&nbsp;BAL -	1443889	";					
 												
 												
 												
@@ -348,13 +348,13 @@ customer3: '	KISHORE KIRANA (MASTURI)	', toys3: 'TOYS:-	', amount3: '	5713	',  u
 {id: 1, name: '	MOHGAON ', total: '(	2511	)', 									
 customer1: '	MANISH GENERAL	', toys1: 'TOYS:-	', amount1: ' 	2511	',  url1: '	/2084377289testbysam/MOHAGAON/MANISH (MOHGAON) 156.htm	', bags1: 'BAGS:-	', amountb1: '		',  urlb1: '		',
 												},
-{id: 1, name: '	MUNGELI', total: ' (	31410	)', 									
+{id: 1, name: '	MUNGELI', total: ' (	34171	)', 									
 customer1: '	TOY ZONE 	', toys1: 'TOYS:-	', amount1: ' 	0	',  url1: '	/2084377289testbysam/MUNGELI/TOY%20ZONE%20(MUNGELI).htm	', bags1: 'BAGS:-	', amountb1: '		',  urlb1: '		',
 customer2: '	BABA GENERAL	', toys2: 'TOYS:-	', amount2: '	-1	',  url2: '	/2084377289testbysam/MUNGELI/BABA%20GENERAL%20(MUNGELI)%20%2023.htm	', bags2: 'BAGS:-	', amountb2: '		',  urlb2: '		',
 customer3: '	GURUNANAK GENERAL	', toys3: 'TOYS:-	', amount3: '	269	',  url3: '	/2084377289testbysam/MUNGELI/GURUNANAK%20GENERAL%20(MUNGELI)%2076.htm	', bags3: 'BAGS:-	', amountb3: '		',  urlb3: '		',
 customer4: '	 JEENAT BENGALS (MUNGELI)	', toys4: 'TOYS:-	', amount4: ' 	10295	',  url4: '	/2084377289testbysam/MUNGELI/ZEENAT%20BENGALS%20(MUNGELI)%2045.htm	', bags4: 'BAGS:-	', amountb4: '		',  urlb4: '		',
 customer5: '	PAYAL BAG HOUSE	', toys5: 'TOYS:-	', amount5: '	1000	',  url5: '	/2084377289testbysam/MUNGELI/PAYAL%20BAG%20(MUNGELI)%20171.htm	', bags5: 'BAGS:-	', amountb5: '		',  urlb5: '		',
-customer6: '	PRIYA LADIES	', toys6: 'TOYS:-	', amount6: '	5002	',  url6: '	/2084377289testbysam/MUNGELI/PRIYA%20LADIES%20(MUNGELI)%2099.htm	', bags6: 'BAGS:-	', amountb6: '		',  urlb6: '		',
+customer6: '	PRIYA LADIES	', toys6: 'TOYS:-	', amount6: '	7763	',  url6: '	/2084377289testbysam/MUNGELI/PRIYA%20LADIES%20(MUNGELI)%2099.htm	', bags6: 'BAGS:-	', amountb6: '		',  urlb6: '		',
 customer7: '	SANGAM FANCY	', toys7: 'TOYS:-	', amount7: '	12340	',  url7: '	/2084377289testbysam/MUNGELI/SANGAM%20FANCY%20(MUNGELI)%20(NEW%20169).htm	', bags7: 'BAGS:-	', amountb7: '		',  urlb7: '		',
 customer8: '	OM GENERAL (MUNGELI)	', toys8: 'TOYS:-	', amount8: '	0	',  url8: '	/2084377289testbysam/MUNGELI/OM%20GENERAL%20(MUNGELI)%2087.htm	', bags8: 'BAGS:-	', amountb8: '		',  urlb8: '		',
 customer9: '	K.V FASHION (MUNGELI)	', toys9: 'TOYS:-	', amount9: '	60	',  url9: '	/2084377289testbysam/MUNGELI/K.V FASHION (MUNGELI).htm	', bags9: 'BAGS:-	', amountb9: '		',  urlb9: '		',
