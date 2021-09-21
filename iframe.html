@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Jquery Auto Click Button</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css'>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.1.5/angular.min.js"></script>
+    <script src="https://rawgithub.com/arunisrael/angularjs-geolocation/master/dist/angularjs-geolocation.min.js"></script>
+  </head>
+
+  <body ng-app="myApp">
+    <div ng-controller="mainCtrl">
+
+<div class="container">
+<div class="col text-center">
+  
+  <!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+
+      <div ng-controller="mainCtrl">
+      
+  
+<div ng-app="">
+  
+  <p><input type="hidden" ng-model="name" value="raki"></p>
+
+<script type='text/javascript' src='https://cdn.firebase.com/js/client/1.0.17/firebase.js'></script>
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+
+<form id="formLoc11">
+ <label></label><input type="hidden" id="nameLoc11"class="name"  value="">
+  <input type="hidden" id="cnameLoc11"class="name"  value="{{coords}}">
+ 
+<input type="hidden" id="descLoc11" value="1" >
+<input type="submit" id="click" value="." ></b>
+</form>
+
+<script>
+  var root = new Firebase('https://notes-12519-default-rtdb.firebaseio.com/');
+
+var locRef = root.child('location');
+locRef.on('child_added', function(snap){
+  var locVal = snap.val();
+  $('#locList').append(
+  	"<li>"+locVal.name+" "+locVal.desc+"</li>"
+  );
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+$("#formLoc11").submit(function(e){
+  e.preventDefault();
+  var x = {
+    desc11:$('#nameLoc11').val(),
+    name11:$('#descLoc11').val(),
+    cname11:$('#cnameLoc11').val(),
+
+
+
+  }; 
+
+
+
+
+
+
+  locRef.push(x);
+});
+
+
+  </script>
+  
+
+  </div>
+   </div>
+  
+  
+  
+  
+    </div>
+  </body>
+
+</html>
+      
+      
+       <script>
+         
+         (function(angular){
+  'use strict';
+// Code goes here
+
+var myApp = angular.module('myApp',['geolocation']);
+myApp.controller('mainCtrl', function ($scope,geolocation) {
+    $scope.coords = geolocation.getLocation().then(function(data){
+      return {lat:data.coords.latitude, long:data.coords.longitude};
+    });
+});
+
+ })(window.angular);
+      </script>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/js/bootstrap.min.js'></script><script  src="./iframe.js"></script>
+
+</body>
+</html>
