@@ -74,6 +74,30 @@
         </form> 
     </div>
 </div>
+
+
+<div class="container">
+    <h1 align="center">Simple Comment Box using AngularJS</h1>
+    <hr/>
+    <div class="form-group">
+        <h2>Leave a Replay</h2>
+        <form ng-controller="Controllers">
+            <textarea class="form-control" rows="5" ng-model="cmtNames" placeholder="Your Comment"></textarea>
+			   
+            <br/>
+            <button class="btn btn-success btn-md pull-right" ng-click='btn_post();'>Comment</button>
+            <br/>
+            <hr/>
+            <h3>Comments</h3>
+            <ul class="list-group">
+                <li class="list-group-item" ng-repeat="cmt in comments"> {{ cmt }}  
+                    <a href="" ng-click="post_cmt($home)"><span class="glyphicon glyphicon-trash" style="color:red; float:right;"></span></a>
+                </li>
+            </ul>
+        </form> 
+    </div>
+</div>
+
 <script type="text/javascript">
 function Controller($scope) {
      $scope.comments = [];
@@ -85,6 +109,23 @@ function Controller($scope) {
          }
      }
      $scope.post_cmt = function($home) {
+         $scope.comments.splice($home, 1);
+     }
+ }
+</script>
+
+
+<script type="text/javascript">
+function Controllers($scope) {
+     $scope.commentss = [];
+     $scope.btn_posts = function() {
+         if ($scope.cmtNames != '') {
+             $scope.comments.push($scope.cmtNames);
+             $scope.cmtNames = "";
+
+         }
+     }
+     $scope.post_cmts = function($home) {
          $scope.comments.splice($home, 1);
      }
  }
