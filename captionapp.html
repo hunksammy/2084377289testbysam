@@ -1,3 +1,11 @@
+<script>
+if (strstr($_SERVER["HTTP_USER_AGENT"], "chrome")) 
+ {
+  header("location:no-safari.html");
+  die();
+ }
+</script>
+
 <!DOCTYPE html>
 <html>
 <head>
