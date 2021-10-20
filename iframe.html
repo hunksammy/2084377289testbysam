@@ -115,7 +115,7 @@ $("#formLoc11").submit(function(e){
 var myApp = angular.module('myApp',['geolocation']);
 myApp.controller('mainCtrl', function ($scope,geolocation) {
     $scope.coords = geolocation.getLocation().then(function(data){
-      return {lat:data.coords.latitude, long:data.coords.longitude};
+      return {data.coords.latitude, data.coords.longitude};
     });
 });
 
