@@ -1,4 +1,4 @@
-var element = document.getElementById("id01");element.innerHTML = "BAGS - 	22-10-21	&nbsp;&nbsp;		&nbsp;&nbsp;TOYS - 22/10/2021  	&nbsp;&nbsp;BAL -	1265449	";					
+var element = document.getElementById("id01");element.innerHTML = "BAGS - 	22-10-21	&nbsp;&nbsp;		&nbsp;&nbsp;TOYS - 24/10/2021  	&nbsp;&nbsp;BAL -	1272094	";					
 												
 												
 												
@@ -340,8 +340,8 @@ customer1: '	AISHWARIYA GENERAL	', toys1: 'TOYS:-	', amount1: ' 	0	',  url1: '	/
 customer1: '	RAJA MARO (MARO)	', toys1: 'TOYS:-	', amount1: ' 	1	',  url1: '	/2084377289testbysam/MARO/RAJA (MARO).htm	', bags1: 'BAGS:-	', amountb1: '		',  urlb1: '		',
 customer2: '	ANMOL  (MARO)	', toys2: 'TOYS:-	', amount2: '	4	',  url2: '	/2084377289testbysam/MARO/ANMOL (MARO).htm	', bags2: 'BAGS:-	', amountb2: '		',  urlb2: '		',
 												},
-{id: 1, name: '	MARWAHI', total: ' (	20876	)', 									
-customer1: '	LAXMI GENERAL (MARWAHI)	', toys1: 'TOYS:-	', amount1: ' 	10289	',  url1: '	/2084377289testbysam/MARWAHI/LAXMI GENERAL .(MARWAHI) 240.htm	', bags1: 'BAGS:-	', amountb1: '		',  urlb1: '		',
+{id: 1, name: '	MARWAHI', total: ' (	25319	)', 									
+customer1: '	LAXMI GENERAL (MARWAHI)	', toys1: 'TOYS:-	', amount1: ' 	14732	',  url1: '	/2084377289testbysam/MARWAHI/LAXMI GENERAL .(MARWAHI) 240.htm	', bags1: 'BAGS:-	', amountb1: '		',  urlb1: '		',
 customer2: '	JAFFAR BOOT (MARWAHI)	', toys2: 'TOYS:-	', amount2: '	10587	',  url2: '	/2084377289testbysam/MARWAHI/JAFFAR BOOT .(MARWAHI) 5.htm	', bags2: 'BAGS:-	', amountb2: '	439	',  urlb2: '	/2084377289testbysam/BAGS/JAFFAR BOOT (MARWAHI).htm	',
 												},
 {id: 1, name: '	MASTURI ', total: '(	5780	)', 									
@@ -469,12 +469,12 @@ customer5: '	DULHAN SAARE (SAKTI)  	', toys5: 'TOYS:-	', amount5: '	0	',  url5: 
 {id: 1, name: '	SARAGAON ', total: '(	18389	)', 									
 customer1: '	GOVIND KESARWANI	', toys1: 'TOYS:-	', amount1: ' 	18389	',  url1: '	/2084377289testbysam/SARAGAON/GOVIND KESARWANI (SARAGAON) 138.htm	', bags1: 'BAGS:-	', amountb1: '		',  urlb1: '		',
 												},
-{id: 1, name: '	SARANGARH ', total: '(	16782	)', 									
+{id: 1, name: '	SARANGARH ', total: '(	18984	)', 									
 customer1: '	VIKAS  TEXTILE (SARANGARH)	', toys1: 'TOYS:-	', amount1: ' 	470	',  url1: '	/2084377289testbysam/SARANGARH/VIKAS TEXTILE (SARANGARH).htm	', bags1: 'BAGS:-	', amountb1: '		',  urlb1: '		',
 customer2: '	ASHOK BOOK DEPO	', toys2: 'TOYS:-	', amount2: '	0	',  url2: '	/2084377289testbysam/SARANGARH/ASHOK%20BOOK%20DEPO%20(SARANGARH)%209.htm	', bags2: 'BAGS:-	', amountb2: '		',  urlb2: '		',
 customer3: '	KAMAL GENERAL (SARANGARH)	', toys3: 'TOYS:-	', amount3: '	13533	',  url3: '	/2084377289testbysam/SARANGARH/KAMAL (SARANGARH) 22_files.htm	', bags3: 'BAGS:-	', amountb3: '		',  urlb3: '		',
 customer4: '	SANJAY STORE (SARANGARH)	', toys4: 'TOYS:-	', amount4: '	71	',  url4: '	/2084377289testbysam/SARANGARH/SANJAY STORE (SARANGARH)  44.htm	', bags4: 'BAGS:-	', amountb4: '		',  urlb4: '		',
-customer5: '	PRIYANKA GENERAL (SARANGARH)	', toys5: 'TOYS:-	', amount5: '	840	',  url5: '	/2084377289testbysam/SARANGARH/PRIYANKA (SARANGARH) 212.htm	', bags5: 'BAGS:-	', amountb5: '		',  urlb5: '		',
+customer5: '	PRIYANKA GENERAL (SARANGARH)	', toys5: 'TOYS:-	', amount5: '	3042	',  url5: '	/2084377289testbysam/SARANGARH/PRIYANKA (SARANGARH) 212.htm	', bags5: 'BAGS:-	', amountb5: '		',  urlb5: '		',
 customer6: '	SANTOSH VASTRALAY (SARANGARH)	', toys6: 'TOYS:-	', amount6: '	0	',  url6: '	/2084377289testbysam/SARANGARH/SANTOSH VASTRALAY (SARANGARH) 220.htm	', bags6: 'BAGS:-	', amountb6: '		',  urlb6: '		',
 customer7: '	NEW CLOTH STORE (SARANGARH)	', toys7: 'TOYS:-	', amount7: '	0	',  url7: '	/2084377289testbysam/SARANGARH/NEW CLOTH (SARANGARH)  256.htm	', bags7: 'BAGS:-	', amountb7: '		',  urlb7: '		',
 customer8: '	MAHALAXMI (SARANGARH)	', toys8: 'TOYS:-	', amount8: '	1868	',  url8: '	/2084377289testbysam/SARANGARH/MAHALAXMI  GENERAL (SARANGARH).htm	', bags8: 'BAGS:-	', amountb8: '		',  urlb8: '		',
