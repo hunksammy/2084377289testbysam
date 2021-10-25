@@ -9,24 +9,27 @@
 
 <!-- HTML FORM -->
 
-<form onsubmit="return doForm()"> <input type="text" id="u_name"/> <input type="submit" value="Go!"/>
+ <p><input type="text" id="username" name="username" [(ngModel)]="username"></p>
+<h1> {{username}}</h1>
 
-</form>
+<button type="button" (click)="clickme()">Clickme</button>
 
 <!-- JAVASCRIPT -->
 
 <script>
 
-function doForm () {
-
-var data = new FormData();
-
-data.append(
-
-"name", document.getElementById("u_name").value
-
-);
-
+import { Component } from '@angular/core';
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.scss'],
+})
+export class AppComponent {
+  username: string = '';
+  clickme() {
+    console.log('it does nothing',username);
+  }
+}
 }
 
 </script>
