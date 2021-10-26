@@ -1,4 +1,4 @@
-var element = document.getElementById("id01");element.innerHTML = "BAGS - 	22-10-21	&nbsp;&nbsp;		&nbsp;&nbsp;TOYS - 24/10/2021  	&nbsp;&nbsp;BAL -	1272094	";					
+var element = document.getElementById("id01");element.innerHTML = "BAGS - 	22-10-21	&nbsp;&nbsp;		&nbsp;&nbsp;TOYS - 25/10/2021  	&nbsp;&nbsp;BAL -	1287629	";					
 												
 												
 												
@@ -77,8 +77,8 @@ customer1: '	SACHIN COLLECTION (BALCO)	', toys1: 'TOYS:-	', amount1: '	1500	',  
 customer2: '	UPHAR COLLECTION (BALCO)	', toys2: 'TOYS:-	', amount2: '	3102	',  url2: '	/2084377289testbysam/BALCO/UPHAR COLLECTION (BALCO) 272.htm	', bags2: 'BAGS:-	', amountb2: '		',  urlb2: '		',
 customer3: '	NAVEEN ELECTRONICS (BALCO)	', toys3: 'TOYS:-	', amount3: '	11019	',  url3: '	/2084377289testbysam/BALCO/NAVEEN ELECTRONICS (BALCO)  232.htm	', bags3: 'BAGS:-	', amountb3: '		',  urlb3: '		',
 												},
-{id: 1, name: '	BALODA', total: '  (	26446	)', 									
-customer1: '	ESHWAR GENERAL (BALODA)	', toys1: 'TOYS:-	', amount1: ' 	4688	',  url1: '	/2084377289testbysam/BALODA/ESHWAR%20GENERAL%20(BALODA)%2098.htm	', bags1: 'BAGS:-	', amountb1: '		',  urlb1: '		',
+{id: 1, name: '	BALODA', total: '  (	35674	)', 									
+customer1: '	ESHWAR GENERAL (BALODA)	', toys1: 'TOYS:-	', amount1: ' 	13916	',  url1: '	/2084377289testbysam/BALODA/ESHWAR%20GENERAL%20(BALODA)%2098.htm	', bags1: 'BAGS:-	', amountb1: '		',  urlb1: '		',
 customer2: '	SAKSHI (BALODA)	', toys2: 'TOYS:-	', amount2: '	5748	',  url2: '	/2084377289testbysam/BALODA/SAKSHI%20GENERAL%20(BALODA)%20152.htm	', bags2: 'BAGS:-	', amountb2: '		',  urlb2: '		',
 customer3: '	SHASHANK BOOK DEPO (BALODA)	', toys3: 'TOYS:-	', amount3: '	6054	',  url3: '	/2084377289testbysam/BALODA/SHASHANK%20GENERAL%20(BALODA)%2058.htm	', bags3: 'BAGS:-	', amountb3: '	2950	',  urlb3: '	/2084377289testbysam/BAGS/SHASHANK GENERAL  (BALODA).htm	',
 customer4: '	VARDHAMAN GENERAL (BALODA)	', toys4: 'TOYS:-	', amount4: '	3698	',  url4: '	/2084377289testbysam/BALODA/VARDHAMAN%20GENERAL%20(BALODA)%20126.htm	', bags4: 'BAGS:-	', amountb4: '		',  urlb4: '		',
@@ -177,9 +177,9 @@ customer9: '	POOJA NOVELTY (CHAMPA)	', toys9: 'TOYS:-	', amount9: '	0	',  url9: 
 customer10: '	KANHA SUPERBAZAR (CHAMPA)	', toys10: 'TOYS:-	', amount10: '	0	',  url10: '	/2084377289testbysam/CHAMPA/KANHA SUPER BAZAAR (CHAMPA) 262.htm	', bags10: 'BAGS:-	', amountb10: '		',  urlb10: '		',
 customer11: '	ANIL DHARMIK (CHAMPA)	', toys11: 'TOYS:-	', amount11: '	0	',  url11: '	/2084377289testbysam/CHAMPA/ANIL DHARMIK (CHAMPA).htm	', bags11: 'BAGS:-	', amountb11: '		',  urlb11: '		',
 												},
-{id: 1, name: '	CHURRI ', total: '(	2678	)', 									
-customer1: '	NEHA GENERAL (CHURI)	', toys1: 'TOYS:-	', amount1: ' 	2678	',  url1: '	/2084377289testbysam/CHURI/NEHA%20(CHURRI)%2071.htm	', bags1: 'BAGS:-	', amountb1: '		',  urlb1: '		',
-customer2: '	MAA KAUSA GAI (CHURRI)	', toys2: 'TOYS:-	', amount2: '	0	',  url2: '	/2084377289testbysam/CHURI/MAA%20KAUSA%20GAI%20(CHURRI)%20292.htm	', bags2: 'BAGS:-	', amountb2: '		',  urlb2: '		',
+{id: 1, name: '	CHURRI ', total: '(	8637	)', 									
+customer1: '	NEHA GENERAL (CHURI)	', toys1: 'TOYS:-	', amount1: ' 	8027	',  url1: '	/2084377289testbysam/CHURI/NEHA%20(CHURRI)%2071.htm	', bags1: 'BAGS:-	', amountb1: '		',  urlb1: '		',
+customer2: '	MAA KAUSA GAI (CHURRI)	', toys2: 'TOYS:-	', amount2: '	610	',  url2: '	/2084377289testbysam/CHURI/MAA%20KAUSA%20GAI%20(CHURRI)%20292.htm	', bags2: 'BAGS:-	', amountb2: '		',  urlb2: '		',
 												},
 												
 {id: 1, name: '	DABRA', total: ' (	41924	)', 									
@@ -189,13 +189,13 @@ customer1: '	FASHION PARK (DABRA)	', toys1: 'TOYS:-	', amount1: ' 	41924	',  url
 customer1: '	AKANKSHA  (DHARAMJAYGARH)	', toys1: 'TOYS:-	', amount1: ' 	0	',  url1: '	/2084377289testbysam/DHARMJAYGARH/AKANSHA GENERAL (DHARAMJAYGARH) 3.htm	', bags1: 'BAGS:-	', amountb1: '		',  urlb1: '		',
 												},
 												
-{id: 1, name: '	DIPKA', total: ' (	31703	)', 									
+{id: 1, name: '	DIPKA', total: ' (	26703	)', 									
 customer1: '	KOLKATA MAHASALE (DIPKA)	', toys1: 'TOYS:-	', amount1: ' 	16765	',  url1: '	/2084377289testbysam/DIPKA/KOLKATA%20MAHA%20SALE%20(DIPKA)%2048.htm	', bags1: 'BAGS:-	', amountb1: '	3	',  urlb1: '	/2084377289testbysam/BAGS/DETAILS.htm	',
 customer2: '	NEW BOOK DEPO (DIPKA)	', toys2: 'TOYS:-	', amount2: '	1269	',  url2: '	/2084377289testbysam/DIPKA/NEW%20BOOK%20DEPO.%20(DIPKA)%20110.htm	', bags2: 'BAGS:-	', amountb2: '		',  urlb2: '		',
 customer3: '	GEETA BOOK DEPO (DIPKA)	', toys3: 'TOYS:-	', amount3: '	1868	',  url3: '	/2084377289testbysam/DIPKA/GEETA%20BOOK%20DEPO.%20(DIPKA)%20266.htm	', bags3: 'BAGS:-	', amountb3: '		',  urlb3: '		',
 customer4: '	SHANTI SUHAG (DIPKA)	', toys4: 'TOYS:-	', amount4: ' 	3375	',  url4: '	/2084377289testbysam/DIPKA/SHANTI%20SUHAG%20(DIPKA)%20129.htm	', bags4: 'BAGS:-	', amountb4: '	25	',  urlb4: '	/2084377289testbysam/BAGS/SHANTI SUHAG  (DIPKA).htm	',
 customer5: '	KHUSHI BENGALS (DIPKA)	', toys5: 'TOYS:-	', amount5: '	0	',  url5: '	/2084377289testbysam/DIPKA/KHUSHI%20BENGALS%20(DIPKA)%204.htm	', bags5: 'BAGS:-	', amountb5: '		',  urlb5: '		',
-customer6: '	VASU COLLECTION  (DIPA)	', toys6: 'TOYS:-	', amount6: '	8426	',  url6: '	/2084377289testbysam/DIPKA/VASU%20COLLECTION.%20(DIPKA)%20149.htm	', bags6: 'BAGS:-	', amountb6: '		',  urlb6: '		',
+customer6: '	VASU COLLECTION  (DIPA)	', toys6: 'TOYS:-	', amount6: '	3426	',  url6: '	/2084377289testbysam/DIPKA/VASU%20COLLECTION.%20(DIPKA)%20149.htm	', bags6: 'BAGS:-	', amountb6: '		',  urlb6: '		',
 												},
 {id: 1, name: '	GANYARI', total: ' (	1300	)', 									
 customer1: '	MISHRA GENERAL (GANYARI)	', toys1: 'TOYS:-	', amount1: ' 	1300	',  url1: '	/2084377289testbysam/GANYARI/MISHRA (GANYARI) 154.htm	', bags1: 'BAGS:-	', amountb1: '		',  urlb1: '		',
@@ -205,12 +205,12 @@ customer1: '	PREETY GOBRIPATH (GOBRIPATH)	', toys1: 'TOYS:-	', amount1: ' 	7798	
 customer2: '	PRATAB  GOBRIPAT	', toys2: 'TOYS:-	', amount2: ' 	1700	',  url2: '	/2084377289testbysam/GOBRIPATH/PRATAB (GOBRIPAT).htm	', bags2: 'BAGS:-	', amountb2: '		',  urlb2: '		',
 												},
 												
-{id: 1, name: '	HARDIBAZAR ', total: '(	12637	)', 									
-customer1: '	ASHWANI SHRINGAR (HARDIBAZAR)	', toys1: 'TOYS:-	', amount1: ' 	2713	',  url1: '	/2084377289testbysam/HARDIBAZAR/ASHWINI GENERAL (HARDIBAZAR) 174.htm	', bags1: 'BAGS:-	', amountb1: '		',  urlb1: '		',
+{id: 1, name: '	HARDIBAZAR ', total: '(	17985	)', 									
+customer1: '	ASHWANI SHRINGAR (HARDIBAZAR)	', toys1: 'TOYS:-	', amount1: ' 	1213	',  url1: '	/2084377289testbysam/HARDIBAZAR/ASHWINI GENERAL (HARDIBAZAR) 174.htm	', bags1: 'BAGS:-	', amountb1: '		',  urlb1: '		',
 customer2: '	SANSKRITI GENERAL  (HARDIBAZAR)	', toys2: 'TOYS:-	', amount2: '	9158	',  url2: '	/2084377289testbysam/HARDIBAZAR/SANSKRITI GENERAL (HARDIBAZAR).htm	', bags2: 'BAGS:-	', amountb2: '		',  urlb2: '		',
-customer3: '	NIKHIL FANCY (HARDIBAZAR)	', toys3: 'TOYS:-	', amount3: '	766	',  url3: '	/2084377289testbysam/HARDIBAZAR/NIKHIL FANCY (HARDIBAZAR) 281.htm	', bags3: 'BAGS:-	', amountb3: '	4	',  urlb3: '	/2084377289testbysam/BAGS/NIKHIL FANCY (HARDIBAZAR).htm	',
-customer4: '	 SONI SHRINGAR (HARDIBAZAR)	', toys4: 'TOYS:-	', amount4: ' 	0	',  url4: '	/2084377289testbysam/HARDIBAZAR/SONI SHRINGAR (HARDIBAZAR) 72.htm	', bags4: 'BAGS:-	', amountb4: '		',  urlb4: '		',
-customer5: '	MANOJ KAPDA BAZAR (HARDIBAZAR)	', toys5: 'TOYS:-	', amount5: '	0	',  url5: '	/2084377289testbysam/HARDIBAZAR/MANOJ KAPDA (HARDIBAZAR) 252.htm	', bags5: 'BAGS:-	', amountb5: '		',  urlb5: '		',
+customer3: '	NIKHIL FANCY (HARDIBAZAR)	', toys3: 'TOYS:-	', amount3: '	0	',  url3: '	/2084377289testbysam/HARDIBAZAR/NIKHIL FANCY (HARDIBAZAR) 281.htm	', bags3: 'BAGS:-	', amountb3: '	4	',  urlb3: '	/2084377289testbysam/BAGS/NIKHIL FANCY (HARDIBAZAR).htm	',
+customer4: '	 SONI SHRINGAR (HARDIBAZAR)	', toys4: 'TOYS:-	', amount4: ' 	4154	',  url4: '	/2084377289testbysam/HARDIBAZAR/SONI SHRINGAR (HARDIBAZAR) 72.htm	', bags4: 'BAGS:-	', amountb4: '		',  urlb4: '		',
+customer5: '	MANOJ KAPDA BAZAR (HARDIBAZAR)	', toys5: 'TOYS:-	', amount5: '	3460	',  url5: '	/2084377289testbysam/HARDIBAZAR/MANOJ KAPDA (HARDIBAZAR) 252.htm	', bags5: 'BAGS:-	', amountb5: '		',  urlb5: '		',
 												},
 {id: 1, name: '	HARDIKALA', total: ' (	3	)', 									
 customer1: '	MANMOHAN (HARDIKALA)	', toys1: 'TOYS:-	', amount1: ' 	0	',  url1: '	/2084377289testbysam/HARDIKALA/MANMOHAN (HARDIKALA) 69.htm	', bags1: 'BAGS:-	', amountb1: '		',  urlb1: '		',
