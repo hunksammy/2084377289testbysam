@@ -1,35 +1,38 @@
 
 
+
+
+
+
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Page Title</title>
+	<title>ng-model</title>
+	<script src=
+"https://code.angularjs.org/1.6.9/angular.min.js">
+	</script>
 </head>
+
 <body>
+	<h3> Geeks For Geeks </h3>
+	<div ng-app="" ng-init="price=106; quantity=; km=" >
+		Enter petrol price : <br>
+			<input type="text" ng-model="price">
+			<br><br>
 
-<!-- HTML FORM -->
+		Enter your vehical  average : <br>
+			<input type="text" ng-model="quantity">
+			<br><br>
+			
+			Enter km you are going : <br>
+			<input type="text" ng-model="km"> <br> <br>
+			
+		<b>Total Fuel Will Cost You : {{100 | / quantity * km}}  ₹ </b>
+		
+		
+	</div>
+</body>
 
- <p><input type="text" id="username" name="username" [(ngModel)]="username"></p>
-<h1> {{username}}</h1>
+</html>
 
-<button type="button" (click)="clickme()">Clickme</button>
-
-<!-- JAVASCRIPT -->
-
-<script>
-
-import { Component } from '@angular/core';
-@Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss'],
-})
-export class AppComponent {
-  username: string = '';
-  clickme() {
-    console.log('it does nothing',username);
-  }
-}
-}
-
-</script>
