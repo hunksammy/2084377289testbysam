@@ -1,4 +1,4 @@
-var element = document.getElementById("id01");element.innerHTML = "BAGS - 	22-10-21	&nbsp;&nbsp;		&nbsp;&nbsp;TOYS - 22/01/2022  	&nbsp;&nbsp;BAL -	1311554						";					
+var element = document.getElementById("id01");element.innerHTML = "BAGS - 	22-10-21	&nbsp;&nbsp;		&nbsp;&nbsp;TOYS - 23/01/2022  	&nbsp;&nbsp;BAL -	1319653						";					
 																	
 																	
 																	
@@ -507,6 +507,7 @@ customer1: '	HEMA FANCY	', toys1: 'TOYS:-	', amount1: ' 	1572	',  url1: '	/20843
 customer2: '	OM SAI SARSIWA	', toys2: 'TOYS:-	', amount2: '	12561	',  url2: '	/2084377289testbysam/SARSIWA/OM SAI (SARSIWA) 6.htm	', GIFTS2: 'GIFTS:-	', amountg2: '		',  urlg2: '		', bags2: 'BAGS:-	', amountb2: '	1146	',  urlb2: '	/2084377289testbysam/BAGS/OM SAI (SARSIWA).htm	',
 customer3: '	SHRIYA SHRINGAR (SARSIWA)	', toys3: 'TOYS:-	', amount3: '	72	',  url3: '	/2084377289testbysam/SARSIWA/SHRIYA SHRINGAR (SARSIWA).htm	', GIFTS3: 'GIFTS:-	', amountg3: '		',  urlg3: '		', bags3: 'BAGS:-	', amountb3: '		',  urlb3: '		',
 customer4: '	CHANDRAHASHNI (SARSIWA)	', toys4: 'TOYS:-	', amount4: '	782	',  url4: '	/2084377289testbysam/SARSIWA/CHANDRAHASNI GENERAL (SARSIWA).htm	', GIFTS4: 'GIFTS:-	', amountg4: '		',  urlg4: '		', bags4: 'BAGS:-	', amountb4: '		',  urlb4: '		',
+customer5: '	SWASTIK GENERAL (SARSIWA)	', toys5: 'TOYS:-	', amount5: '	8099	',  url5: '	/2084377289testbysam/SARSIWA/SWASTIK GENERAL (SARSIWA).htm	', GIFTS5: 'GIFTS:-	', amountg5: '		',  urlg5: '		', bags5: 'BAGS:-	', amountb5: '		',  urlb5: '		',
 																	},
 																	
 {id: 1, name: '	SENDRI', total: ' (	0	)', 														
