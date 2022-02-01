@@ -1,4 +1,4 @@
-var element = document.getElementById("id01");element.innerHTML = "BAGS - 	22-10-21	&nbsp;&nbsp;		&nbsp;&nbsp;TOYS - 30/01/2022  	&nbsp;&nbsp;BAL -	1367607						";					
+var element = document.getElementById("id01");element.innerHTML = "BAGS - 	22-10-21	&nbsp;&nbsp;		&nbsp;&nbsp;TOYS - 31/01/2022  	&nbsp;&nbsp;BAL -	1366531						";					
 																	
 																	
 																	
@@ -246,6 +246,7 @@ customer2: '	GUDDU (JHARSUKDA)	', toys2: 'TOYS:-	', amount2: '	0	',  url2: '	/20
 {id: 1, name: '	JONDHRA ', total: '(	4092	)', 														
 customer1: '	BABA GENERAL (JONDHRA)	', toys1: 'TOYS:-	', amount1: ' 	4092	',  url1: '	/2084377289testbysam/JONDHRA/BABA GENERAL (JONDHRA).htm	', GIFTS1: 'GIFTS:-	', amountg1: '		',  urlg1: '		', bags1: 'BAGS:-	', amountb1: '		',  urlb1: '		',
 customer2: '	PURAN (JONDHARA)	', toys2: 'TOYS:-	', amount2: ' 	2000	',  url2: '	/2084377289testbysam/JONDHRA/PURAN FANCY  (JONDHARA).htm	', GIFTS2: 'GIFTS:-	', amountg2: '		',  urlg2: '		', bags2: 'BAGS:-	', amountb2: '		',  urlb2: '		',
+customer3: '	SAHELI BEAUTY (JONDHARA)	', toys3: 'TOYS:-	', amount3: ' 	3662	',  url3: '	/2084377289testbysam/JONDHRA/SAHELI BEAUTY (JONDHARA).htm	', GIFTS3: 'GIFTS:-	', amountg3: '		',  urlg3: '		', bags3: 'BAGS:-	', amountb3: '		',  urlb3: '		',
 																	
 																	},
 {id: 1, name: '	KATGHORA', total: ' (	15182	)', 														
@@ -424,18 +425,18 @@ customer7: '	PRACHI GENERAL (PANDATARAI)	', toys7: 'TOYS:-	', amount7: '	0	',  u
 customer8: '	KABIR GENERAL (PANDATARAI)	', toys8: 'TOYS:-	', amount8: '		',  url8: '		', GIFTS8: 'GIFTS:-	', amountg8: '	9309	',  urlg8: '		', bags8: 'BAGS:-	', amountb8: '		',  urlb8: '		',
 																	},
 																	
-{id: 1, name: '	PANTORA ', total: '(	12154	)', 														
-customer1: '	KRISHNA  KAPDA (PANTORA)	', toys1: 'TOYS:-	', amount1: ' 	12154	',  url1: '	/2084377289testbysam/PANTORA.htm	', GIFTS1: 'GIFTS:-	', amountg1: '		',  urlg1: '		', bags1: 'BAGS:-	', amountb1: '		',  urlb1: '		',
+{id: 1, name: '	PANTORA ', total: '(	7154	)', 														
+customer1: '	KRISHNA  KAPDA (PANTORA)	', toys1: 'TOYS:-	', amount1: ' 	7154	',  url1: '	/2084377289testbysam/PANTORA.htm	', GIFTS1: 'GIFTS:-	', amountg1: '		',  urlg1: '		', bags1: 'BAGS:-	', amountb1: '		',  urlb1: '		',
 																	},
 																	
-{id: 1, name: '	PATHARIYA ', total: '(	36605	)', 														
+{id: 1, name: '	PATHARIYA ', total: '(	39867	)', 														
 customer1: '	AKASH BOOK DEPO (PATHARIYA)	', toys1: 'TOYS:-	', amount1: ' 	0	',  url1: '	/2084377289testbysam/PATHARIYA/AKASH%20BOOK%20DEPO%20(PATHARIYA)%20116.htm	', GIFTS1: 'GIFTS:-	', amountg1: '		',  urlg1: '		', bags1: 'BAGS:-	', amountb1: '		',  urlb1: '		',
 customer2: '	HARNARAYAN	', toys2: 'TOYS:-	', amount2: '	0	',  url2: '	/2084377289testbysam/PATHARIYA/HARNARAYAN%20(PATHARIYA)%20%20199.htm	', GIFTS2: 'GIFTS:-	', amountg2: '	1341	',  urlg2: '		', bags2: 'BAGS:-	', amountb2: '		',  urlb2: '		',
 customer3: '	MUKESH GENERAL 	', toys3: 'TOYS:-	', amount3: '	1	',  url3: '	/2084377289testbysam/PATHARIYA/MUKESH%20GENERAL%20(PATHARIYA)%20%20163.htm	', GIFTS3: 'GIFTS:-	', amountg3: '		',  urlg3: '		', bags3: 'BAGS:-	', amountb3: '		',  urlb3: '		',
 customer4: '	OM SAI KARAN (PATHARIYA)	', toys4: 'TOYS:-	', amount4: ' 	8480	',  url4: '	/2084377289testbysam/PATHARIYA/OM%20SAI%20(KARAN)%20.(PATHARIYA)%20%202.htm	', GIFTS4: 'GIFTS:-	', amountg4: '	8758	',  urlg4: '		', bags4: 'BAGS:-	', amountb4: '		',  urlb4: '		',
 customer5: '	SHIV GENERAL (PATHARIYA)	', toys5: 'TOYS:-	', amount5: '	12155	',  url5: '	/2084377289testbysam/PATHARIYA/SHIV GENERAL .(PATHARIYA) 118.htm	', GIFTS5: 'GIFTS:-	', amountg5: '	30179	',  urlg5: '		', bags5: 'BAGS:-	', amountb5: '		',  urlb5: '		',
 customer6: '	SANTOSH GENERAL (PATHARIYA)	', toys6: 'TOYS:-	', amount6: '	0	',  url6: '	/2084377289testbysam/PATHARIYA/SANTOSH%20PATHKAR.%20(PATHARIYA)%20192.htm	', GIFTS6: 'GIFTS:-	', amountg6: '	888	',  urlg6: '		', bags6: 'BAGS:-	', amountb6: '		',  urlb6: '		',
-customer7: '	PREETAM GENERAL (PATHARIYA)	', toys7: 'TOYS:-	', amount7: '	15959	',  url7: '	/2084377289testbysam/PATHARIYA/PREETAM%20(PATHARIYA)%20148.htm	', GIFTS7: 'GIFTS:-	', amountg7: '	19022	',  urlg7: '		', bags7: 'BAGS:-	', amountb7: '		',  urlb7: '		',
+customer7: '	PREETAM GENERAL (PATHARIYA)	', toys7: 'TOYS:-	', amount7: '	19221	',  url7: '	/2084377289testbysam/PATHARIYA/PREETAM%20(PATHARIYA)%20148.htm	', GIFTS7: 'GIFTS:-	', amountg7: '	19022	',  urlg7: '		', bags7: 'BAGS:-	', amountb7: '		',  urlb7: '		',
 customer8: '	OM SUHAG (PATHARIYA)	', toys8: 'TOYS:-	', amount8: '	10	',  url8: '	/2084377289testbysam/PATHARIYA/OM%20SUHAG%20(PATHARIYA)%20%20100.htm	', GIFTS8: 'GIFTS:-	', amountg8: '		',  urlg8: '		', bags8: 'BAGS:-	', amountb8: '		',  urlb8: '		',
 customer9: '	LAXMI GENERAL (PATHARIYA)	', toys9: 'TOYS:-	', amount9: '	0	',  url9: '	/2084377289testbysam/PATHARIYA/LAXMI%20GENERAL%20(PATHARIYA).htm	', GIFTS9: 'GIFTS:-	', amountg9: '		',  urlg9: '		', bags9: 'BAGS:-	', amountb9: '		',  urlb9: '		',
 																	},
@@ -559,8 +560,8 @@ customer1: '	 POOJA TAPKARA	', toys1: 'TOYS:-	', amount1: ' 	17223	',  url1: '	/
 {id: 1, name: '	UDAIPUR ', total: '(	19137	)', 														
 customer1: '	PRIYA UDAIPUR	', toys1: 'TOYS:-	', amount1: ' 	19137	',  url1: '	/2084377289testbysam/UDAIPUR/PRIYA  (UDAIPUR) 91.htm	', GIFTS1: 'GIFTS:-	', amountg1: '		',  urlg1: '		', bags1: 'BAGS:-	', amountb1: '	20437	',  urlb1: '	/2084377289testbysam/BAGS/PRIYA (UDAIPUR).htm	',
 																	},
-{id: 1, name: '	URGA', total: ' (	15843	)', 														
-customer1: '	SHUSHMITA URGA	', toys1: 'TOYS:-	', amount1: ' 	15843	',  url1: '	/2084377289testbysam/URGA/SUSHMITA%20(URGA)%20125.htm	', GIFTS1: 'GIFTS:-	', amountg1: '		',  urlg1: '		', bags1: 'BAGS:-	', amountb1: '	12714	',  urlb1: '	/2084377289testbysam/BAGS/SHUSHMITA (URGA).htm	',
+{id: 1, name: '	URGA', total: ' (	12843	)', 														
+customer1: '	SHUSHMITA URGA	', toys1: 'TOYS:-	', amount1: ' 	12843	',  url1: '	/2084377289testbysam/URGA/SUSHMITA%20(URGA)%20125.htm	', GIFTS1: 'GIFTS:-	', amountg1: '		',  urlg1: '		', bags1: 'BAGS:-	', amountb1: '	12714	',  urlb1: '	/2084377289testbysam/BAGS/SHUSHMITA (URGA).htm	',
 																	},
 {id: 1, name: '	USLAPUR', total: ' (	0	)', 														
 customer1: '	SAI PROVISION	', toys1: 'TOYS:-	', amount1: ' 		',  url1: '		', GIFTS1: 'GIFTS:-	', amountg1: '		',  urlg1: '		', bags1: 'BAGS:-	', amountb1: '	3089	',  urlb1: '	/2084377289testbysam/BAGS/SAI PROVISION (BILASPUR).htm	',
