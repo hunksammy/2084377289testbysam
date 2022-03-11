@@ -97,7 +97,7 @@ customer2: '	SIDDHI VINAYAK (BARADWAR)	', toys2: 'TOYS:-	', amount2: '	0	',  url
 customer3: '	SAMRAT GENERAL (BARADWAR)	', toys3: 'TOYS:-	', amount3: '	0	',  url3: '	/2084377289testbysam/BARADWAR/SAMRATH GENERAL (BARADWAR).htm	', GIFTS3: 'GIFTS:-	', amountg3: '		',  urlg3: '		', bags3: 'BAGS:-	', amountb3: '		',  urlb3: '		',
 customer4: '	SAKTIYA SETH (BARADWAR)	', toys4: 'TOYS:-	', amount4: '	0	',  url4: '	/2084377289testbysam/BARADWAR/SAKTIYA SETH (BARADWAR) 219.htm	', GIFTS4: 'GIFTS:-	', amountg4: '		',  urlg4: '		', bags4: 'BAGS:-	', amountb4: '		',  urlb4: '		',
 customer5: '	LAXMI DEPARTMENTAL  (BARADWAR)	', toys5: 'TOYS:-	', amount5: '	46	',  url5: '	/2084377289testbysam/BARADWAR/LAXMI  DEPARTMENTAL (BARADWAR).htm	', GIFTS5: 'GIFTS:-	', amountg4: '		',  urlg5: '		', bags5: 'BAGS:-	', amountb4: '		',  urlb5: '		',
-																	
+																	},
 {id: 1, name: '	BARAMKELA', total: ' (	3735	)', 														
 customer1: '	ANNPURNA FANCY (BARAMKELA)	', toys1: 'TOYS:-	', amount1: '	3735	',  url1: '	\2084377289testbysam\BARAMKELA\ANNPURNA STORE (BARAMKELA).htm	', GIFTS1: 'GIFTS:-	', amountg1: '		',  urlg1: '		', bags1: 'BAGS:-	', amountb1: '		',  urlb1: '		',
 																	},
