@@ -1,4 +1,4 @@
-var element = document.getElementById("id01");element.innerHTML = "BAGS - 	22-10-21	&nbsp;&nbsp;		&nbsp;&nbsp;TOYS - 26/03/2022  	&nbsp;&nbsp;BAL -	1588925						";					
+var element = document.getElementById("id01");element.innerHTML = "BAGS - 	22-10-21	&nbsp;&nbsp;		&nbsp;&nbsp;TOYS - 26/03/2022  	&nbsp;&nbsp;BAL -	1590336						";					
 																	
 																	
 																	
@@ -137,7 +137,7 @@ customer8: '	SONI GIFT (DEVIKHURDH) (BSP)	', toys8: 'TOYS:-	', amount8: '	0	',  
 customer9: '	VIJAY TOYS TELIPARA	', toys9: 'TOYS:-	', amount9: '	0	',  url9: '	/2084377289testbysam/BILASPUR/VIJAY TOYS (TELIPARA).htm	', GIFTS9: 'GIFTS:-	', amountg9: '		',  urlg9: '		', bags9: 'BAGS:-	', amountb9: '		',  urlb9: '		',
 customer10: '	HITESH BAJAJ	', toys10: 'TOYS:-	', amount10: '	0	',  url10: '	/2084377289testbysam/BILASPUR/HITESH BAJAJ (BILASPUR).htm	', GIFTS10: 'GIFTS:-	', amountg10: '		',  urlg10: '		', bags10: 'BAGS:-	', amountb10: '		',  urlb10: '		',
 customer11: '	HELLO DUDE (SUNIL)	', toys11: 'TOYS:-	', amount11: '	5755	',  url11: '	/2084377289testbysam/BILASPUR/HELLO DUDE (SUNIL JAGYASI).htm	', GIFTS11: 'GIFTS:-	', amountg11: '		',  urlg11: '		', bags11: 'BAGS:-	', amountb11: '		',  urlb11: '		',
-customer12: '	BABY  WORLD  (RAVI KHANNA)	', toys12: 'TOYS:-	', amount12: '	21421	',  url12: '	/2084377289testbysam/BILASPUR/BABY WORLD  (RAVI  KHANNA).htm	', GIFTS12: 'GIFTS:-	', amountg12: '		',  urlg12: '		', bags12: 'BAGS:-	', amountb12: '		',  urlb12: '		',
+customer12: '	BABY  WORLD  (RAVI KHANNA)	', toys12: 'TOYS:-	', amount12: '	22832	',  url12: '	/2084377289testbysam/BILASPUR/BABY WORLD  (RAVI  KHANNA).htm	', GIFTS12: 'GIFTS:-	', amountg12: '		',  urlg12: '		', bags12: 'BAGS:-	', amountb12: '		',  urlb12: '		',
 																	},
 {id: 1, name: '	BILHA', total: ' (	1996	)', 														
 customer1: '	PAYAL FANCY (BILHA)	', toys1: 'TOYS:-	', amount1: ' 	1996	',  url1: '	/2084377289testbysam/BILHA/PAYAL%20FANCY%20(BILHA)%2066.htm	', GIFTS1: 'GIFTS:-	', amountg1: '		',  urlg1: '		', bags1: 'BAGS:-	', amountb1: '		',  urlb1: '		',
