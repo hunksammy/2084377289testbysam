@@ -1,4 +1,4 @@
-var element = document.getElementById("id01");element.innerHTML = "BAGS - 	22-10-21	&nbsp;&nbsp;		&nbsp;&nbsp;TOYS - 18/04/2022  	&nbsp;&nbsp;BAL -	1831408						";					
+var element = document.getElementById("id01");element.innerHTML = "BAGS - 	22-10-21	&nbsp;&nbsp;		&nbsp;&nbsp;TOYS - 18/004/2022  	&nbsp;&nbsp;BAL -	1831408						";					
 																	
 																	
 																	
