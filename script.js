@@ -1,4 +1,4 @@
-var element = document.getElementById("id01");element.innerHTML = "BAGS - 	22-10-21	&nbsp;&nbsp;		&nbsp;&nbsp;TOYS - 19/05/2022  	&nbsp;&nbsp;BAL -	1506328						";					
+var element = document.getElementById("id01");element.innerHTML = "BAGS - 	22-10-21	&nbsp;&nbsp;		&nbsp;&nbsp;TOYS - 19/05/2022  	&nbsp;&nbsp;BAL -	1504319						";					
 																	
 																	
 																	
@@ -137,7 +137,7 @@ customer8: '	SONI GIFT (DEVIKHURDH) (BSP)	', toys8: 'TOYS:-	', amount8: '	0	',  
 customer9: '	VIJAY TOYS TELIPARA	', toys9: 'TOYS:-	', amount9: '	0	',  url9: '	/2084377289testbysam/BILASPUR/VIJAY TOYS (TELIPARA).htm	', GIFTS9: 'GIFTS:-	', amountg9: '		',  urlg9: '		', bags9: 'BAGS:-	', amountb9: '		',  urlb9: '		',
 customer10: '	HITESH BAJAJ	', toys10: 'TOYS:-	', amount10: '	0	',  url10: '	/2084377289testbysam/BILASPUR/HITESH BAJAJ (BILASPUR).htm	', GIFTS10: 'GIFTS:-	', amountg10: '		',  urlg10: '		', bags10: 'BAGS:-	', amountb10: '		',  urlb10: '		',
 customer11: '	HELLO DUDE (SUNIL)	', toys11: 'TOYS:-	', amount11: '	-202	',  url11: '	/2084377289testbysam/BILASPUR/HELLO DUDE (SUNIL JAGYASI).htm	', GIFTS11: 'GIFTS:-	', amountg11: '		',  urlg11: '		', bags11: 'BAGS:-	', amountb11: '		',  urlb11: '		',
-customer12: '	BABY  WORLD  (RAVI KHANNA)	', toys12: 'TOYS:-	', amount12: '	13306	',  url12: '	/2084377289testbysam/BILASPUR/BABY WORLD  (RAVI  KHANNA).htm	', GIFTS12: 'GIFTS:-	', amountg12: '		',  urlg12: '		', bags12: 'BAGS:-	', amountb12: '		',  urlb12: '		',
+customer12: '	BABY  WORLD  (RAVI KHANNA)	', toys12: 'TOYS:-	', amount12: '	11297	',  url12: '	/2084377289testbysam/BILASPUR/BABY WORLD  (RAVI  KHANNA).htm	', GIFTS12: 'GIFTS:-	', amountg12: '		',  urlg12: '		', bags12: 'BAGS:-	', amountb12: '		',  urlb12: '		',
 																	},
 {id: 1, name: '	BILHA', total: ' (	1996	)', 														
 customer1: '	PAYAL FANCY (BILHA)	', toys1: 'TOYS:-	', amount1: ' 	1996	',  url1: '	/2084377289testbysam/BILHA/PAYAL%20FANCY%20(BILHA)%2066.htm	', GIFTS1: 'GIFTS:-	', amountg1: '		',  urlg1: '		', bags1: 'BAGS:-	', amountb1: '		',  urlb1: '		',
@@ -217,7 +217,7 @@ customer2: '	PRATAB  GOBRIPAT	', toys2: 'TOYS:-	', amount2: ' 	0	',  url2: '	/20
 customer1: '	ASHWANI SHRINGAR (HARDIBAZAR)	', toys1: 'TOYS:-	', amount1: ' 	4360	',  url1: '	/2084377289testbysam/HARDIBAZAR/ASHWINI GENERAL (HARDIBAZAR) 174.htm	', GIFTS1: 'GIFTS:-	', amountg1: '		',  urlg1: '		', bags1: 'BAGS:-	', amountb1: '		',  urlb1: '		',
 customer2: '	SANSKRITI GENERAL  (HARDIBAZAR)	', toys2: 'TOYS:-	', amount2: '	8197	',  url2: '	/2084377289testbysam/HARDIBAZAR/SANSKRITI GENERAL (HARDIBAZAR).htm	', GIFTS2: 'GIFTS:-	', amountg2: '		',  urlg2: '		', bags2: 'BAGS:-	', amountb2: '		',  urlb2: '		',
 customer3: '	NIKHIL FANCY (HARDIBAZAR)	', toys3: 'TOYS:-	', amount3: '	2	',  url3: '	/2084377289testbysam/HARDIBAZAR/NIKHIL FANCY (HARDIBAZAR) 281.htm	', GIFTS3: 'GIFTS:-	', amountg3: '		',  urlg3: '		', bags3: 'BAGS:-	', amountb3: '	4	',  urlb3: '	/2084377289testbysam/BAGS/NIKHIL FANCY (HARDIBAZAR).htm	',
-customer4: '	 SONI SHRINGAR (HARDIBAZAR)	', toys4: 'TOYS:-	', amount4: ' 	5478	',  url4: '	E/2084377289testbysam/HARDIBAZAR/SONI SHRINGAR (HARDIBAZAR) 72.htm	', GIFTS4: 'GIFTS:-	', amountg4: '		',  urlg4: '		', bags4: 'BAGS:-	', amountb4: '		',  urlb4: '		',
+customer4: '	 SONI SHRINGAR (HARDIBAZAR)	', toys4: 'TOYS:-	', amount4: ' 	5478	',  url4: '	/2084377289testbysam/HARDIBAZAR/SONI SHRINGAR (HARDIBAZAR) 72.htm	', GIFTS4: 'GIFTS:-	', amountg4: '		',  urlg4: '		', bags4: 'BAGS:-	', amountb4: '		',  urlb4: '		',
 customer5: '	MANOJ KAPDA BAZAR (HARDIBAZAR)	', toys5: 'TOYS:-	', amount5: '	0	',  url5: '	/2084377289testbysam/HARDIBAZAR/MANOJ KAPDA (HARDIBAZAR) 252.htm	', GIFTS5: 'GIFTS:-	', amountg5: '		',  urlg5: '		', bags5: 'BAGS:-	', amountb5: '		',  urlb5: '		',
 																	},
 {id: 1, name: '	HARDIKALA', total: ' (	0	)', 														
