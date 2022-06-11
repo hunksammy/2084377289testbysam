@@ -63,7 +63,7 @@ var myApp = angular.module('myApp', ['ngRoute'])
   var contactList = [																	
 																	
 {id: 1, name: '	AKALTARA', total: '  (	47616	)', 														
-customer1: '	VINOD GENERAL (AKALTARA) 	', toys1: 'TOYS:-	', amount1: '	0	',  url1: '	/2084377289testbysam/AKALTARA/VINOD GENERAL (AKALTARA).htm	', GIFTS1: 'GIFTS:-	', amountg1: '		',  urlg1: '		', bags1: 'BAGS:-	', amountb1: '		',  urlb1: '		',
+customer1: '	VINOD GENERAL (AKALTARA) 	', toys1: 'TOYS:-	', amount1: '	0	',  url1: '	/2084377289testbysam/AKALTARA/VINOD GENERAL (AKALTARA).htm	', GIFTS1: 'GIFTS:-	', amountg1: '	919827734802	',  urlg1: '	https://api.whatsapp.com/send?phone=919827734802&text=नमस्कार ! *VINOD GENERAL (AKALTARA) *	', bags1: 'BAGS:-	', amountb1: '		',  urlb1: '		',
 customer2: '	CHANDAN GENERAL (AKALTARA)	', toys2: 'TOYS:-	', amount2: '	6520	',  url2: '	/2084377289testbysam/AKALTARA/CHANDAN%20GENERAL%20(AKALTARA)%2029.htm	', GIFTS2: 'GIFTS:-	', amountg2: '		',  urlg2: '		', bags2: 'BAGS:-	', amountb2: '		',  urlb2: '		',
 customer3: '	DEEPAK GENERAL (AKALTARA)	', toys3: 'TOYS:-	', amount3: '	20568	',  url3: '	/2084377289testbysam/AKALTARA/DEEPAK%20(AKALTARA)%20130.htm	', GIFTS3: 'GIFTS:-	', amountg3: '		',  urlg3: '		', bags3: 'BAGS:-	', amountb3: '		',  urlb3: '		',
 customer4: '	SHRIMANAGALM (AKALTARA)	', toys4: 'TOYS:-	', amount4: '	0	',  url4: '	/2084377289testbysam/AKALTARA/SHRIMANGALAM%20(AKALTARA)%20298.htm	', GIFTS4: 'GIFTS:-	', amountg4: '		',  urlg4: '		', bags4: 'BAGS:-	', amountb4: '		',  urlb4: '		',
