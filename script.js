@@ -1,4 +1,4 @@
-var element = document.getElementById("id01");element.innerHTML = "		&nbsp;&nbsp;		&nbsp;&nbsp;TOYS -7/07/2023  	&nbsp;&nbsp;BAL -	1175356	";	
+var element = document.getElementById("id01");element.innerHTML = "		&nbsp;&nbsp;		&nbsp;&nbsp;TOYS -7/07/2023  	&nbsp;&nbsp;BAL -	1182493	";	
 								
 								
 								
@@ -102,8 +102,8 @@ customer5: '	LAXMI DEPARTMENTAL  (BARADWAR)	', toys5: 'TOYS:-	', amount5: '	646	
 customer1: '	ANNPURNA FANCY (BARAMKELA)	', toys1: 'TOYS:-	', amount1: '	23897	',  url1: '	/2084377289testbysam/BARAMKELA/ANNPURNA STORE (BARAMKELA).htm	', bags1: '	',
 								},
 								
-{id: 1, name: '	BASNA', total: ' (	0	)', 					
-customer1: '	ROOP SHRINGAR (BASNA)	', toys1: 'TOYS:-	', amount1: '		',  url1: '	/2084377289testbysam/BASNA/ROOP SHRINGAR (BASNA).htm	', bags1: '	',
+{id: 1, name: '	BASNA', total: ' (	7137	)', 					
+customer1: '	ROOP SHRINGAR (BASNA)	', toys1: 'TOYS:-	', amount1: '	7137	',  url1: '	/2084377289testbysam/BASNA/ROOP SHRINGAR (BASNA).htm	', bags1: '	',
 								},
 {id: 1, name: '	BELGEHNA', total: ' (	26660	)', 					
 customer1: '	RINKU GENERAL (BELGEHNA)	', toys1: 'TOYS:-	', amount1: '	26660	',  url1: '	/2084377289testbysam/BELGEHNA/RINKU (BELGEHNA).htm	', bags1: '	',
