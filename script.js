@@ -1,4 +1,4 @@
-var element = document.getElementById("id01");element.innerHTML = "		&nbsp;&nbsp;		&nbsp;&nbsp;TOYS -20/07/2023  	&nbsp;&nbsp;BAL -	1104491	";	
+var element = document.getElementById("id01");element.innerHTML = "		&nbsp;&nbsp;		&nbsp;&nbsp;TOYS -20/07/2023  	&nbsp;&nbsp;BAL -	1114336	";	
 								
 								
 								
@@ -73,9 +73,9 @@ customer7: '	KANHA GENERAL (AKALTARA)	', toys7: 'TOYS:-	', amount7: '	1845	',  u
 customer8: '	SANTOSH GENERAL (AKALTARA)	', toys8: 'TOYS:-	', amount8: '	7	',  url8: '	/2084377289testbysam/AKALTARA/SANTOSH  GENERAL (AKALTARA).htm	', bags8: '	',
 customer9: '	RADHE SUPER BAZAR (AKALTARA)	', toys9: 'TOYS:-	', amount9: '	7286	',  url9: '	/2084377289testbysam/AKALTARA/RADHE SUPER BAZAR (AKALTARA).htm	', bags9: '	',
 								},
-{id: 1, name: '	AMBIKAPUR', total: '(	16145	)', 					
+{id: 1, name: '	AMBIKAPUR', total: '(	25990	)', 					
 customer1: '	GHONGROO (AMBIKAPUR)	', toys1: 'TOYS:-	', amount1: ' 	3528	',  url1: '	/2084377289testbysam/AMBIKAPUR/GHUNGROO (AMBIKAPUR).htm	', bags1: '	',
-customer2: '	SAMRIDDHI VARSHA (AMBIKAPUR)	', toys2: 'TOYS:-	', amount2: '	3	',  url2: '	/2084377289testbysam/AMBIKAPUR/SAMRIDDHI VARSHA (AMBIKAPUR).htm	', bags2: '	',
+customer2: '	SAMRIDDHI VARSHA (AMBIKAPUR)	', toys2: 'TOYS:-	', amount2: '	9848	',  url2: '	/2084377289testbysam/AMBIKAPUR/SAMRIDDHI VARSHA (AMBIKAPUR).htm	', bags2: '	',
 customer3: '	MANOJ GIFT  (AMBIKAPUR)	', toys3: 'TOYS:-	', amount3: '	12614	',  url3: '	/2084377289testbysam/AMBIKAPUR/MANOJ JWELLERY AND GIFT (AMBIKAPUR).htm	', bags3: '	',
 								},
 								
