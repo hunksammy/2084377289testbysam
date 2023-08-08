@@ -1,4 +1,4 @@
-var element = document.getElementById("id01");element.innerHTML = "		&nbsp;&nbsp;		&nbsp;&nbsp;TOYS -30/07/2023  	&nbsp;&nbsp;BAL -	1093474	";	
+var element = document.getElementById("id01");element.innerHTML = "		&nbsp;&nbsp;		&nbsp;&nbsp;TOYS -07/08/2023  	&nbsp;&nbsp;BAL -	1115935	";	
 								
 								
 								
@@ -78,7 +78,9 @@ customer1: '	GHONGROO (AMBIKAPUR)	', toys1: 'TOYS:-	', amount1: ' 	3528	',  url1
 customer2: '	SAMRIDDHI VARSHA (AMBIKAPUR)	', toys2: 'TOYS:-	', amount2: '	9848	',  url2: '	/2084377289testbysam/AMBIKAPUR/SAMRIDDHI VARSHA (AMBIKAPUR).htm	', bags2: '	',
 customer3: '	MANOJ GIFT  (AMBIKAPUR)	', toys3: 'TOYS:-	', amount3: '	12614	',  url3: '	/2084377289testbysam/AMBIKAPUR/MANOJ JWELLERY AND GIFT (AMBIKAPUR).htm	', bags3: '	',
 								},
-								
+{id: 1, name: '	BAIKUNTPUR', total: ' (	9728	)', 					
+customer1: '	SHREE  STORE (BAIKUNTPUR)	', toys1: 'TOYS:-	', amount1: '	9728	',  url1: '	/2084377289testbysam/BAIKUNTPUR/SHREE STORE (BAIKUNTPUR).htm	', bags1: '	',
+								},
 {id: 1, name: '	BALCO', total: '  (	601	)', 					
 customer1: '	SACHIN COLLECTION (BALCO)	', toys1: 'TOYS:-	', amount1: '	540	',  url1: '	/2084377289testbysam/BALCO/SACHIN COLLECTION (BALCO) 84.htm	', bags1: '	',
 customer2: '	UPHAR COLLECTION (BALCO)	', toys2: 'TOYS:-	', amount2: '	0	',  url2: '	/2084377289testbysam/BALCO/UPHAR COLLECTION (BALCO) 272.htm	', bags2: '	',
@@ -150,7 +152,7 @@ customer8: '	SONI GIFT (DEVIKHURDH) (BSP)	', toys8: 'TOYS:-	', amount8: '	0	',  
 customer9: '	VIJAY TOYS TELIPARA	', toys9: 'TOYS:-	', amount9: '	0	',  url9: '	/2084377289testbysam/BILASPUR/VIJAY TOYS (TELIPARA).htm	', bags9: '	',
 customer10: '	HITESH BAJAJ	', toys10: 'TOYS:-	', amount10: '	0	',  url10: '	/2084377289testbysam/BILASPUR/HITESH BAJAJ (BILASPUR).htm	', bags10: '	',
 customer11: '	HELLO DUDE (SUNIL)	', toys11: 'TOYS:-	', amount11: '	14136	',  url11: '	/2084377289testbysam/BILASPUR/HELLO DUDE (SUNIL JAGYASI).htm	', bags11: '	',
-customer12: '	BABY  WORLD  (RAVI KHANNA)	', toys12: 'TOYS:-	', amount12: '	19468	',  url12: '	/2084377289testbysam/BILASPUR/BABY WORLD  (RAVI  KHANNA).htm	', bags12: '	',
+customer12: '	BABY  WORLD  (RAVI KHANNA)	', toys12: 'TOYS:-	', amount12: '	27737	',  url12: '	/2084377289testbysam/BILASPUR/BABY WORLD  (RAVI  KHANNA).htm	', bags12: '	',
 customer13: '	HARSH (JUNA BILASPUR)	', toys13: 'TOYS:-	', amount13: '	0	',  url13: '	/2084377289testbysam/BILASPUR/HARSH JUNA BILASPUR.htm	', bags13: '	',
 customer14: '	VIJAY COPEIER (TIFRA)	', toys14: 'TOYS:-	', amount14: '	11247	',  url14: '	/2084377289testbysam/BILASPUR/VIJAY COPIER TIFRA BILASPUR.htm	', bags14: '	',
 customer15: '	DOLLY DRESSES (BILASPUR)	', toys15: 'TOYS:-	', amount15: '	0	',  url15: '	/2084377289testbysam/BILASPUR/DOLLY DRESSES BILASPUR.htm	', bags15: '	',
@@ -217,12 +219,12 @@ customer1: '	FASHION PARK (DABRA)	', toys1: 'TOYS:-	', amount1: ' 	184	',  url1:
 customer1: '	AKANKSHA  (DHARAMJAYGARH)	', toys1: 'TOYS:-	', amount1: ' 	6951	',  url1: '	/2084377289testbysam/DHARMJAYGARH/AKANSHA GENERAL (DHARAMJAYGARH) 3.htm	', bags1: '	',
 								},
 								
-{id: 1, name: '	DIPKA', total: ' (	7685	)', 					
+{id: 1, name: '	DIPKA', total: ' (	10561	)', 					
 customer1: '	KOLKATA MAHASALE (DIPKA)	', toys1: 'TOYS:-	', amount1: ' 	1648	',  url1: '	/2084377289testbysam/DIPKA/KOLKATA%20MAHA%20SALE%20(DIPKA)%2048.htm	', bags1: '	',
 customer2: '	NEW BOOK DEPO (DIPKA)	', toys2: 'TOYS:-	', amount2: '	9	',  url2: '	/2084377289testbysam/DIPKA/NEW%20BOOK%20DEPO.%20(DIPKA)%20110.htm	', bags2: '	',
 customer3: '	GEETA BOOK DEPO (DIPKA)	', toys3: 'TOYS:-	', amount3: '	75	',  url3: '	/2084377289testbysam/DIPKA/GEETA%20BOOK%20DEPO.%20(DIPKA)%20266.htm	', bags3: '	',
 customer4: '	SHANTI SUHAG (DIPKA)	', toys4: 'TOYS:-	', amount4: ' 	3	',  url4: '	/2084377289testbysam/DIPKA/SHANTI%20SUHAG%20(DIPKA)%20129.htm	', bags4: '	',
-customer5: '	KHUSHI BENGALS (DIPKA)	', toys5: 'TOYS:-	', amount5: '	5950	',  url5: '	/2084377289testbysam/DIPKA/KHUSHI%20BENGALS%20(DIPKA)%204.htm	', bags5: '	',
+customer5: '	KHUSHI BENGALS (DIPKA)	', toys5: 'TOYS:-	', amount5: '	8826	',  url5: '	/2084377289testbysam/DIPKA/KHUSHI%20BENGALS%20(DIPKA)%204.htm	', bags5: '	',
 customer6: '	VASU COLLECTION  (DIPA)	', toys6: 'TOYS:-	', amount6: '	0	',  url6: '	/2084377289testbysam/DIPKA/VASU%20COLLECTION.%20(DIPKA)%20149.htm	', bags6: '	',
 customer7: '	HARISH CYCLE (DIPKA)	', toys7: 'TOYS:-	', amount7: '	0	',  url7: '	/2084377289testbysam/DIPKA/HARISH CYCLE (DIPKA).htm	', bags7: '	',
 								},
@@ -396,6 +398,7 @@ customer3: '	SHARDA FANCY	', toys3: 'TOYS:-	', amount3: ' 	0	',  url3: '	/208437
 								},
 {id: 1, name: '	MANENDRAGARH', total: ' (	0	)', 					
 customer1: '	AISHWARIYA GENERAL	', toys1: 'TOYS:-	', amount1: ' 	0	',  url1: '	/2084377289testbysam/MANENDRAGARH/AISHWARIYA (MANENDRAGARH).htm	', bags1: '	',
+customer2: '	TULSI GENERAL (MANENDRAGARH)	', toys2: 'TOYS:-	', amount2: ' 	3588	',  url2: '	/2084377289testbysam/MANENDRAGARH/TULSI GENERAL (MANENDRAGARH).htm	', bags2: '	',
 								},
 {id: 1, name: '	MARO ', total: '(	4	)', 					
 customer1: '	RAJA MARO (MARO)	', toys1: 'TOYS:-	', amount1: ' 	0	',  url1: '	/2084377289testbysam/MARO/RAJA (MARO).htm	', bags1: '	',
@@ -488,12 +491,12 @@ customer1: '	KRISHNA  KAPDA (PANTORA)	', toys1: 'TOYS:-	', amount1: ' 	3	',  url
 customer2: '	ANIL SHRINGAR  (PANTORA)	', toys2: 'TOYS:-	', amount2: ' 	2960	',  url2: '	/2084377289testbysam/PANTORA/ANIL SHRINGAR (PANTORA).htm	', bags2: '	',
 								},
 								
-{id: 1, name: '	PATHARIYA ', total: '(	28440	)', 					
+{id: 1, name: '	PATHARIYA ', total: '(	26440	)', 					
 customer1: '	AKASH BOOK DEPO (PATHARIYA)	', toys1: 'TOYS:-	', amount1: ' 	0	',  url1: '	/2084377289testbysam/PATHARIYA/AKASH%20BOOK%20DEPO%20(PATHARIYA)%20116.htm	', bags1: '	',
 customer2: '	HARNARAYAN	', toys2: 'TOYS:-	', amount2: '	0	',  url2: '	/2084377289testbysam/PATHARIYA/HARNARAYAN%20(PATHARIYA)%20%20199.htm	', bags2: '	',
 customer3: '	MUKESH GENERAL 	', toys3: 'TOYS:-	', amount3: '	1	',  url3: '	/2084377289testbysam/PATHARIYA/MUKESH%20GENERAL%20(PATHARIYA)%20%20163.htm	', bags3: '	',
 customer4: '	OM SAI KARAN (PATHARIYA)	', toys4: 'TOYS:-	', amount4: ' 	19485	',  url4: '	/2084377289testbysam/PATHARIYA/OM%20SAI%20(KARAN)%20.(PATHARIYA)%20%202.htm	', bags4: '	',
-customer5: '	SHIV GENERAL (PATHARIYA)	', toys5: 'TOYS:-	', amount5: '	4209	',  url5: '	/2084377289testbysam/PATHARIYA/SHIV GENERAL .(PATHARIYA) 118.htm	', bags5: '	',
+customer5: '	SHIV GENERAL (PATHARIYA)	', toys5: 'TOYS:-	', amount5: '	2209	',  url5: '	/2084377289testbysam/PATHARIYA/SHIV GENERAL .(PATHARIYA) 118.htm	', bags5: '	',
 customer6: '	SANTOSH GENERAL (PATHARIYA)	', toys6: 'TOYS:-	', amount6: '	0	',  url6: '	/2084377289testbysam/PATHARIYA/SANTOSH%20PATHKAR.%20(PATHARIYA)%20192.htm	', bags6: '	',
 customer7: '	PREETAM GENERAL (PATHARIYA)	', toys7: 'TOYS:-	', amount7: '	1519	',  url7: '	/2084377289testbysam/PATHARIYA/PREETAM%20(PATHARIYA)%20148.htm	', bags7: '	',
 customer8: '	OM SUHAG (PATHARIYA)	', toys8: 'TOYS:-	', amount8: '	0	',  url8: '	/2084377289testbysam/PATHARIYA/OM%20SUHAG%20(PATHARIYA)%20%20100.htm	', bags8: '	',
