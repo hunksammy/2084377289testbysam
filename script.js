@@ -1,4 +1,4 @@
-var element = document.getElementById("id01");element.innerHTML = "		&nbsp;&nbsp;		&nbsp;&nbsp;TOYS -07/08/2023  	&nbsp;&nbsp;BAL -	1115935	";	
+var element = document.getElementById("id01");element.innerHTML = "		&nbsp;&nbsp;		&nbsp;&nbsp;TOYS -07/08/2023  	&nbsp;&nbsp;BAL -	1113743	";	
 								
 								
 								
@@ -625,9 +625,9 @@ customer1: '	BABY SUHAG	', toys1: 'TOYS:-	', amount1: ' 	-8	',  url1: '	/2084377
 customer2: '	KIRAN SIRGITI	', toys2: 'TOYS:-	', amount2: '		',  url2: '	<b><br>TOYS -	', bags2: '	',
 customer3: '	MAA KALI MUSIC (SIRGITI)	', toys3: 'TOYS:-	', amount3: '	1	',  url3: '	/2084377289testbysam/SIRGITI/MAA KALI MUSIC CENTER (SIRGITTI) 210.htm	', bags3: '	',
 								},
-{id: 1, name: '	TAKHATPUR', total: ' (	99931	)', 					
+{id: 1, name: '	TAKHATPUR', total: ' (	97739	)', 					
 customer1: '	KISHAN (BELPAN)	', toys1: 'TOYS:-	', amount1: ' 	10445	',  url1: '	/2084377289testbysam/TAKHATPUR/KISHAN%20(BELPAN).htm	', bags1: '	',
-customer2: '	MAYUR GENERAL	', toys2: 'TOYS:-	', amount2: '	74808	',  url2: '	/2084377289testbysam/TAKHATPUR/MAYUR%20GENERAL%20(TAKHATPUR)%20276.htm	', bags2: '	',
+customer2: '	MAYUR GENERAL	', toys2: 'TOYS:-	', amount2: '	72616	',  url2: '	/2084377289testbysam/TAKHATPUR/MAYUR%20GENERAL%20(TAKHATPUR)%20276.htm	', bags2: '	',
 customer3: '	MARUTI GENERAL (TAKHATPUR)	', toys3: 'TOYS:-	', amount3: '	0	',  url3: '	/2084377289testbysam/TAKHATPUR/MARUTI%20(TAKAHTPUR)%2067.htm	', bags3: '	',
 customer4: '	VIJAY STORE (TAKHATPUR)	', toys4: 'TOYS:-	', amount4: '	14662	',  url4: '	/2084377289testbysam/TAKHATPUR/VIJAY%20STORE%20(TAKHATPUR)%20-%20299.htm	', bags4: '	',
 customer5: '	NAWAZ GENERAL	', toys5: 'TOYS:-	', amount5: '	14	',  url5: '	/2084377289testbysam/TAKHATPUR/NAWAZ%20%20BHAI%20(TAKAHTPUR)%2075.htm	', bags5: '	',
