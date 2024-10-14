@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,29 +16,54 @@
       font-family: 'Arial', sans-serif;
       background-image: url('https://www.transparenttextures.com/patterns/skulls.png');
       opacity: 0.8;
+      flex-direction: column; /* Change to column for stacking */
+    }
+
+    .modal-btn {
+      font-size: large;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 16px 32px;
+      background-color: #3498db;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      position: absolute; /* Position the button */
+      top: 20px; /* Position it from the top */
+      left: 50%; /* Center horizontally */
+      transform: translateX(-50%); /* Adjust to center */
+      z-index: 10; /* Ensure it's on top */
+    }
+
+    .modal-btn:hover {
+      background-color: #297fb8;
     }
 
     .button-grid {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       gap: 20px;
+      margin-top: 80px; /* Add margin to avoid overlap with modal button */
     }
 
     .button {
-    font-size: large;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 36px;
-    text-align: center;
-    background-color: #3498db;
-    color: #fff;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
+      font-size: large;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 36px;
+      text-align: center;
+      background-color: #3498db;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
 
     .button:hover {
       background-color: #297fb8;
@@ -47,9 +73,53 @@
       font-size: 24px;
       margin-bottom: 10px;
     }
+
+    /* Modal styles */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgb(0, 0, 0);
+      background-color: rgba(0, 0, 0, 0.4);
+      padding-top: 60px;
+    }
+
+    .modal-content {
+      background-color: #fefefe;
+      margin: 5% auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%;
+      height: 80%;
+    }
+
+    .close {
+      color: #aaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+      color: black;
+      text-decoration: none;
+      cursor: pointer;
+    }
   </style>
 </head>
+
 <body>
+
+  <button class="modal-btn" id="modalBtn">
+    <i class="fas fa-link"></i> REMINDER
+  </button>
+
   <div class="button-grid">
     <button class="button" onclick="redirectTo('https://hunksammy.github.io/2084377289testbysam/indext.html')">
       <i class="fas fa-home"></i> STATMENT
@@ -69,12 +139,20 @@
     <button class="button" onclick="redirectTo('https://hunkaammy.github.io/mywebsite/NEWWEBSITE/graph')">
       <i class="fas fa-search"></i> GRAPH
     </button>
-	<button class="button" onclick="redirectTo('https://hunkaammy.github.io/mywebsite/NEWWEBSITE/outofstock')">
+    <button class="button" onclick="redirectTo('https://hunkaammy.github.io/mywebsite/NEWWEBSITE/outofstock')">
       <i class="fas fa-search"></i> OUT OF STOCK
     </button>
-	<button class="button" onclick="redirectTo('https://hunkaammy.github.io/mywebsite/NEWWEBSITE/smalladmin')">
+    <button class="button" onclick="redirectTo('https://hunkaammy.github.io/mywebsite/NEWWEBSITE/smalladmin')">
       <i class="fas fa-search"></i> SMALL ADMIN
     </button>
+  </div>
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <iframe id="modalFrame" src="" style="width:100%; height:100%; border:none;"></iframe>
+    </div>
   </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
@@ -82,6 +160,36 @@
     function redirectTo(url) {
       window.location.href = url;
     }
+
+    // Get the modal
+    var modal = document.getElementById("myModal");
+
+    // Get the button that opens the modal
+    var btn = document.getElementById("modalBtn");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks the button, open the modal
+    btn.onclick = function () {
+      modal.style.display = "block";
+      document.getElementById("modalFrame").src = "https://htshop-e9c51.web.app/";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+      modal.style.display = "none";
+      document.getElementById("modalFrame").src = ""; // Clear iframe src to stop loading
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+        document.getElementById("modalFrame").src = ""; // Clear iframe src to stop loading
+      }
+    }
   </script>
 </body>
+
 </html>
